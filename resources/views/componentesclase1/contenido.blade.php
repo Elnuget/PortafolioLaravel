@@ -17,15 +17,13 @@
         </h2>
         
         <div class="prose max-w-none text-gray-300">
-            @include('componentesclase1.subcontent.objetivos')
-            @include('componentesclase1.subcontent.modulo1')
-            @include('componentesclase1.subcontent.modulo2')
-            @include('componentesclase1.subcontent.descanso')
-            @include('componentesclase1.subcontent.pausa-activa')
-            @include('componentesclase1.subcontent.modulo3')
-            @include('componentesclase1.subcontent.temas')
-            @include('componentesclase1.subcontent.formulas')
-            @include('componentesclase1.subcontent.ejemplos')
+            @include('componentesclase1.subcontent.numeros_primos_compuestos')
+            @include('componentesclase1.subcontent.descomposicion_numeros_primos')
+            @include('componentesclase1.subcontent.ejercicios_descomposicion')
+            @include('componentesclase1.subcontent.mcd_mcm_descomposicion')
+            @include('componentesclase1.subcontent.ejercicios_mcd_mcm')
+            @include('componentesclase1.subcontent.problemas_mcd_mcm')
+            @include('componentesclase1.subcontent.aplicaciones_mcd_mcm')
         </div>
     </div>
 </div>
