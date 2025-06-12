@@ -2,36 +2,41 @@
 <div class="bg-gradient-to-br from-indigo-950 via-purple-950 to-red-950 rounded-xl p-6 shadow-2xl relative overflow-hidden border border-purple-600/30 backdrop-blur-lg">
     <div class="absolute top-0 right-0 w-32 h-32 bg-purple-500/20 rounded-full -mt-10 -mr-10 blur-2xl"></div>
     <div class="absolute bottom-0 left-0 w-24 h-24 bg-red-500/15 rounded-full -mb-8 -ml-8 blur-xl"></div>
-    
-    <h3 class="text-xl font-bold text-purple-200 mb-5 flex items-center relative z-10">
+      <h3 class="text-xl font-bold text-purple-200 mb-5 flex items-center relative z-10">
         <svg class="w-6 h-6 mr-2 text-purple-300 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 3H5m14 3H5m14-9H5"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
         </svg>
-        Aplicaciones Universitarias Avanzadas
+        Aplicaciones del Mundo Real
     </h3>
     
     <div class="bg-black/40 rounded-lg p-5 mb-5 relative z-10 border border-purple-500/20">
         <p class="text-gray-200 text-sm leading-relaxed mb-3">
-            Conceptos de <span class="text-purple-300 font-semibold">MCD y MCM</span> son fundamentales en:
+            En esta clase aprenderás <span class="text-purple-300 font-semibold">10 aplicaciones prácticas</span> del MCD y MCM:
         </p>
         <ul class="space-y-2 text-sm">
             <li class="flex items-center text-purple-200">
                 <svg class="w-4 h-4 mr-2 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                 </svg>
-                Examen Ser Bachiller (25% de preguntas avanzadas)
+                Organización de eventos y fiestas
             </li>
             <li class="flex items-center text-purple-200">
                 <svg class="w-4 h-4 mr-2 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                 </svg>
-                Admisión EPN, UCE, ESPOL (nivel avanzado)
+                Transporte público y semáforos
             </li>
             <li class="flex items-center text-purple-200">
                 <svg class="w-4 h-4 mr-2 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                 </svg>
-                Olimpiadas Matemáticas Nacionales
+                Construcción y diseño arquitectónico
+            </li>
+            <li class="flex items-center text-purple-200">
+                <svg class="w-4 h-4 mr-2 text-purple-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                Programación e informática
             </li>
         </ul>
     </div>
@@ -41,7 +46,7 @@
             <svg class="w-5 h-5 mr-2 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
-            <span><strong class="text-red-300">30%</strong> de problemas complejos requieren dominio completo de estos conceptos</span>
+            <span><strong class="text-red-300">8 campos profesionales</strong> donde aplicarás estos conocimientos</span>
         </div>
     </div>
 </div>

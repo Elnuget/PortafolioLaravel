@@ -9,26 +9,25 @@
         </svg>
         Cronograma de 3 Horas
     </h3>
-    
-    <div class="space-y-4 relative z-10">
+      <div class="space-y-4 relative z-10">
         <!-- Módulo 1 -->
         <div class="bg-gradient-to-r from-emerald-900/40 to-teal-900/40 rounded-lg p-4 border border-emerald-600/20 backdrop-blur-sm">
             <div class="flex items-center justify-between mb-2">
-                <h4 class="font-semibold text-emerald-200">Módulo I: Fundamentos Avanzados</h4>
-                <span class="text-xs bg-emerald-700/50 px-2 py-1 rounded-full text-emerald-300">60 min</span>
+                <h4 class="font-semibold text-emerald-200">Módulo I: Fundamentos</h4>
+                <span class="text-xs bg-emerald-700/50 px-2 py-1 rounded-full text-emerald-300">45 min</span>
             </div>
             <ul class="text-sm text-emerald-100 space-y-1">
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-2"></div>
-                    Algoritmos de factorización prima
+                    Números primos y compuestos
                 </li>
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-2"></div>
-                    Propiedades distributivas del MCD
+                    Descomposición en factores primos
                 </li>
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-2"></div>
-                    Identidad de Bézout
+                    Ejercicios de factorización (25 problemas)
                 </li>
             </ul>
         </div>
@@ -36,54 +35,54 @@
         <!-- Módulo 2 -->
         <div class="bg-gradient-to-r from-teal-900/40 to-cyan-900/40 rounded-lg p-4 border border-teal-600/20 backdrop-blur-sm">
             <div class="flex items-center justify-between mb-2">
-                <h4 class="font-semibold text-teal-200">Módulo II: Aplicaciones Complejas</h4>
-                <span class="text-xs bg-teal-700/50 px-2 py-1 rounded-full text-teal-300">75 min</span>
+                <h4 class="font-semibold text-teal-200">Módulo II: MCD y MCM</h4>
+                <span class="text-xs bg-teal-700/50 px-2 py-1 rounded-full text-teal-300">60 min</span>
             </div>
             <ul class="text-sm text-teal-100 space-y-1">
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-teal-400 rounded-full mr-2"></div>
-                    Problemas de optimización con MCD/MCM
+                    Cálculo con factorización prima
                 </li>
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-teal-400 rounded-full mr-2"></div>
-                    Ecuaciones diofánticas lineales
+                    Ejercicios intensivos (30 problemas)
                 </li>
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-teal-400 rounded-full mr-2"></div>
-                    Congruencias y aritmética modular
+                    Números grandes y tríos
                 </li>
             </ul>
         </div>
         
-        <!-- Descanso -->
-        <div class="bg-gradient-to-r from-amber-900/30 to-orange-900/30 rounded-lg p-3 border border-amber-600/20 backdrop-blur-sm">
+        <!-- Pausa Activa -->
+        <div class="bg-gradient-to-r from-purple-900/30 to-pink-900/30 rounded-lg p-3 border border-purple-600/20 backdrop-blur-sm">
             <div class="flex items-center justify-center">
-                <svg class="w-4 h-4 mr-2 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"></path>
+                <svg class="w-4 h-4 mr-2 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
                 </svg>
-                <span class="text-amber-300 font-medium">Descanso</span>
-                <span class="text-xs bg-amber-700/50 px-2 py-1 rounded-full text-amber-300 ml-2">15 min</span>
+                <span class="text-purple-300 font-medium">Pausa Activa + Cuaderno</span>
+                <span class="text-xs bg-purple-700/50 px-2 py-1 rounded-full text-purple-300 ml-2">8 min</span>
             </div>
         </div>
         
         <!-- Módulo 3 -->
         <div class="bg-gradient-to-r from-cyan-900/40 to-blue-900/40 rounded-lg p-4 border border-cyan-600/20 backdrop-blur-sm">
             <div class="flex items-center justify-between mb-2">
-                <h4 class="font-semibold text-cyan-200">Módulo III: Olimpiadas & Competencias</h4>
-                <span class="text-xs bg-cyan-700/50 px-2 py-1 rounded-full text-cyan-300">90 min</span>
+                <h4 class="font-semibold text-cyan-200">Módulo III: Aplicaciones Reales</h4>
+                <span class="text-xs bg-cyan-700/50 px-2 py-1 rounded-full text-cyan-300">67 min</span>
             </div>
             <ul class="text-sm text-cyan-100 space-y-1">
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-2"></div>
-                    Problemas de competencias internacionales
+                    Problemas del mundo real (10 casos)
                 </li>
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-2"></div>
-                    Técnicas de resolución rápida
+                    Aplicaciones profesionales
                 </li>
                 <li class="flex items-center">
                     <div class="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-2"></div>
-                    Simulacro de examen cronometrado
+                    Casos de estudio y reflexión final
                 </li>
             </ul>
         </div>
