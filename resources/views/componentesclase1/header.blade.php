@@ -1,9 +1,10 @@
 <!-- Componente Header para la clase MCD y MCM -->
 <div class="text-center mb-12">
-    <h1 class="text-4xl font-bold text-red-900 mb-4">
-        📐 Máximo Común Divisor (MCD) y Mínimo Común Múltiplo (MCM)
+    <h1 class="text-5xl font-bold text-red-600 mb-4 font-['Poppins',sans-serif] tracking-tight">
+        📐 Máximo Común Divisor <span class="text-white">&</span> Mínimo Común Múltiplo
     </h1>
-    <p class="text-xl text-gray-700 leading-relaxed">
-        Fundamentos matemáticos esenciales para la programación y resolución de problemas
+    <div class="w-24 h-1 bg-red-500 mx-auto mb-6 rounded-full"></div>
+    <p class="text-xl text-gray-200 leading-relaxed font-['Poppins',sans-serif] max-w-3xl mx-auto">
+        Fundamentos matemáticos avanzados para la programación, algoritmos de optimización y criptografía
     </p>
 </div>
