@@ -21,6 +21,7 @@
             @include('componentesclase1.subcontent.descomposicion_numeros_primos')
             @include('componentesclase1.subcontent.ejercicios_descomposicion')
             @include('componentesclase1.subcontent.mcd_mcm_descomposicion')
+            @include('componentesclase1.subcontent.pausa_activa_mcd_mcm')
             @include('componentesclase1.subcontent.ejercicios_mcd_mcm')
             @include('componentesclase1.subcontent.problemas_mcd_mcm')
             @include('componentesclase1.subcontent.aplicaciones_mcd_mcm')
