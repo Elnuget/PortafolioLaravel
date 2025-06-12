@@ -22,25 +22,25 @@
                 <svg class="w-5 h-5 text-red-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span>Dominar conceptos avanzados de teoría de números y divisibilidad</span>
+                <span>Comprender los conceptos fundamentales de divisibilidad para el razonamiento numérico</span>
             </li>
             <li class="flex items-start">
                 <svg class="w-5 h-5 text-red-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span>Implementar algoritmos optimizados para el cálculo del MCD</span>
+                <span>Dominar métodos eficientes para calcular el MCD y MCM en exámenes con tiempo limitado</span>
             </li>
             <li class="flex items-start">
                 <svg class="w-5 h-5 text-red-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span>Aplicar propiedades avanzadas en la relación entre MCD y MCM</span>
+                <span>Aplicar las propiedades del MCD y MCM para resolver problemas tipo examen de admisión</span>
             </li>
             <li class="flex items-start">
                 <svg class="w-5 h-5 text-red-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span>Desarrollar aplicaciones prácticas en criptografía y teoría de códigos</span>
+                <span>Desarrollar estrategias para identificar y resolver problemas complejos de MCD y MCM</span>
             </li>
         </ul>
 
@@ -53,19 +53,19 @@
             <ol class="list-none text-gray-300 space-y-4">
                 <li class="flex items-center">
                     <span class="bg-red-600 w-8 h-8 rounded-full flex items-center justify-center mr-3 text-white font-bold flex-shrink-0">1</span>
-                    <span>Teoremas fundamentales de la aritmética y su aplicación en divisibilidad</span>
+                    <span>Fundamentos de divisibilidad y propiedades de los números enteros</span>
                 </li>
                 <li class="flex items-center">
                     <span class="bg-red-600 w-8 h-8 rounded-full flex items-center justify-center mr-3 text-white font-bold flex-shrink-0">2</span>
-                    <span>Algoritmo de Euclides extendido y sus aplicaciones en ecuaciones diofánticas</span>
+                    <span>Algoritmo de Euclides y métodos rápidos para calcular MCD y MCM</span>
                 </li>
                 <li class="flex items-center">
                     <span class="bg-red-600 w-8 h-8 rounded-full flex items-center justify-center mr-3 text-white font-bold flex-shrink-0">3</span>
-                    <span>Propiedades avanzadas del MCD y MCM en congruencias modulares</span>
+                    <span>Aplicaciones del MCD y MCM en problemas de frecuencia y periodicidad</span>
                 </li>
                 <li class="flex items-center">
                     <span class="bg-red-600 w-8 h-8 rounded-full flex items-center justify-center mr-3 text-white font-bold flex-shrink-0">4</span>
-                    <span>Implementación de algoritmos optimizados en programación competitiva</span>
+                    <span>Estrategias avanzadas para problemas de razonamiento numérico en exámenes</span>
                 </li>
             </ol>
         </div>
@@ -78,18 +78,18 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div class="bg-gradient-to-br from-red-900 to-black border border-red-700 rounded-xl p-5 shadow-lg transform transition hover:scale-105">
                 <h4 class="font-bold text-white mb-3 flex items-center">
-                    <span class="text-red-400 mr-2">🧮</span> Algoritmo de Euclides Extendido
+                    <span class="text-red-400 mr-2">🧮</span> Algoritmo de Euclides
                 </h4>
                 <div class="text-gray-200 text-sm font-mono bg-black bg-opacity-60 p-4 rounded-lg">
                     MCD(a,b) = MCD(b, a mod b)<br>
                     Si b = 0, entonces MCD(a,b) = a<br><br>
-                    <span class="text-red-400">// Extendido:</span><br>
-                    ax + by = MCD(a,b)
+                    <span class="text-red-400">// Ejemplo:</span><br>
+                    MCD(48, 18) = MCD(18, 12) = MCD(12, 6) = MCD(6, 0) = 6
                 </div>
             </div>
             <div class="bg-gradient-to-br from-red-900 to-black border border-red-700 rounded-xl p-5 shadow-lg transform transition hover:scale-105">
                 <h4 class="font-bold text-white mb-3 flex items-center">
-                    <span class="text-red-400 mr-2">🔢</span> Relaciones Avanzadas
+                    <span class="text-red-400 mr-2">🔢</span> Relaciones Clave
                 </h4>
                 <div class="text-gray-200 text-sm font-mono bg-black bg-opacity-60 p-4 rounded-lg">
                     MCM(a,b) = (a × b) / MCD(a,b)<br><br>
@@ -103,30 +103,32 @@
         <h3 class="text-xl font-bold text-red-400 mb-4 flex items-center">
             <span class="mr-2">04</span>
             <span class="w-12 h-0.5 bg-red-400 mr-2"></span>
-            Ejemplos Prácticos
+            Ejemplos Tipo Examen
         </h3>
-        <div class="bg-black text-white rounded-xl p-6 mb-8 font-mono shadow-lg border border-red-900 overflow-x-auto">
+        <div class="bg-black text-white rounded-xl p-6 mb-8 shadow-lg border border-red-900 overflow-hidden">
             <div class="flex items-center mb-4">
                 <div class="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
                 <div class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
                 <div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                <span class="text-gray-400 text-sm ml-2">algorithm.js</span>
+                <span class="text-gray-400 text-sm ml-2">Problema tipo PAA</span>
             </div>
-            <p class="mb-3 text-gray-400">// Implementación avanzada: Algoritmo de Euclides para MCD</p>
-            <p class="text-red-400">function <span class="text-yellow-300">gcd</span>(<span class="text-blue-300">a</span>, <span class="text-blue-300">b</span>) {</p>
-            <p class="ml-4">// Caso base</p>
-            <p class="ml-4 text-yellow-200">if (<span class="text-blue-300">b</span> === <span class="text-green-300">0</span>) {</p>
-            <p class="ml-8 text-yellow-200">return <span class="text-blue-300">a</span>;</p>
-            <p class="ml-4">}</p>
-            <p class="ml-4 text-gray-300">// Llamada recursiva con el módulo</p>
-            <p class="ml-4 text-yellow-200">return <span class="text-yellow-300">gcd</span>(<span class="text-blue-300">b</span>, <span class="text-blue-300">a</span> % <span class="text-blue-300">b</span>);</p>
-            <p class="text-red-400">}</p>
-            <p class="mt-4 text-gray-400">// Ejemplo de ejecución para calcular MCD(48, 18):</p>
-            <p class="text-gray-300">// 1. gcd(48, 18) → gcd(18, 48 % 18) → gcd(18, 12)</p>
-            <p class="text-gray-300">// 2. gcd(18, 12) → gcd(12, 18 % 12) → gcd(12, 6)</p>
-            <p class="text-gray-300">// 3. gcd(12, 6) → gcd(6, 12 % 6) → gcd(6, 0)</p>
-            <p class="text-gray-300">// 4. Como b = 0, gcd(6, 0) = 6</p>
-            <p class="mt-4 text-gray-400">// Por lo tanto, MCD(48, 18) = 6</p>
+            
+            <div class="text-gray-200 mb-4 p-4 bg-gray-900 bg-opacity-50 rounded-lg">
+                <p class="font-bold text-red-400">Problema:</p>
+                <p class="mt-2">Dos autobuses salen de una misma estación a las 8:00 am. Uno de ellos regresa a la estación cada 45 minutos y el otro cada 60 minutos. ¿En cuántos minutos volverán a encontrarse ambos autobuses en la estación al mismo tiempo?</p>
+            </div>
+            
+            <div class="text-gray-200 p-4 bg-gray-900 bg-opacity-50 rounded-lg">
+                <p class="font-bold text-red-400">Solución:</p>
+                <p class="mt-2">Necesitamos hallar el mínimo común múltiplo de 45 y 60:</p>
+                <ol class="mt-2 space-y-2 ml-4">
+                    <li>1. Primero calculamos el MCD de 45 y 60:</li>
+                    <li class="ml-4">MCD(45, 60) = MCD(60, 45) = MCD(45, 15) = MCD(15, 0) = 15</li>
+                    <li>2. Luego aplicamos la fórmula del MCM:</li>
+                    <li class="ml-4">MCM(45, 60) = (45 × 60) / MCD(45, 60) = 2700 / 15 = 180</li>
+                </ol>
+                <p class="mt-3 font-bold">Por lo tanto, ambos autobuses volverán a encontrarse en la estación 180 minutos (3 horas) después de las 8:00 am, es decir, a las 11:00 am.</p>
+            </div>
         </div>
     </div>
 </div>

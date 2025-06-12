@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'MCD y MCM - Matemáticas Avanzadas para Programación')
+@section('title', 'MCD y MCM - Razonamiento Numérico para Admisiones Universitarias')
 
 @section('content')
 <!-- Importamos la fuente Poppins desde Google Fonts -->

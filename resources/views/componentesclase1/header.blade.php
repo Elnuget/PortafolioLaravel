@@ -5,6 +5,6 @@
     </h1>
     <div class="w-24 h-1 bg-red-500 mx-auto mb-6 rounded-full"></div>
     <p class="text-xl text-gray-200 leading-relaxed font-['Poppins',sans-serif] max-w-3xl mx-auto">
-        Fundamentos matemáticos avanzados para la programación, algoritmos de optimización y criptografía
+        Razonamiento numérico esencial para exámenes de admisión universitaria y pruebas de aptitud académica
     </p>
 </div>
