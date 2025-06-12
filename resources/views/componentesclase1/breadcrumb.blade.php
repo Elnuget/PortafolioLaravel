@@ -14,7 +14,7 @@
                 <svg class="w-6 h-6 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
                 </svg>
-                <a href="#" class="ml-1 text-sm font-medium text-gray-300 hover:text-red-400 md:ml-2 transition duration-300 font-['Poppins',sans-serif]">Admisión Universitaria</a>
+                <a href="#" class="ml-1 text-sm font-medium text-gray-300 hover:text-red-400 md:ml-2 transition duration-300 font-['Poppins',sans-serif]">Ser Bachiller</a>
             </div>
         </li>
         <li aria-current="page">
@@ -26,7 +26,7 @@
             </div>
         </li>
         <li class="ml-auto">
-            <span class="bg-red-800 text-white px-3 py-1 rounded-full text-xs font-bold font-['Poppins',sans-serif] tracking-wide">Preparación Universitaria</span>
+            <span class="bg-red-800 text-white px-3 py-1 rounded-full text-xs font-bold font-['Poppins',sans-serif] tracking-wide">SENESCYT</span>
         </li>
     </ol>
 </nav>
