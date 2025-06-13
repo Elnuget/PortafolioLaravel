@@ -1,5 +1,5 @@
 <!-- Componente de contenido principal -->
-<div class="bg-gradient-to-br from-gray-900 via-slate-900 to-gray-900 backdrop-blur-lg bg-opacity-95 rounded-2xl shadow-2xl p-10 border-l-4 border-gradient-to-b border-red-600 font-['Poppins',sans-serif] overflow-hidden relative transition-all duration-500 hover:shadow-3xl">
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black backdrop-blur-lg bg-opacity-90 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.5)] p-12 font-serif overflow-hidden relative transition-all duration-500 hover:shadow-[0_15px_40px_rgba(0,0,0,0.7)]">
     <!-- Efectos de fondo mejorados -->
     <div class="absolute top-0 right-0 w-72 h-72 bg-gradient-to-br from-red-500/10 to-pink-500/10 rounded-full -mt-16 -mr-16 blur-3xl animate-pulse"></div>
     <div class="absolute bottom-0 left-0 w-56 h-56 bg-gradient-to-tr from-purple-500/10 to-indigo-500/10 rounded-full -mb-12 -ml-12 blur-2xl animate-pulse delay-1000"></div>
@@ -21,7 +21,7 @@
                         <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
-                        Planteo de Ecuaciones - Nivel EPN (160 min)
+                        Planteo de Ecuaciones - Nivel EPN (3 horas - 180 min)
                     </span>
                 </div>
             </h2>
@@ -36,17 +36,18 @@
                     <div class="w-2 h-2 bg-red-400 rounded-full animate-pulse delay-150"></div>
                     <div class="w-2 h-2 bg-red-300 rounded-full animate-pulse delay-300"></div>
                 </div>
-                <span class="text-xs text-gray-400 font-medium">8 secciones interactivas</span>
+                <span class="text-xs text-gray-400 font-medium">10 secciones interactivas</span>
             </div>
         </div>
         
         <!-- Contenedor de contenido mejorado -->
-        <div class="prose max-w-none text-gray-300 relative">
+        <div class="prose prose-lg font-serif leading-relaxed max-w-none text-gray-200 relative">
             <!-- Overlay sutil para mejor legibilidad -->
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/10 to-transparent pointer-events-none rounded-xl"></div>
             
             <!-- Contenido principal con espaciado mejorado -->
             <div class="space-y-8 relative z-10">
+                @include('componentesclase2.subcontent.introduccion')
                 @include('componentesclase2.subcontent.fundamentos_algebraicos')
                 @include('componentesclase2.subcontent.ecuaciones_lineales')
                 @include('componentesclase2.subcontent.sistemas_ecuaciones')
@@ -55,6 +56,7 @@
                 @include('componentesclase2.subcontent.problemas_epn')
                 @include('componentesclase2.subcontent.ejemplos')
                 @include('componentesclase2.subcontent.aplicaciones_ingenieria')
+                @include('componentesclase2.subcontent.resumen')
             </div>
             
             <!-- Footer con información adicional -->
