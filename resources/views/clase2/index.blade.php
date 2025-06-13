@@ -30,11 +30,6 @@
                     <div class="content-area hover-lift interactive-element">
                         @include('componentesclase2.contenido')
                     </div>
-
-                    <!-- Sidebar -->
-                    <div class="sidebar-area hover-lift interactive-element sidebar-scroll" style="animation-delay: 0.8s;">
-                        @include('componentesclase2.sidebar')
-                    </div>
                 </div>
 
                 <div class="elegant-divider"></div>
