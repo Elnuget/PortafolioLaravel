@@ -8,17 +8,17 @@
     <div class="relative z-10">
         <!-- Header mejorado con animaciones y efectos -->
         <div class="mb-12">
-            <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-100 to-white mb-4 flex items-center group">
-                <span class="bg-gradient-to-br from-red-600 via-red-500 to-pink-600 w-14 h-14 rounded-xl flex items-center justify-center mr-5 shadow-xl group-hover:shadow-red-500/25 transition-all duration-300 group-hover:scale-110 relative overflow-hidden">
-                    <div class="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-xl"></div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white relative z-10 group-hover:rotate-12 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-100 to-white mb-6 flex items-center group">
+                <span class="bg-gradient-to-br from-red-600 via-red-500 to-pink-600 w-16 h-16 rounded-2xl flex items-center justify-center mr-6 shadow-xl group-hover:shadow-red-500/25 transition-all duration-300 group-hover:scale-110 relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-2xl"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-white relative z-10 group-hover:rotate-12 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
                     </svg>
                 </span>
                 <div class="flex flex-col">
-                    <span class="block leading-tight">Contenido de la Clase Magistral</span>
-                    <span class="text-sm text-red-300 font-medium bg-red-900/20 px-3 py-1 rounded-full mt-2 inline-flex items-center w-fit">
-                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <span class="block leading-tight text-3xl font-bold tracking-wide">Contenido de la Clase Magistral</span>
+                    <span class="text-lg text-red-300 font-semibold bg-red-900/20 px-4 py-2 rounded-xl mt-3 inline-flex items-center w-fit">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                         Planteo de Ecuaciones - Nivel EPN (3 horas - 180 min)
@@ -30,18 +30,18 @@
             <div class="w-full h-px bg-gradient-to-r from-transparent via-red-500/50 to-transparent mb-6"></div>
             
             <!-- Indicador de progreso visual -->
-            <div class="flex items-center space-x-2 mb-6">
+            <div class="flex items-center space-x-3 mb-8">
                 <div class="flex space-x-1">
-                    <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                    <div class="w-2 h-2 bg-red-400 rounded-full animate-pulse delay-150"></div>
-                    <div class="w-2 h-2 bg-red-300 rounded-full animate-pulse delay-300"></div>
+                    <div class="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+                    <div class="w-3 h-3 bg-red-400 rounded-full animate-pulse delay-150"></div>
+                    <div class="w-3 h-3 bg-red-300 rounded-full animate-pulse delay-300"></div>
                 </div>
-                <span class="text-xs text-gray-400 font-medium">10 secciones interactivas</span>
+                <span class="text-base text-gray-300 font-medium">10 secciones interactivas</span>
             </div>
         </div>
         
         <!-- Contenedor de contenido mejorado -->
-        <div class="prose prose-lg font-serif leading-relaxed max-w-none text-gray-200 relative">
+        <div class="prose prose-xl font-sans leading-relaxed max-w-none text-gray-200 relative">
             <!-- Overlay sutil para mejor legibilidad -->
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/10 to-transparent pointer-events-none rounded-xl"></div>
             
@@ -61,24 +61,24 @@
             
             <!-- Footer con información adicional -->
             <div class="mt-12 pt-8 border-t border-gray-700/50">
-                <div class="flex items-center justify-between text-sm text-gray-400">
-                    <div class="flex items-center space-x-4">
+                <div class="flex items-center justify-between text-base text-gray-400">
+                    <div class="flex items-center space-x-6">
                         <span class="flex items-center">
-                            <svg class="w-4 h-4 mr-1 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                             Contenido completo
                         </span>
                         <span class="flex items-center">
-                            <svg class="w-4 h-4 mr-1 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                             Nivel avanzado
                         </span>
                     </div>
                     <div class="text-right">
-                        <p class="text-gray-500">Clase magistral diseñada para</p>
-                        <p class="text-red-300 font-medium">Estudiantes de matemáticas</p>
+                        <p class="text-gray-500 text-lg">Clase magistral diseñada para</p>
+                        <p class="text-red-300 font-semibold text-lg">Estudiantes de matemáticas</p>
                     </div>
                 </div>
             </div>

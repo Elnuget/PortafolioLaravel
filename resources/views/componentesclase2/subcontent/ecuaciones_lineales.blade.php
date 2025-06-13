@@ -1,24 +1,22 @@
 <!-- Subcomponente de ecuaciones lineales -->
-<h3 class="text-xl font-bold text-red-400 mb-4 flex items-center">
-    <span class="mr-2">02</span>
-    <span class="w-12 h-0.5 bg-red-400 mr-2"></span>
+<h3 class="text-2xl font-bold text-red-400 mb-6 flex items-center">
+    <span class="mr-3 bg-red-500 text-white px-3 py-1 rounded-full text-lg font-black">02</span>
+    <span class="w-16 h-1 bg-red-400 mr-3 rounded-full"></span>
     Ecuaciones Lineales y Problemas de Aplicación
 </h3>
-<div class="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
-    <div class="mb-6">
-        <h4 class="text-lg font-semibold text-green-300 mb-3">📏 Planteamiento de Ecuaciones de Primer Grado</h4>
-        <p class="text-gray-300 mb-4">
+<div class="bg-gray-800 p-8 rounded-2xl shadow-xl mb-10">
+    <div class="mb-8">
+        <h4 class="text-xl font-semibold text-green-300 mb-4">📏 Planteamiento de Ecuaciones de Primer Grado</h4>
+        <p class="text-gray-200 mb-6 text-lg leading-relaxed">
             Las ecuaciones lineales son la base de muchos problemas en el examen EPN. Aprenderemos a identificar y resolver problemas de edades, velocidades, mezclas y proporciones.
         </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 gap-6 mb-6">
-        <div class="bg-blue-900 p-4 rounded-lg">
-            <h5 class="text-blue-200 font-medium mb-3">👥 Problemas de Edades</h5>
-            <div class="text-blue-100 text-sm space-y-2">
+    </div>    <div class="grid md:grid-cols-2 gap-8 mb-8">
+        <div class="bg-blue-900 p-6 rounded-2xl">
+            <h5 class="text-blue-200 font-semibold mb-4 text-lg">👥 Problemas de Edades</h5>
+            <div class="text-blue-100 text-base space-y-3">
                 <p><strong>Tipo común:</strong> "Dentro de n años..."</p>
                 <p><strong>Variables:</strong></p>
-                <ul class="ml-4 space-y-1">
+                <ul class="ml-4 space-y-2">
                     <li>• Edad actual de A: x</li>
                     <li>• Edad actual de B: y</li>
                     <li>• Edad de A en n años: x + n</li>
@@ -27,12 +25,12 @@
             </div>
         </div>
 
-        <div class="bg-green-900 p-4 rounded-lg">
-            <h5 class="text-green-200 font-medium mb-3">🚗 Problemas de Velocidad</h5>
-            <div class="text-green-100 text-sm space-y-2">
+        <div class="bg-green-900 p-6 rounded-2xl">
+            <h5 class="text-green-200 font-semibold mb-4 text-lg">🚗 Problemas de Velocidad</h5>
+            <div class="text-green-100 text-base space-y-3">
                 <p><strong>Fórmula base:</strong> d = v × t</p>
                 <p><strong>Casos frecuentes:</strong></p>
-                <ul class="ml-4 space-y-1">
+                <ul class="ml-4 space-y-2">
                     <li>• Encuentro: d₁ + d₂ = d_total</li>
                     <li>• Alcance: d₁ = d₂</li>
                     <li>• Velocidades relativas</li>

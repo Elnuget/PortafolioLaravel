@@ -1,102 +1,101 @@
 <!-- Subcomponente de aplicaciones en ingeniería -->
-<h3 class="text-xl font-bold text-red-400 mb-4 flex items-center">
-    <span class="mr-2">08</span>
-    <span class="w-12 h-0.5 bg-red-400 mr-2"></span>
+<h3 class="text-2xl font-bold text-red-400 mb-6 flex items-center">
+    <span class="mr-3 text-3xl">08</span>
+    <span class="w-16 h-0.5 bg-red-400 mr-3"></span>
     Aplicaciones en Ingeniería
 </h3>
-<div class="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
-    <div class="mb-6">
-        <h4 class="text-lg font-semibold text-cyan-300 mb-3">🔧 Ecuaciones en el Mundo de la Ingeniería</h4>
-        <p class="text-gray-300 mb-4">
+<div class="bg-gray-800 p-8 rounded-2xl shadow-md mb-8">
+    <div class="mb-8">
+        <h4 class="text-xl font-semibold text-cyan-300 mb-4">🔧 Ecuaciones en el Mundo de la Ingeniería</h4>
+        <p class="text-gray-300 mb-6 text-lg">
             Las ecuaciones algebraicas son herramientas fundamentales en todas las ramas de la ingeniería. Veamos cómo se aplican en las carreras de la EPN.
         </p>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="grid md:grid-cols-2 gap-8 mb-8">
         <!-- Ingeniería Civil -->
-        <div class="bg-blue-900 p-6 rounded-lg">
-            <h5 class="text-blue-200 font-medium mb-4 flex items-center">
-                <span class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center mr-3">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="bg-blue-900 p-8 rounded-2xl">
+            <h5 class="text-blue-200 font-medium mb-6 flex items-center text-lg">
+                <span class="bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                    <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                     </svg>
                 </span>
                 Ingeniería Civil
             </h5>
-            <div class="space-y-3">
-                <div class="bg-blue-800 p-3 rounded">
-                    <p class="text-blue-200 font-medium">Cálculo de Cargas</p>
-                    <p class="text-blue-100 text-sm">F₁ + F₂ + F₃ = F_total</p>
-                    <p class="text-blue-100 text-xs">Distribución de fuerzas en estructuras</p>
+            <div class="space-y-4">
+                <div class="bg-blue-800 p-4 rounded-lg">
+                    <p class="text-blue-200 font-medium text-base">Cálculo de Cargas</p>
+                    <p class="text-blue-100 text-base">F₁ + F₂ + F₃ = F_total</p>
+                    <p class="text-blue-100 text-sm">Distribución de fuerzas en estructuras</p>
                 </div>
-                <div class="bg-blue-800 p-3 rounded">
-                    <p class="text-blue-200 font-medium">Mezclas de Concreto</p>
-                    <p class="text-blue-100 text-sm">C + A + G = V_total</p>
-                    <p class="text-blue-100 text-xs">Proporciones de cemento, arena y grava</p>
+                <div class="bg-blue-800 p-4 rounded-lg">
+                    <p class="text-blue-200 font-medium text-base">Mezclas de Concreto</p>
+                    <p class="text-blue-100 text-base">C + A + G = V_total</p>
+                    <p class="text-blue-100 text-sm">Proporciones de cemento, arena y grava</p>
                 </div>
-                <div class="bg-blue-800 p-3 rounded">
-                    <p class="text-blue-200 font-medium">Flujo de Fluidos</p>
-                    <p class="text-blue-100 text-sm">Q = A × v</p>
-                    <p class="text-blue-100 text-xs">Caudal en tuberías y canales</p>
+                <div class="bg-blue-800 p-4 rounded-lg">
+                    <p class="text-blue-200 font-medium text-base">Flujo de Fluidos</p>
+                    <p class="text-blue-100 text-base">Q = A × v</p>
+                    <p class="text-blue-100 text-sm">Caudal en tuberías y canales</p>
                 </div>
             </div>
         </div>
 
         <!-- Ingeniería Eléctrica -->
-        <div class="bg-green-900 p-6 rounded-lg">
-            <h5 class="text-green-200 font-medium mb-4 flex items-center">
-                <span class="bg-green-600 w-10 h-10 rounded-full flex items-center justify-center mr-3">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="bg-green-900 p-8 rounded-2xl">
+            <h5 class="text-green-200 font-medium mb-6 flex items-center text-lg">
+                <span class="bg-green-600 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                    <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
-                </span>
+                    </svg>                </span>
                 Ingeniería Eléctrica
             </h5>
-            <div class="space-y-3">
-                <div class="bg-green-800 p-3 rounded">
-                    <p class="text-green-200 font-medium">Ley de Ohm</p>
-                    <p class="text-green-100 text-sm">V = I × R</p>
-                    <p class="text-green-100 text-xs">Relación voltaje-corriente-resistencia</p>
+            <div class="space-y-4">
+                <div class="bg-green-800 p-4 rounded-lg">
+                    <p class="text-green-200 font-medium text-base">Ley de Ohm</p>
+                    <p class="text-green-100 text-base">V = I × R</p>
+                    <p class="text-green-100 text-sm">Relación voltaje-corriente-resistencia</p>
                 </div>
-                <div class="bg-green-800 p-3 rounded">
-                    <p class="text-green-200 font-medium">Ley de Kirchhoff</p>
-                    <p class="text-green-100 text-sm">∑I_entrada = ∑I_salida</p>
-                    <p class="text-green-100 text-xs">Conservación de corriente en nodos</p>
+                <div class="bg-green-800 p-4 rounded-lg">
+                    <p class="text-green-200 font-medium text-base">Ley de Kirchhoff</p>
+                    <p class="text-green-100 text-base">∑I_entrada = ∑I_salida</p>
+                    <p class="text-green-100 text-sm">Conservación de corriente en nodos</p>
                 </div>
-                <div class="bg-green-800 p-3 rounded">
-                    <p class="text-green-200 font-medium">Potencia Eléctrica</p>
-                    <p class="text-green-100 text-sm">P = V × I = I²R</p>
-                    <p class="text-green-100 text-xs">Cálculo de consumo energético</p>
+                <div class="bg-green-800 p-4 rounded-lg">
+                    <p class="text-green-200 font-medium text-base">Potencia Eléctrica</p>
+                    <p class="text-green-100 text-base">P = V × I = I²R</p>
+                    <p class="text-green-100 text-sm">Cálculo de consumo energético</p>
                 </div>
             </div>
         </div>
 
         <!-- Ingeniería Mecánica -->
-        <div class="bg-purple-900 p-6 rounded-lg">
-            <h5 class="text-purple-200 font-medium mb-4 flex items-center">
-                <span class="bg-purple-600 w-10 h-10 rounded-full flex items-center justify-center mr-3">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div class="bg-purple-900 p-8 rounded-2xl">
+            <h5 class="text-purple-200 font-medium mb-6 flex items-center text-lg">
+                <span class="bg-purple-600 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                    <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                     </svg>
                 </span>
                 Ingeniería Mecánica
             </h5>
-            <div class="space-y-3">
-                <div class="bg-purple-800 p-3 rounded">
-                    <p class="text-purple-200 font-medium">Equilibrio de Fuerzas</p>
-                    <p class="text-purple-100 text-sm">∑Fx = 0, ∑Fy = 0</p>
-                    <p class="text-purple-100 text-xs">Análisis estático de estructuras</p>
+            <div class="space-y-4">
+                <div class="bg-purple-800 p-4 rounded-lg">
+                    <p class="text-purple-200 font-medium text-base">Equilibrio de Fuerzas</p>
+                    <p class="text-purple-100 text-base">∑Fx = 0, ∑Fy = 0</p>
+                    <p class="text-purple-100 text-sm">Análisis estático de estructuras</p>
                 </div>
-                <div class="bg-purple-800 p-3 rounded">
-                    <p class="text-purple-200 font-medium">Cinemática</p>
-                    <p class="text-purple-100 text-sm">v = v₀ + at</p>
-                    <p class="text-purple-100 text-xs">Movimiento uniformemente acelerado</p>
+                <div class="bg-purple-800 p-4 rounded-lg">
+                    <p class="text-purple-200 font-medium text-base">Cinemática</p>
+                    <p class="text-purple-100 text-base">v = v₀ + at</p>
+                    <p class="text-purple-100 text-sm">Movimiento uniformemente acelerado</p>
                 </div>
-                <div class="bg-purple-800 p-3 rounded">
-                    <p class="text-purple-200 font-medium">Transferencia de Calor</p>
-                    <p class="text-purple-100 text-sm">Q = mcΔT</p>
-                    <p class="text-purple-100 text-xs">Cálculo de energía térmica</p>
+                <div class="bg-purple-800 p-4 rounded-lg">
+                    <p class="text-purple-200 font-medium text-base">Transferencia de Calor</p>
+                    <p class="text-purple-100 text-base">Q = mcΔT</p>
+                    <p class="text-purple-100 text-sm">Cálculo de energía térmica</p>
                 </div>
             </div>
         </div>

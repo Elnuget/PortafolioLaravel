@@ -1,21 +1,19 @@
 <!-- Subcomponente de fundamentos de traducción algebraica -->
-<h3 class="text-xl font-bold text-red-400 mb-4 flex items-center">
-    <span class="mr-2">01</span>
-    <span class="w-12 h-0.5 bg-red-400 mr-2"></span>
+<h3 class="text-2xl font-bold text-red-400 mb-6 flex items-center">
+    <span class="mr-3 bg-red-500 text-white px-3 py-1 rounded-full text-lg font-black">01</span>
+    <span class="w-16 h-1 bg-red-400 mr-3 rounded-full"></span>
     Fundamentos de Traducción Algebraica
 </h3>
-<div class="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
-    <div class="mb-6">
-        <h4 class="text-lg font-semibold text-blue-300 mb-3">🔤 Del Lenguaje Natural al Algebraico</h4>
-        <p class="text-gray-300 mb-4">
+<div class="bg-gray-800 p-8 rounded-2xl shadow-xl mb-10">
+    <div class="mb-8">
+        <h4 class="text-xl font-semibold text-blue-300 mb-4">🔤 Del Lenguaje Natural al Algebraico</h4>
+        <p class="text-gray-200 mb-6 text-lg leading-relaxed">
             La traducción de problemas verbales a ecuaciones algebraicas es una habilidad fundamental para el éxito en el examen de admisión de la EPN. Este proceso requiere identificar variables, constantes y relaciones matemáticas.
         </p>
-    </div>
-
-    <div class="grid md:grid-cols-2 gap-6 mb-6">
-        <div class="bg-blue-900 p-4 rounded-lg">
-            <h5 class="text-blue-200 font-medium mb-3">📝 Palabras Clave para Operaciones</h5>
-            <div class="space-y-2 text-sm text-blue-100">
+    </div>    <div class="grid md:grid-cols-2 gap-8 mb-8">
+        <div class="bg-blue-900 p-6 rounded-2xl">
+            <h5 class="text-blue-200 font-semibold mb-4 text-lg">📝 Palabras Clave para Operaciones</h5>
+            <div class="space-y-3 text-base text-blue-100">
                 <div><strong>Suma (+):</strong> más, aumenta, suma, total, excede</div>
                 <div><strong>Resta (-):</strong> menos, disminuye, diferencia, resta</div>
                 <div><strong>Multiplicación (×):</strong> veces, producto, de, multiplicado</div>
@@ -23,9 +21,9 @@
             </div>
         </div>
 
-        <div class="bg-green-900 p-4 rounded-lg">
-            <h5 class="text-green-200 font-medium mb-3">🎯 Expresiones Algebraicas Comunes</h5>
-            <div class="space-y-2 text-sm text-green-100">
+        <div class="bg-green-900 p-6 rounded-2xl">
+            <h5 class="text-green-200 font-semibold mb-4 text-lg">🎯 Expresiones Algebraicas Comunes</h5>
+            <div class="space-y-3 text-base text-green-100">
                 <div><strong>"Un número":</strong> x</div>
                 <div><strong>"El doble de un número":</strong> 2x</div>
                 <div><strong>"Tres más que un número":</strong> x + 3</div>

@@ -1,36 +1,34 @@
 <!-- Subcomponente de ejercicios prácticos -->
-<h3 class="text-xl font-bold text-red-400 mb-4 flex items-center">
-    <span class="mr-2">04</span>
-    <span class="w-12 h-0.5 bg-red-400 mr-2"></span>
+<h3 class="text-2xl font-bold text-red-400 mb-6 flex items-center">
+    <span class="mr-3 bg-red-500 text-white px-3 py-1 rounded-full text-lg font-black">04</span>
+    <span class="w-16 h-1 bg-red-400 mr-3 rounded-full"></span>
     Ejercicios Prácticos Paso a Paso
 </h3>
-<div class="bg-gray-800 p-6 rounded-lg shadow-md mb-8">
-    <div class="mb-6">
-        <h4 class="text-lg font-semibold text-orange-300 mb-3">🎯 Ejercicios Guiados</h4>
-        <p class="text-gray-300 mb-4">
+<div class="bg-gray-800 p-8 rounded-2xl shadow-xl mb-10">
+    <div class="mb-8">
+        <h4 class="text-xl font-semibold text-orange-300 mb-4">🎯 Ejercicios Guiados</h4>
+        <p class="text-gray-200 mb-6 text-lg leading-relaxed">
             Resolvamos problemas típicos del examen EPN con metodología paso a paso.
         </p>
-    </div>
-
-    <div class="space-y-6">
+    </div>    <div class="space-y-8">
         <!-- Ejercicio 1: Edades -->
-        <div class="bg-blue-900 p-5 rounded-lg">
-            <h5 class="text-blue-200 font-medium mb-3 flex items-center">
-                <span class="bg-blue-600 w-8 h-8 rounded-full flex items-center justify-center mr-3 text-white font-bold">1</span>
+        <div class="bg-blue-900 p-6 rounded-2xl">
+            <h5 class="text-blue-200 font-semibold mb-4 flex items-center text-xl">
+                <span class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center mr-4 text-white font-bold text-lg">1</span>
                 Problema de Edades
             </h5>
-            <div class="text-blue-100 text-sm space-y-3">
-                <div class="bg-blue-800 p-3 rounded">
+            <div class="text-blue-100 text-base space-y-4">
+                <div class="bg-blue-800 p-4 rounded-xl">
                     <p><strong>Enunciado:</strong> La edad de María es el triple de la edad de su hija. Dentro de 12 años, la edad de María será el doble de la edad de su hija. ¿Cuáles son sus edades actuales?</p>
                 </div>
-                <div class="bg-blue-800 p-3 rounded">
+                <div class="bg-blue-800 p-4 rounded-xl">
                     <p><strong>Variables:</strong></p>
-                    <ul class="ml-4 space-y-1">
+                    <ul class="ml-4 space-y-2">
                         <li>• x = edad actual de la hija</li>
                         <li>• 3x = edad actual de María</li>
                     </ul>
                 </div>
-                <div class="bg-blue-800 p-3 rounded">
+                <div class="bg-blue-800 p-4 rounded-xl">
                     <p><strong>Ecuación:</strong> 3x + 12 = 2(x + 12)</p>
                     <p><strong>Desarrollo:</strong> 3x + 12 = 2x + 24 → x = 12</p>
                     <p><strong>Respuesta:</strong> Hija: 12 años, María: 36 años</p>
