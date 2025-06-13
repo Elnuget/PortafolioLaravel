@@ -51,10 +51,7 @@
                 @include('componentesclase2.subcontent.fundamentos_algebraicos')
                 @include('componentesclase2.subcontent.ecuaciones_lineales')
                 @include('componentesclase2.subcontent.sistemas_ecuaciones')
-                @include('componentesclase2.subcontent.ejercicios_practicos')
                 @include('componentesclase2.subcontent.descanso')
-                @include('componentesclase2.subcontent.problemas_epn')
-                @include('componentesclase2.subcontent.ejemplos')
                 @include('componentesclase2.subcontent.aplicaciones_ingenieria')
                 @include('componentesclase2.subcontent.resumen')
             </div>
