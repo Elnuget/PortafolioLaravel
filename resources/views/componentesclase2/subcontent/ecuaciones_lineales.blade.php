@@ -23,7 +23,7 @@
                 📏 Planteamiento de Ecuaciones de Primer Grado
             </h4>
             <p class="text-gray-200 mb-6 text-lg leading-relaxed font-light">
-                Las ecuaciones lineales son la piedra angular de muchos problemas en el examen EPN. Dominar el arte del planteamiento te permitirá resolver problemas complejos de edades, velocidades, mezclas, proporciones y aplicaciones en ingeniería.
+                Las ecuaciones lineales son la piedra angular de muchos problemas en el examen EPN. Dominar el arte del planteamiento te permitirá resolver problemas complejos de edades, velocidades, porcentajes, proporciones y aplicaciones en ingeniería.
             </p>
             
             <!-- Estadísticas visuales -->
@@ -132,37 +132,37 @@
 
         <!-- Segunda fila de tipos de problemas -->
         <div class="grid lg:grid-cols-2 xl:grid-cols-2 gap-8 mb-10">
-            <!-- Problemas de Mezclas -->
+            <!-- Problemas de Porcentajes -->
             <div class="bg-gradient-to-br from-purple-900/80 to-purple-800/80 p-8 rounded-3xl shadow-xl border border-purple-700/50 hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105">
                 <h5 class="text-purple-200 font-bold mb-6 text-xl flex items-center">
                     <span class="bg-purple-600 w-12 h-12 rounded-full flex items-center justify-center mr-4 shadow-lg">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                         </svg>
                     </span>
-                    ⚗️ Problemas de Mezclas
+                    📊 Problemas de Porcentajes
                 </h5>
                 <div class="space-y-4">
                     <div class="bg-purple-800/50 p-5 rounded-xl border border-purple-600/30">
-                        <p class="text-purple-200 font-semibold mb-3">🧪 Principio Fundamental:</p>
+                        <p class="text-purple-200 font-semibold mb-3">🎯 Fórmula Fundamental:</p>
                         <div class="bg-purple-700/40 p-4 rounded-lg text-center">
-                            <p class="text-purple-100 text-lg font-mono">Cantidad × Concentración = Cantidad pura</p>
+                            <p class="text-purple-100 text-lg font-mono">Porcentaje = (Parte/Total) × 100</p>
                         </div>
                     </div>
                     <div class="bg-purple-800/50 p-5 rounded-xl border border-purple-600/30">
-                        <p class="text-purple-200 font-semibold mb-3">📊 Esquema de Solución:</p>
-                        <div class="space-y-2 text-sm">
+                        <p class="text-purple-200 font-semibold mb-3">📈 Casos Típicos EPN:</p>
+                        <div class="space-y-3">
                             <div class="bg-purple-700/40 p-3 rounded-lg">
-                                <p class="text-purple-200">Mezcla A: <span class="text-purple-100">x litros al p%</span></p>
-                                <p class="text-purple-100 text-xs">= 0.01px litros puros</p>
+                                <p class="text-purple-200 font-medium">Aumentos:</p>
+                                <p class="text-purple-100 text-sm">Valor final = Valor inicial × (1 + %/100)</p>
                             </div>
                             <div class="bg-purple-700/40 p-3 rounded-lg">
-                                <p class="text-purple-200">Mezcla B: <span class="text-purple-100">y litros al q%</span></p>
-                                <p class="text-purple-100 text-xs">= 0.01qy litros puros</p>
+                                <p class="text-purple-200 font-medium">Descuentos:</p>
+                                <p class="text-purple-100 text-sm">Valor final = Valor inicial × (1 - %/100)</p>
                             </div>
                             <div class="bg-purple-700/40 p-3 rounded-lg">
-                                <p class="text-purple-200">Resultado: <span class="text-purple-100">(x+y) litros al r%</span></p>
-                                <p class="text-purple-100 text-xs">= 0.01r(x+y) litros puros</p>
+                                <p class="text-purple-200 font-medium">Variación porcentual:</p>
+                                <p class="text-purple-100 text-sm">% = [(Valor final - Valor inicial)/Valor inicial] × 100</p>
                             </div>
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                                 <span class="bg-red-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3">3</span>
                                 <p class="text-red-200 font-medium">Clasificación del Problema</p>
                             </div>
-                            <p class="text-red-100 text-sm">Identifica si es de edades, velocidad, mezclas, dinero o proporciones.</p>
+                            <p class="text-red-100 text-sm">Identifica si es de edades, velocidad, porcentajes, dinero o proporciones.</p>
                         </div>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
                     🚗 Velocidad y Distancia
                 </button>
                 <button class="bg-purple-600 hover:bg-purple-500 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-purple-500/25">
-                    ⚗️ Mezclas
+                    📊 Porcentajes
                 </button>
                 <button class="bg-yellow-600 hover:bg-yellow-500 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-yellow-500/25">
                     💰 Dinero y Precios
@@ -475,87 +475,450 @@
                 </div>
             </div>
 
-            <!-- Resumen de Metodología -->
-            <div class="mb-8">
-                <h6 class="text-2xl font-bold text-orange-300 mb-6 flex items-center">
-                    <span class="bg-orange-600 text-white px-4 py-2 rounded-xl text-lg mr-4 shadow-lg">Resumen</span>
-                    Metodología de Resolución
+            <!-- Problemas de Porcentajes -->
+            <div class="mb-12" id="porcentajes-section">
+                <h6 class="text-2xl font-bold text-purple-300 mb-6 flex items-center">
+                    <span class="bg-purple-600 text-white px-4 py-2 rounded-xl text-lg mr-4 shadow-lg">Categoría 3</span>
+                    Problemas de Porcentajes - Nivel EPN
                 </h6>
-                <div class="grid md:grid-cols-2 gap-8">
+                
+                <div class="grid lg:grid-cols-2 gap-8 mb-8">
+                    <!-- Ejercicio A: Aumentos y Descuentos -->
+                    <div class="bg-gradient-to-br from-purple-800/60 to-purple-900/60 p-8 rounded-2xl border border-purple-600/40 shadow-xl">
+                        <div class="flex items-center justify-between mb-6">
+                            <h7 class="text-purple-200 font-bold text-lg">📈 Ejercicio A - Aumentos y Descuentos</h7>
+                            <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-bold">⭐⭐⭐</span>
+                        </div>
+                        <div class="bg-purple-900/40 p-6 rounded-xl mb-6 border border-purple-600/30">
+                            <p class="text-purple-100 leading-relaxed">
+                                <strong class="text-purple-200">Problema:</strong> Un artículo cuesta $120. Si se le aplica un descuento del 15% y luego un aumento del 20%, ¿cuál es el precio final?
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-purple-800/40 p-4 rounded-xl border border-purple-600/30">
+                                <label class="text-purple-200 font-semibold mb-2 block">🎯 Paso 1: Aplicar descuento del 15%</label>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <input type="text" placeholder="Precio con descuento = 120 × 0.85" class="bg-purple-700/40 text-purple-100 p-3 rounded-lg border border-purple-600/30 outline-none focus:border-purple-400 transition-colors w-full">
+                                    <input type="text" placeholder="= $102" class="bg-purple-700/40 text-purple-100 p-3 rounded-lg border border-purple-600/30 outline-none focus:border-purple-400 transition-colors w-full">
+                                </div>
+                            </div>
+                            
+                            <div class="bg-purple-800/40 p-4 rounded-xl border border-purple-600/30">
+                                <label class="text-purple-200 font-semibold mb-2 block">📊 Paso 2: Aplicar aumento del 20%</label>
+                                <input type="text" placeholder="Precio final = 102 × 1.20 = $122.40" class="bg-purple-700/40 text-purple-100 p-3 rounded-lg border border-purple-600/30 outline-none focus:border-purple-400 transition-colors w-full">
+                            </div>
+                        </div>
+                        
+                        <details class="mt-6 cursor-pointer">
+                            <summary class="text-green-300 font-bold hover:text-green-200 transition-colors bg-green-900/30 p-3 rounded-lg border border-green-600/30">
+                                💡 Ver análisis detallado
+                            </summary>
+                            <div class="mt-4 p-6 bg-green-900/40 rounded-xl border border-green-600/40">
+                                <div class="space-y-3 text-sm">
+                                    <div class="bg-green-800/40 p-4 rounded-lg">
+                                        <strong class="text-green-200">Método directo:</strong>
+                                        <p class="text-green-100">Precio final = 120 × (1 - 0.15) × (1 + 0.20)</p>
+                                        <p class="text-green-100">= 120 × 0.85 × 1.20 = $122.40</p>
+                                    </div>
+                                    <div class="bg-green-800/40 p-4 rounded-lg">
+                                        <strong class="text-green-200">Variación total:</strong>
+                                        <p class="text-green-100">Cambio = (122.40 - 120)/120 × 100 = 2%</p>
+                                        <p class="text-yellow-200 font-bold">El precio aumentó un 2% en total</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Ejercicio B: Problemas de Concentración -->
+                    <div class="bg-gradient-to-br from-violet-800/60 to-violet-900/60 p-8 rounded-2xl border border-violet-600/40 shadow-xl">
+                        <div class="flex items-center justify-between mb-6">
+                            <h7 class="text-violet-200 font-bold text-lg">🧪 Ejercicio B - Concentraciones</h7>
+                            <span class="bg-violet-600 text-white px-3 py-1 rounded-full text-sm font-bold">⭐⭐⭐⭐</span>
+                        </div>
+                        <div class="bg-violet-900/40 p-6 rounded-xl mb-6 border border-violet-600/30">
+                            <p class="text-violet-100 leading-relaxed">
+                                <strong class="text-violet-200">Problema:</strong> Una solución de 200 ml contiene 25% de alcohol. ¿Cuánta agua debe agregarse para que la concentración sea del 20%?
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-violet-800/40 p-4 rounded-xl border border-violet-600/30">
+                                <label class="text-violet-200 font-semibold mb-2 block">🔬 Análisis inicial</label>
+                                <div class="space-y-2">
+                                    <input type="text" placeholder="Alcohol puro = 200 × 0.25 = 50 ml" class="bg-violet-700/40 text-violet-100 p-3 rounded-lg border border-violet-600/30 outline-none focus:border-violet-400 transition-colors w-full">
+                                    <input type="text" placeholder="Sea x = ml de agua a agregar" class="bg-violet-700/40 text-violet-100 p-3 rounded-lg border border-violet-600/30 outline-none focus:border-violet-400 transition-colors w-full">
+                                </div>
+                            </div>
+                            
+                            <div class="bg-violet-800/40 p-4 rounded-xl border border-violet-600/30">
+                                <label class="text-violet-200 font-semibold mb-2 block">⚡ Ecuación</label>
+                                <input type="text" placeholder="50/(200 + x) = 0.20" class="bg-violet-700/40 text-violet-100 p-3 rounded-lg border border-violet-600/30 outline-none focus:border-violet-400 transition-colors w-full">
+                            </div>
+                        </div>
+                        
+                        <details class="mt-6 cursor-pointer">
+                            <summary class="text-yellow-300 font-bold hover:text-yellow-200 transition-colors bg-yellow-900/30 p-3 rounded-lg border border-yellow-600/30">
+                                🎯 Ver solución paso a paso
+                            </summary>
+                            <div class="mt-4 p-6 bg-yellow-900/40 rounded-xl border border-yellow-600/40">
+                                <div class="space-y-4 text-sm">
+                                    <div class="bg-yellow-800/40 p-4 rounded-lg">
+                                        <strong class="text-yellow-200">Resolución:</strong>
+                                        <p class="text-yellow-100">50/(200 + x) = 0.20</p>
+                                        <p class="text-yellow-100">50 = 0.20(200 + x)</p>
+                                        <p class="text-yellow-100">50 = 40 + 0.20x</p>
+                                        <p class="text-yellow-100">10 = 0.20x → x = 50 ml</p>
+                                    </div>
+                                    <div class="bg-yellow-800/40 p-4 rounded-lg">
+                                        <strong class="text-yellow-200">Verificación:</strong>
+                                        <p class="text-yellow-100">Volumen final: 200 + 50 = 250 ml</p>
+                                        <p class="text-yellow-100">Concentración: 50/250 = 0.20 = 20% ✓</p>
+                                        <p class="text-yellow-200 font-bold">Se deben agregar 50 ml de agua</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Ejercicio C: Problema Avanzado -->
+                <div class="bg-gradient-to-br from-pink-800/60 to-pink-900/60 p-8 rounded-2xl border border-pink-600/40 shadow-xl">
+                    <div class="flex items-center justify-between mb-6">
+                        <h7 class="text-pink-200 font-bold text-lg">🔥 Ejercicio C - Nivel Avanzado EPN</h7>
+                        <span class="bg-pink-600 text-white px-3 py-1 rounded-full text-sm font-bold">⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <div class="bg-pink-900/40 p-6 rounded-xl mb-6 border border-pink-600/30">
+                        <p class="text-pink-100 leading-relaxed">
+                            <strong class="text-pink-200">Problema:</strong> En una empresa, el 60% son hombres. De los hombres, el 40% son ingenieros. De las mujeres, el 30% son ingenieras. Si hay 84 ingenieros en total, ¿cuántos empleados tiene la empresa?
+                        </p>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-4">
+                            <div class="bg-pink-800/40 p-4 rounded-xl border border-pink-600/30">
+                                <label class="text-pink-200 font-semibold mb-2 block">👥 Variables</label>
+                                <div class="space-y-2">
+                                    <input type="text" placeholder="Total empleados = x" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full text-sm">
+                                    <input type="text" placeholder="Hombres = 0.6x" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full text-sm">
+                                    <input type="text" placeholder="Mujeres = 0.4x" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full text-sm">
+                                </div>
+                            </div>
+                            
+                            <div class="bg-pink-800/40 p-4 rounded-xl border border-pink-600/30">
+                                <label class="text-pink-200 font-semibold mb-2 block">🎓 Ingenieros</label>
+                                <div class="space-y-2">
+                                    <input type="text" placeholder="Ing. hombres = 0.4 × 0.6x = 0.24x" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full text-sm">
+                                    <input type="text" placeholder="Ing. mujeres = 0.3 × 0.4x = 0.12x" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full text-sm">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-pink-800/40 p-4 rounded-xl border border-pink-600/30">
+                                <label class="text-pink-200 font-semibold mb-2 block">⚡ Ecuación Principal</label>
+                                <input type="text" placeholder="0.24x + 0.12x = 84" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full">
+                            </div>
+                            
+                            <div class="bg-pink-800/40 p-4 rounded-xl border border-pink-600/30">
+                                <label class="text-pink-200 font-semibold mb-2 block">🎯 Resolución</label>
+                                <textarea placeholder="0.36x = 84&#10;x = 84/0.36&#10;x = 233.33... ≈ 233 empleados" class="bg-pink-700/40 text-pink-100 p-3 rounded-lg border border-pink-600/30 outline-none focus:border-pink-400 transition-colors w-full h-20 resize-none text-sm"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <details class="mt-6 cursor-pointer">
+                        <summary class="text-cyan-300 font-bold hover:text-cyan-200 transition-colors bg-cyan-900/30 p-3 rounded-lg border border-cyan-600/30">
+                            🧠 Ver análisis completo y verificación
+                        </summary>
+                        <div class="mt-4 p-6 bg-cyan-900/40 rounded-xl border border-cyan-600/40">
+                            <div class="grid md:grid-cols-2 gap-6 text-sm">
+                                <div class="space-y-3">
+                                    <div class="bg-cyan-800/40 p-4 rounded-lg">
+                                        <strong class="text-cyan-200">Análisis detallado:</strong>
+                                        <p class="text-cyan-100">Si x = 233 empleados (redondeado)</p>
+                                        <p class="text-cyan-100">Hombres: 233 × 0.6 = 140</p>
+                                        <p class="text-cyan-100">Mujeres: 233 × 0.4 = 93</p>
+                                        <p class="text-cyan-100">Total: 140 + 93 = 233 ✓</p>
+                                    </div>
+                                    <div class="bg-cyan-800/40 p-4 rounded-lg">
+                                        <strong class="text-cyan-200">Verificación ingenieros:</strong>
+                                        <p class="text-cyan-100">Ing. hombres: 140 × 0.4 = 56</p>
+                                        <p class="text-cyan-100">Ing. mujeres: 93 × 0.3 ≈ 28</p>
+                                        <p class="text-cyan-100">Total ingenieros: 56 + 28 = 84 ✓</p>
+                                    </div>
+                                </div>
+                                <div class="bg-cyan-800/40 p-4 rounded-lg">
+                                    <strong class="text-cyan-200">Respuesta EPN:</strong>
+                                    <p class="text-yellow-200 font-bold text-lg">La empresa tiene 233 empleados</p>
+                                    <div class="mt-3 p-3 bg-cyan-700/40 rounded-lg">
+                                        <p class="text-cyan-200 font-medium">Distribución:</p>
+                                        <p class="text-cyan-100">• 140 hombres (56 ingenieros)</p>
+                                        <p class="text-cyan-100">• 93 mujeres (28 ingenieras)</p>
+                                        <p class="text-cyan-100">• 84 ingenieros total</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+            </div>
+
+            <!-- Problemas de Dinero Avanzados -->
+            <div class="mb-12" id="dinero-section">
+                <h6 class="text-2xl font-bold text-yellow-300 mb-6 flex items-center">
+                    <span class="bg-yellow-600 text-white px-4 py-2 rounded-xl text-lg mr-4 shadow-lg">Categoría 4</span>
+                    Problemas de Dinero - Aplicaciones Avanzadas
+                </h6>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Ejercicio D: Interés Compuesto -->
+                    <div class="bg-gradient-to-br from-amber-800/60 to-amber-900/60 p-8 rounded-2xl border border-amber-600/40 shadow-xl">
+                        <div class="flex items-center justify-between mb-6">
+                            <h7 class="text-amber-200 font-bold text-lg">💎 Ejercicio D - Interés Compuesto</h7>
+                            <span class="bg-amber-600 text-white px-3 py-1 rounded-full text-sm font-bold">⭐⭐⭐⭐</span>
+                        </div>
+                        <div class="bg-amber-900/40 p-6 rounded-xl mb-6 border border-amber-600/30">
+                            <p class="text-amber-100 leading-relaxed">
+                                <strong class="text-amber-200">Problema:</strong> María invierte $5000 al 8% anual con interés compuesto. Si después de cierto tiempo tiene $6480, ¿cuánto tiempo transcurrió?
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-amber-800/40 p-4 rounded-xl border border-amber-600/30">
+                                <label class="text-amber-200 font-semibold mb-2 block">💰 Fórmula de interés compuesto</label>
+                                <input type="text" placeholder="M = C(1 + r)^t → 6480 = 5000(1.08)^t" class="bg-amber-700/40 text-amber-100 p-3 rounded-lg border border-amber-600/30 outline-none focus:border-amber-400 transition-colors w-full">
+                            </div>
+                            
+                            <div class="bg-amber-800/40 p-4 rounded-xl border border-amber-600/30">
+                                <label class="text-amber-200 font-semibold mb-2 block">🔍 Simplificación</label>
+                                <input type="text" placeholder="(1.08)^t = 6480/5000 = 1.296" class="bg-amber-700/40 text-amber-100 p-3 rounded-lg border border-amber-600/30 outline-none focus:border-amber-400 transition-colors w-full">
+                            </div>
+                        </div>
+                        
+                        <details class="mt-6 cursor-pointer">
+                            <summary class="text-green-300 font-bold hover:text-green-200 transition-colors bg-green-900/30 p-3 rounded-lg border border-green-600/30">
+                                📊 Ver solución con logaritmos
+                            </summary>
+                            <div class="mt-4 p-6 bg-green-900/40 rounded-xl border border-green-600/40">
+                                <div class="space-y-3 text-sm">
+                                    <div class="bg-green-800/40 p-4 rounded-lg">
+                                        <strong class="text-green-200">Método logarítmico:</strong>
+                                        <p class="text-green-100">log(1.08)^t = log(1.296)</p>
+                                        <p class="text-green-100">t × log(1.08) = log(1.296)</p>
+                                        <p class="text-green-100">t = log(1.296)/log(1.08) ≈ 3.5 años</p>
+                                    </div>
+                                    <div class="bg-green-800/40 p-4 rounded-lg">
+                                        <strong class="text-green-200">Verificación:</strong>
+                                        <p class="text-green-100">5000 × (1.08)^3.5 ≈ 5000 × 1.296 = $6480 ✓</p>
+                                        <p class="text-yellow-200 font-bold">Transcurrieron 3.5 años</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Ejercicio E: Sistema de Precios -->
                     <div class="bg-gradient-to-br from-orange-800/60 to-orange-900/60 p-8 rounded-2xl border border-orange-600/40 shadow-xl">
-                        <h7 class="text-orange-200 font-bold mb-4 text-lg flex items-center">
-                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            ✅ Lista de Verificación
-                        </h7>
+                        <div class="flex items-center justify-between mb-6">
+                            <h7 class="text-orange-200 font-bold text-lg">🏪 Ejercicio E - Sistema de Precios</h7>
+                            <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-sm font-bold">⭐⭐⭐⭐⭐</span>
+                        </div>
+                        <div class="bg-orange-900/40 p-6 rounded-xl mb-6 border border-orange-600/30">
+                            <p class="text-orange-100 leading-relaxed">
+                                <strong class="text-orange-200">Problema:</strong> Un comerciante compra dos tipos de café: tipo A a $12/kg y tipo B a $8/kg. Quiere hacer una mezcla de 50 kg que cueste $9.60/kg. ¿Cuántos kg de cada tipo debe usar?
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-orange-800/40 p-4 rounded-xl border border-orange-600/30">
+                                <label class="text-orange-200 font-semibold mb-2 block">📝 Sistema de ecuaciones</label>
+                                <div class="space-y-2">
+                                    <input type="text" placeholder="Sea x = kg de café A, y = kg de café B" class="bg-orange-700/40 text-orange-100 p-3 rounded-lg border border-orange-600/30 outline-none focus:border-orange-400 transition-colors w-full text-sm">
+                                    <input type="text" placeholder="Ecuación 1: x + y = 50" class="bg-orange-700/40 text-orange-100 p-3 rounded-lg border border-orange-600/30 outline-none focus:border-orange-400 transition-colors w-full text-sm">
+                                    <input type="text" placeholder="Ecuación 2: 12x + 8y = 9.60 × 50 = 480" class="bg-orange-700/40 text-orange-100 p-3 rounded-lg border border-orange-600/30 outline-none focus:border-orange-400 transition-colors w-full text-sm">
+                                </div>
+                            </div>
+                            
+                            <div class="bg-orange-800/40 p-4 rounded-xl border border-orange-600/30">
+                                <label class="text-orange-200 font-semibold mb-2 block">🎯 Resolución por sustitución</label>
+                                <textarea placeholder="De (1): y = 50 - x&#10;En (2): 12x + 8(50-x) = 480&#10;12x + 400 - 8x = 480&#10;4x = 80 → x = 20 kg" class="bg-orange-700/40 text-orange-100 p-3 rounded-lg border border-orange-600/30 outline-none focus:border-orange-400 transition-colors w-full h-24 resize-none text-sm"></textarea>
+                            </div>
+                        </div>
+                        
+                        <details class="mt-6 cursor-pointer">
+                            <summary class="text-blue-300 font-bold hover:text-blue-200 transition-colors bg-blue-900/30 p-3 rounded-lg border border-blue-600/30">
+                                ✅ Ver verificación completa
+                            </summary>
+                            <div class="mt-4 p-6 bg-blue-900/40 rounded-xl border border-blue-600/40">
+                                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                                    <div class="bg-blue-800/40 p-4 rounded-lg">
+                                        <strong class="text-blue-200">Solución:</strong>
+                                        <p class="text-blue-100">Café A: x = 20 kg</p>
+                                        <p class="text-blue-100">Café B: y = 50 - 20 = 30 kg</p>
+                                    </div>
+                                    <div class="bg-blue-800/40 p-4 rounded-lg">
+                                        <strong class="text-blue-200">Verificación:</strong>
+                                        <p class="text-blue-100">Peso: 20 + 30 = 50 kg ✓</p>
+                                        <p class="text-blue-100">Costo: 12(20) + 8(30) = 480 ✓</p>
+                                        <p class="text-blue-100">Precio/kg: 480/50 = $9.60 ✓</p>
+                                    </div>
+                                </div>
+                                <div class="mt-4 p-4 bg-blue-800/40 rounded-lg">
+                                    <p class="text-yellow-200 font-bold">Respuesta: 20 kg de café A y 30 kg de café B</p>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ejercicios Bonus - Preparación EPN -->
+            <div class="mb-8">
+                <h6 class="text-2xl font-bold text-emerald-300 mb-6 flex items-center">
+                    <span class="bg-emerald-600 text-white px-4 py-2 rounded-xl text-lg mr-4 shadow-lg">Bonus</span>
+                    Ejercicios Rápidos - Preparación Intensiva EPN
+                </h6>
+                
+                <div class="grid lg:grid-cols-3 gap-6">
+                    <!-- Ejercicio Rápido 1 -->
+                    <div class="bg-gradient-to-br from-emerald-800/60 to-emerald-900/60 p-6 rounded-2xl border border-emerald-600/40 shadow-xl">
+                        <div class="flex items-center justify-between mb-4">
+                            <h7 class="text-emerald-200 font-bold">⚡ Ejercicio Rápido 1</h7>
+                            <span class="bg-emerald-600 text-white px-2 py-1 rounded-full text-xs font-bold">2 min</span>
+                        </div>
+                        <div class="bg-emerald-900/40 p-4 rounded-xl mb-4 border border-emerald-600/30">
+                            <p class="text-emerald-100 text-sm">
+                                <strong>Problema:</strong> El triple de un número menos 5 es igual al doble del número más 7. ¿Cuál es el número?
+                            </p>
+                        </div>
+                        <details class="cursor-pointer">
+                            <summary class="text-yellow-300 font-bold hover:text-yellow-200 transition-colors bg-yellow-900/30 p-2 rounded-lg text-sm">
+                                💡 Ver solución
+                            </summary>
+                            <div class="mt-2 p-3 bg-yellow-900/40 rounded-lg text-xs">
+                                <p class="text-yellow-100">3x - 5 = 2x + 7</p>
+                                <p class="text-yellow-100">x = 12</p>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Ejercicio Rápido 2 -->
+                    <div class="bg-gradient-to-br from-sky-800/60 to-sky-900/60 p-6 rounded-2xl border border-sky-600/40 shadow-xl">
+                        <div class="flex items-center justify-between mb-4">
+                            <h7 class="text-sky-200 font-bold">⚡ Ejercicio Rápido 2</h7>
+                            <span class="bg-sky-600 text-white px-2 py-1 rounded-full text-xs font-bold">3 min</span>
+                        </div>
+                        <div class="bg-sky-900/40 p-4 rounded-xl mb-4 border border-sky-600/30">
+                            <p class="text-sky-100 text-sm">
+                                <strong>Problema:</strong> Un padre tiene 42 años y su hijo 12. ¿En cuántos años la edad del padre será el triple de la del hijo?
+                            </p>
+                        </div>
+                        <details class="cursor-pointer">
+                            <summary class="text-yellow-300 font-bold hover:text-yellow-200 transition-colors bg-yellow-900/30 p-2 rounded-lg text-sm">
+                                💡 Ver solución
+                            </summary>
+                            <div class="mt-2 p-3 bg-yellow-900/40 rounded-lg text-xs">
+                                <p class="text-yellow-100">42 + x = 3(12 + x)</p>
+                                <p class="text-yellow-100">42 + x = 36 + 3x</p>
+                                <p class="text-yellow-100">x = 3 años</p>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- Ejercicio Rápido 3 -->
+                    <div class="bg-gradient-to-br from-rose-800/60 to-rose-900/60 p-6 rounded-2xl border border-rose-600/40 shadow-xl">
+                        <div class="flex items-center justify-between mb-4">
+                            <h7 class="text-rose-200 font-bold">⚡ Ejercicio Rápido 3</h7>
+                            <span class="bg-rose-600 text-white px-2 py-1 rounded-full text-xs font-bold">4 min</span>
+                        </div>
+                        <div class="bg-rose-900/40 p-4 rounded-xl mb-4 border border-rose-600/30">
+                            <p class="text-rose-100 text-sm">
+                                <strong>Problema:</strong> Una tienda aumenta los precios 25% y luego hace un descuento del 20%. ¿Cuál es la variación final?
+                            </p>
+                        </div>
+                        <details class="cursor-pointer">
+                            <summary class="text-yellow-300 font-bold hover:text-yellow-200 transition-colors bg-yellow-900/30 p-2 rounded-lg text-sm">
+                                💡 Ver solución
+                            </summary>
+                            <div class="mt-2 p-3 bg-yellow-900/40 rounded-lg text-xs">
+                                <p class="text-yellow-100">1.25 × 0.80 = 1.00</p>
+                                <p class="text-yellow-100">No hay variación (0%)</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+
+                <!-- Consejos finales para el examen -->
+                <div class="mt-8 bg-gradient-to-r from-slate-800/80 to-slate-900/80 p-8 rounded-2xl border border-slate-600/40">
+                    <h7 class="text-slate-200 font-bold mb-4 text-xl flex items-center">
+                        <svg class="w-6 h-6 mr-3 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        🎯 Estrategias Finales para Dominar las Ecuaciones Lineales en el EPN
+                    </h7>
+                    <div class="grid md:grid-cols-3 gap-6">
                         <div class="space-y-3">
-                            <div class="flex items-start">
-                                <span class="bg-orange-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">1</span>
-                                <div>
-                                    <p class="text-orange-200 font-medium">Define variables claras</p>
-                                    <p class="text-orange-100 text-sm">Usa letras que tengan sentido</p>
+                            <h8 class="text-slate-300 font-semibold">⏰ Durante el Examen</h8>
+                            <div class="space-y-2 text-sm">
+                                <div class="bg-slate-700/40 p-3 rounded-lg">
+                                    <p class="text-slate-200 font-medium">Lee 2 veces</p>
+                                    <p class="text-slate-300">Identifica datos y pregunta</p>
+                                </div>
+                                <div class="bg-slate-700/40 p-3 rounded-lg">
+                                    <p class="text-slate-200 font-medium">Variables claras</p>
+                                    <p class="text-slate-300">Usa letras que tengan sentido</p>
+                                </div>
+                                <div class="bg-slate-700/40 p-3 rounded-lg">
+                                    <p class="text-slate-200 font-medium">Verifica siempre</p>
+                                    <p class="text-slate-300">Sustituye y comprueba</p>
                                 </div>
                             </div>
-                            <div class="flex items-start">
-                                <span class="bg-orange-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">2</span>
-                                <div>
-                                    <p class="text-orange-200 font-medium">Identifica las relaciones</p>
-                                    <p class="text-orange-100 text-sm">Busca palabras clave</p>
+                        </div>
+                        <div class="space-y-3">
+                            <h8 class="text-slate-300 font-semibold">🧠 Preparación Previa</h8>
+                            <div class="space-y-2 text-sm">
+                                <div class="bg-slate-700/40 p-3 rounded-lg">
+                                    <p class="text-slate-200 font-medium">Practica diariamente</p>
+                                    <p class="text-slate-300">Mínimo 5 problemas por día</p>
+                                </div>
+                                <div class="bg-slate-700/40 p-3 rounded-lg">
+                                    <p class="text-slate-200 font-medium">Cronometra tiempo</p>
+                                    <p class="text-slate-300">Max 8-10 min por problema</p>
+                                </div>
+                                <div class="bg-slate-700/40 p-3 rounded-lg">
+                                    <p class="text-slate-200 font-medium">Memoriza patrones</p>
+                                    <p class="text-slate-300">Reconoce tipos rápidamente</p>
                                 </div>
                             </div>
-                            <div class="flex items-start">
-                                <span class="bg-orange-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">3</span>
-                                <div>
-                                    <p class="text-orange-200 font-medium">Plantea la ecuación</p>
-                                    <p class="text-orange-100 text-sm">Traduce a lenguaje algebraico</p>
+                        </div>
+                        <div class="space-y-3">
+                            <h8 class="text-slate-300 font-semibold">✅ Errores Comunes</h8>
+                            <div class="space-y-2 text-sm">
+                                <div class="bg-red-800/40 p-3 rounded-lg border border-red-600/30">
+                                    <p class="text-red-200 font-medium">❌ Variables confusas</p>
+                                    <p class="text-red-300">No uses x, y para todo</p>
                                 </div>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="bg-orange-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">4</span>
-                                <div>
-                                    <p class="text-orange-200 font-medium">Resuelve paso a paso</p>
-                                    <p class="text-orange-100 text-sm">Operaciones inversas</p>
+                                <div class="bg-red-800/40 p-3 rounded-lg border border-red-600/30">
+                                    <p class="text-red-200 font-medium">❌ No verificar</p>
+                                    <p class="text-red-300">Siempre comprueba el resultado</p>
                                 </div>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="bg-orange-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mr-3 mt-0.5">5</span>
-                                <div>
-                                    <p class="text-orange-200 font-medium">Verifica la solución</p>
-                                    <p class="text-orange-100 text-sm">Sustituye y comprueba</p>
+                                <div class="bg-red-800/40 p-3 rounded-lg border border-red-600/30">
+                                    <p class="text-red-200 font-medium">❌ Saltar pasos</p>
+                                    <p class="text-red-300">Escribe cada operación</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-gradient-to-br from-teal-800/60 to-teal-900/60 p-8 rounded-2xl border border-teal-600/40 shadow-xl">
-                        <h7 class="text-teal-200 font-bold mb-4 text-lg flex items-center">
-                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                            </svg>
-                            🎯 Consejos para el Examen
-                        </h7>
-                        <div class="space-y-3">
-                            <div class="bg-teal-800/40 p-3 rounded-lg border border-teal-600/30">
-                                <p class="text-teal-200 font-medium">⏱️ Gestión del Tiempo</p>
-                                <p class="text-teal-100 text-sm">Máximo 10 minutos por problema</p>
-                            </div>
-                            <div class="bg-teal-800/40 p-3 rounded-lg border border-teal-600/30">
-                                <p class="text-teal-200 font-medium">📝 Lectura Comprensiva</p>
-                                <p class="text-teal-100 text-sm">Lee dos veces, subraya datos</p>
-                            </div>
-                            <div class="bg-teal-800/40 p-3 rounded-lg border border-teal-600/30">
-                                <p class="text-teal-200 font-medium">🔍 Verificación Rápida</p>
-                                <p class="text-teal-100 text-sm">Usa diagramas si es necesario</p>
-                            </div>
-                            <div class="bg-teal-800/40 p-3 rounded-lg border border-teal-600/30">
-                                <p class="text-teal-200 font-medium">📐 Revisa Unidades</p>
-                                <p class="text-teal-100 text-sm">Coherencia en las respuestas</p>
-                            </div>
-                            <div class="bg-teal-800/40 p-3 rounded-lg border border-teal-600/30">
-                                <p class="text-teal-200 font-medium">🎯 Sentido Común</p>
-                                <p class="text-teal-100 text-sm">¿La respuesta es lógica?</p>
-                            </div>
-                        </div>
+                    
+                    <div class="mt-6 p-4 bg-gradient-to-r from-green-800/40 to-emerald-800/40 rounded-xl border border-green-600/30">
+                        <p class="text-green-200 font-bold text-center text-lg">
+                            🏆 ¡Recuerda: La práctica constante es la clave del éxito en el EPN!
+                        </p>
+                        <p class="text-green-300 text-center mt-2">
+                            Domina estos patrones y estarás preparado para cualquier problema de ecuaciones lineales.
+                        </p>
                     </div>
                 </div>
             </div>
