@@ -169,10 +169,85 @@
             <h5 class="text-lg font-bold text-white mb-2">Ejercicio avanzado: Fracciones complejas</h5>
             <div class="text-center py-3">
                 <span class="math-expression text-lg">5) (4^2 - 2 × 5) ÷ [3 + (8 - 2 × 3)^2 ÷ 4]</span>
-            </div>
-            <p class="text-blue-300 text-sm mt-2">
+            </div>            <p class="text-blue-300 text-sm mt-2">
                 Consejo: Resuelve primero las operaciones dentro de los paréntesis más internos y luego trabaja hacia afuera. 
                 Recuerda que la fracción entera actúa como un gran símbolo de agrupación.
+            </p>
+        </div>
+    </div>
+    
+    <!-- Ejercicio interactivo con planetas -->
+    <div class="bg-gradient-to-br from-indigo-900/30 to-blue-900/30 rounded-xl p-6 border border-indigo-500/30 mt-8">
+        <h4 class="text-xl font-bold text-white mb-4 flex items-center">
+            <svg class="w-6 h-6 mr-2 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            Desafío del Sistema Solar: "El Valor de los Planetas"
+        </h4>
+        
+        <div class="bg-gray-800 bg-opacity-70 p-5 rounded-lg">
+            <p class="text-gray-300 mb-4">
+                En este sistema, cada planeta representa un valor numérico específico:
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🌍</span>
+                    <p class="text-indigo-300 font-semibold mt-1">Tierra = 3</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🪐</span>
+                    <p class="text-indigo-300 font-semibold mt-1">Saturno = 6</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🔴</span>
+                    <p class="text-indigo-300 font-semibold mt-1">Marte = 4</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🌕</span>
+                    <p class="text-indigo-300 font-semibold mt-1">Luna = 1</p>
+                </div>
+            </div>
+            
+            <p class="text-white font-bold mb-3">Aplica las reglas PEMDAS para resolver estas expresiones astronómicas:</p>
+            
+            <div class="space-y-4">
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">1. 🪐 ÷ (🌍 - 🌕) × 🔴²</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-gray-400 text-sm">Pista: Primero resuelve el paréntesis (3-1)...</span>
+                        <button class="bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold py-1 px-3 rounded transition">Revelar solución</button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">2. (🌍 + 🌕)³ - [🪐 × (🔴 - 🌕)]</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-gray-400 text-sm">Pista: Calcula primero lo que hay dentro de cada paréntesis...</span>
+                        <button class="bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold py-1 px-3 rounded transition">Revelar solución</button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">3. √(🪐² - 🌍²) + 🔴 × 🌕 ÷ 🌍</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-gray-400 text-sm">Pista: Calcula las potencias dentro de la raíz cuadrada...</span>
+                        <button class="bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold py-1 px-3 rounded transition">Revelar solución</button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-900/50 p-4 rounded-lg border border-indigo-700/50 mt-6">
+                    <p class="text-white font-semibold mb-2">Desafío astronómico avanzado:</p>
+                    <p class="text-center text-lg mb-2">4. {[(🪐 + 🌕) ÷ 🌍]² - 🔴} × √(🌍 × 🔴)</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-indigo-300 text-sm">Este problema pone a prueba tu dominio completo de PEMDAS</span>
+                        <button class="bg-indigo-700 hover:bg-indigo-600 text-white text-xs font-bold py-1 px-3 rounded transition">Revelar solución</button>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-indigo-300 italic mt-5 text-sm">
+                Este ejercicio te ayuda a visualizar la jerarquía de operaciones como un "sistema planetario" donde cada elemento tiene su propio orden y posición. La analogía refuerza la idea de que las reglas matemáticas son universales como las leyes físicas.
             </p>
         </div>
     </div>

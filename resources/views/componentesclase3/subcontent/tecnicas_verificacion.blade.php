@@ -253,12 +253,113 @@
                 </svg>
             </div>
             <div class="ml-3">
-                <h5 class="text-lg font-medium text-white">Consejo para el examen</h5>
-                <p class="text-gray-300 mt-1">
+                <h5 class="text-lg font-medium text-white">Consejo para el examen</h5>                <p class="text-gray-300 mt-1">
                     En el examen de admisión universitaria, siempre verifica tus respuestas con al menos dos de estas técnicas. 
                     Presta especial atención a los problemas que mezclan múltiples operaciones, especialmente aquellos con 
                     fracciones, radicales y potencias. Un error en la aplicación de la jerarquía puede cambiar completamente 
                     el resultado final.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Ejercicio interactivo con notas musicales -->
+    <div class="bg-gradient-to-br from-amber-900/30 to-red-900/30 rounded-xl p-6 border border-amber-500/30 mt-8">
+        <h4 class="text-xl font-bold text-white mb-4 flex items-center">
+            <svg class="w-6 h-6 mr-2 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
+            </svg>
+            Sinfonía Matemática: "Armonía de Operaciones"
+        </h4>
+        
+        <div class="bg-gray-800 bg-opacity-70 p-5 rounded-lg">
+            <p class="text-gray-300 mb-4">
+                En nuestra orquesta matemática, cada nota musical tiene un valor numérico asignado:
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🎵</span>
+                    <p class="text-amber-300 font-semibold mt-1">Do = 2</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🎶</span>
+                    <p class="text-amber-300 font-semibold mt-1">Re = 4</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🎼</span>
+                    <p class="text-amber-300 font-semibold mt-1">Mi = 5</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🎹</span>
+                    <p class="text-amber-300 font-semibold mt-1">Fa = 3</p>
+                </div>
+            </div>
+            
+            <p class="text-white font-bold mb-3">Resuelve estas "composiciones matemáticas" y verifica tus respuestas usando al menos dos técnicas de verificación:</p>
+            
+            <div class="space-y-5">
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">1. (🎵 + 🎶) × 🎼 - 🎹²</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <div class="bg-gray-900/50 p-3 rounded-lg">
+                            <p class="text-amber-300 font-bold mb-1">Método 1: Resolución directa</p>
+                            <div class="text-gray-400 text-sm space-y-1 opacity-0 hover:opacity-100 transition-opacity duration-300">
+                                <p>(2 + 4) × 5 - 3²</p>
+                                <p>6 × 5 - 9</p>
+                                <p>30 - 9 = 21</p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-900/50 p-3 rounded-lg">
+                            <p class="text-amber-300 font-bold mb-1">Método 2: Sustitución</p>
+                            <div class="text-gray-400 text-sm space-y-1 opacity-0 hover:opacity-100 transition-opacity duration-300">
+                                <p>A = (2 + 4) = 6</p>
+                                <p>B = 3² = 9</p>
+                                <p>A × 5 - B = 6 × 5 - 9 = 30 - 9 = 21</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">2. 🎵² × (🎼 - 🎶 ÷ 🎵) + √🎹</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                        <div class="bg-gray-900/50 p-3 rounded-lg">
+                            <p class="text-amber-300 font-bold mb-1">Método 1: Resolución paso a paso</p>
+                            <button class="bg-amber-700 hover:bg-amber-600 text-white text-xs font-bold py-1 px-3 rounded transition mt-2">Mostrar pasos</button>
+                        </div>
+                        
+                        <div class="bg-gray-900/50 p-3 rounded-lg">
+                            <p class="text-amber-300 font-bold mb-1">Método 2: Estimación</p>
+                            <button class="bg-amber-700 hover:bg-amber-600 text-white text-xs font-bold py-1 px-3 rounded transition mt-2">Mostrar estimación</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">3. [🎶² - (🎵 + 🎹)] ÷ {🎼 - [🎹 - (🎶 - 🎵)²]}</p>
+                    
+                    <div class="mt-3">
+                        <p class="text-amber-300 font-bold mb-1">Desafío de verificación:</p>
+                        <p class="text-gray-300 text-sm">Para esta expresión compleja, aplica al menos tres técnicas de verificación diferentes para asegurar tu respuesta.</p>
+                        <button class="bg-amber-700 hover:bg-amber-600 text-white text-xs font-bold py-1 px-3 rounded transition mt-2">Ver solución completa</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-amber-900/20 p-4 rounded-lg mt-6">
+                <h5 class="text-white font-bold mb-2 flex items-center">
+                    <svg class="w-5 h-5 mr-2 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Reflexión sobre la verificación
+                </h5>
+                <p class="text-gray-300 text-sm">
+                    Así como en música una sola nota desafinada puede arruinar toda una sinfonía, en matemáticas un solo error 
+                    en la aplicación de PEMDAS puede cambiar completamente el resultado. La verificación constante es tu "afinador matemático".
                 </p>
             </div>
         </div>

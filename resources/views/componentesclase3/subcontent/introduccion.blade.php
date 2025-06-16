@@ -113,6 +113,72 @@
                 En los exámenes de admisión universitaria, encontrarás problemas que requieren simplificar expresiones aritméticas 
                 y algebraicas complejas. La aplicación correcta de PEMDAS es esencial para obtener la respuesta correcta.
             </p>
+        </div>    </div>
+    
+    <!-- Ejercicio interactivo con símbolos -->
+    <div class="bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-xl p-6 border border-purple-500/30 mt-8">
+        <h4 class="text-xl font-bold text-white mb-4 flex items-center">
+            <svg class="w-6 h-6 mr-2 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            </svg>
+            Desafío con Símbolos: "El Lenguaje de las Flores"
+        </h4>
+        
+        <div class="bg-gray-800 bg-opacity-70 p-5 rounded-lg">
+            <p class="text-gray-300 mb-4">
+                En este sistema matemático, cada flor representa un valor numérico:
+            </p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🌹</span>
+                    <p class="text-purple-300 font-semibold mt-1">Rosa = 5</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🌷</span>
+                    <p class="text-purple-300 font-semibold mt-1">Tulipán = 2</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🌻</span>
+                    <p class="text-purple-300 font-semibold mt-1">Girasol = 7</p>
+                </div>
+                <div class="bg-gray-900/70 p-3 rounded-lg text-center">
+                    <span class="text-2xl">🌸</span>
+                    <p class="text-purple-300 font-semibold mt-1">Flor de cerezo = 3</p>
+                </div>
+            </div>
+            
+            <p class="text-white font-bold mb-3">Calcula el valor de las siguientes expresiones aplicando la jerarquía de operaciones:</p>
+            
+            <div class="space-y-4">
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">1. (🌹 + 🌷)² ÷ 🌹</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-gray-400 text-sm">Pista: Primero suma los valores dentro del paréntesis...</span>
+                        <button class="bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold py-1 px-3 rounded transition">Ver solución</button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">2. 🌻 - [🌸 × (🌹 - 🌷)]</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-gray-400 text-sm">Pista: Resuelve primero la operación dentro de los paréntesis...</span>
+                        <button class="bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold py-1 px-3 rounded transition">Ver solución</button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 p-4 rounded-lg border border-gray-700">
+                    <p class="text-center text-lg mb-2">3. 🌷³ + 🌸² - √🌹</p>
+                    <div class="flex justify-between items-center mt-3">
+                        <span class="text-gray-400 text-sm">Pista: Calcula primero todas las potencias y raíces...</span>
+                        <button class="bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold py-1 px-3 rounded transition">Ver solución</button>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-blue-300 italic mt-5 text-sm">
+                Este tipo de ejercicios desarrolla tu capacidad para aplicar la jerarquía de operaciones en contextos diferentes, reforzando la comprensión conceptual más allá de la simple memorización.
+            </p>
         </div>
     </div>
 </section>
