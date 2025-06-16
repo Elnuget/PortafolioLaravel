@@ -28,12 +28,10 @@
                 de problemas más complejos.
             </p>
         </div>
-    </div>
-    
-    <!-- Ejemplo de expresión matemática -->
+    </div>        <!-- Ejemplo de expresión matemática avanzada -->
     <div class="mb-6">
         <div class="code-header flex justify-between items-center bg-gray-800 rounded-t-lg px-4 py-2">
-            <span class="text-sm text-gray-400">Ejemplo de expresión matemática</span>
+            <span class="text-sm text-gray-400">Ejemplo de expresión matemática avanzada</span>
             <div class="flex space-x-2">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -42,12 +40,51 @@
         </div>
         <div class="bg-gray-900 rounded-b-lg p-6 overflow-x-auto">
             <div class="equation-box text-center">
-                <span class="math-expression text-xl">3 + 4 × 2² - (8 ÷ 2) + 5</span>
+                <span class="math-expression text-xl">3² + 4 × [5 - (8 ÷ 2)² + 3] ÷ 2³ - √16</span>
                 <p class="text-gray-400 mt-2 text-sm">
                     ¿Cuál es el resultado correcto al resolver esta expresión aplicando la jerarquía de operaciones?
                 </p>
             </div>
         </div>
+    </div>
+    
+    <!-- Ejercicio para estudiantes -->
+    <div class="bg-gradient-to-br from-blue-900/30 to-gray-900 rounded-lg p-6 mt-8 border border-blue-800/30">
+        <h4 class="text-xl font-bold text-white mb-3 flex items-center">
+            <svg class="w-6 h-6 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
+            </svg>
+            Ejercicio introductorio
+        </h4>
+        
+        <p class="text-gray-300 mb-4">
+            Resuelve las siguientes expresiones aplicando correctamente la jerarquía de operaciones:
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">a) 2³ × 5 - 4² + (12 ÷ 3 + 1)</span></p>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">b) 6 + 2 × [8 - (3 + 1)]</span></p>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">c) 3 + 5 × (4²) ÷ (3 + 2) - 7</span></p>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">d) √25 + 3² × [10 ÷ (4 - 2) - 3]</span></p>
+            </div>
+        </div>
+        
+        <p class="text-blue-300 text-sm italic mt-4">
+            <svg class="w-5 h-5 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            Consejo: Identifica primero todas las operaciones a realizar y ordénalas según PEMDAS. Recuerda resolver paso a paso para evitar errores.
+        </p>
     </div>
     
     <!-- Importancia en el examen EPN -->

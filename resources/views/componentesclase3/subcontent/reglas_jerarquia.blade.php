@@ -13,8 +13,7 @@
             A continuación, se presenta el orden correcto (PEMDAS):
         </p>
         
-        <div class="space-y-6">
-            <!-- Paréntesis -->
+        <div class="space-y-6">            <!-- Paréntesis -->
             <div class="operation-step bg-blue-900/20 rounded-lg">
                 <h4 class="text-xl font-bold text-white mb-2 flex items-center">
                     <span class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3 text-sm font-bold">P</span>
@@ -22,10 +21,10 @@
                 </h4>
                 <p class="text-gray-300">
                     Primero, resuelve todas las operaciones dentro de paréntesis, corchetes y llaves, 
-                    trabajando desde los más internos hacia los externos.
+                    trabajando desde los más internos hacia los externos. Este principio se aplica también a los radicales y fracciones.
                 </p>
                 <div class="mt-3 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
-                    <p class="text-gray-300">Ejemplo: <span class="math-expression">2 × (3 + 4) = 2 × 7 = 14</span></p>
+                    <p class="text-gray-300">Ejemplo: <span class="math-expression">2 × [(3 + 4) × (8 - 6)] = 2 × [7 × 2] = 2 × 14 = 28</span></p>
                 </div>
             </div>
             
@@ -33,13 +32,13 @@
             <div class="operation-step bg-blue-900/20 rounded-lg">
                 <h4 class="text-xl font-bold text-white mb-2 flex items-center">
                     <span class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3 text-sm font-bold">E</span>
-                    Exponentes
+                    Exponentes y Raíces
                 </h4>
                 <p class="text-gray-300">
-                    Luego, calcula todas las potencias y raíces.
+                    Luego, calcula todas las potencias, raíces y logaritmos. Recuerda que un radical es equivalente a una potencia fraccionaria.
                 </p>
                 <div class="mt-3 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
-                    <p class="text-gray-300">Ejemplo: <span class="math-expression">3² = 9</span></p>
+                    <p class="text-gray-300">Ejemplos: <span class="math-expression">3² = 9</span>, <span class="math-expression">√16 = 4</span>, <span class="math-expression">8^(2/3) = (8^2)^(1/3) = 64^(1/3) = 4</span></p>
                 </div>
             </div>
             
@@ -50,10 +49,10 @@
                     Multiplicación y División
                 </h4>
                 <p class="text-gray-300">
-                    Realiza todas las multiplicaciones y divisiones, de izquierda a derecha.
+                    Realiza todas las multiplicaciones y divisiones, de izquierda a derecha. Esto incluye operaciones con porcentajes y fracciones.
                 </p>
                 <div class="mt-3 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
-                    <p class="text-gray-300">Ejemplo: <span class="math-expression">6 ÷ 2 × 3 = 3 × 3 = 9</span></p>
+                    <p class="text-gray-300">Ejemplo: <span class="math-expression">6 ÷ 2 × 3 ÷ 0.5 = 3 × 3 ÷ 0.5 = 9 ÷ 0.5 = 18</span></p>
                 </div>
             </div>
             
@@ -64,10 +63,10 @@
                     Adición y Sustracción
                 </h4>
                 <p class="text-gray-300">
-                    Finalmente, realiza todas las sumas y restas, de izquierda a derecha.
+                    Finalmente, realiza todas las sumas y restas, de izquierda a derecha. Presta atención a los signos cuando hay múltiples operaciones consecutivas.
                 </p>
                 <div class="mt-3 p-3 bg-gray-800 bg-opacity-50 rounded-lg">
-                    <p class="text-gray-300">Ejemplo: <span class="math-expression">7 - 4 + 2 = 3 + 2 = 5</span></p>
+                    <p class="text-gray-300">Ejemplo: <span class="math-expression">7 - 4 + 2 - (-3) = 3 + 2 + 3 = 8</span></p>
                 </div>
             </div>
         </div>
@@ -113,8 +112,7 @@
             <span class="text-blue-300 font-bold">Frase para recordar:</span> "Por Favor, Mi Estimado Señor Arias"
         </p>
     </div>
-    
-    <!-- Errores comunes -->
+      <!-- Errores comunes -->
     <div class="bg-red-900/20 border-l-4 border-red-500 p-5 rounded-r-lg mb-8">
         <div class="flex">
             <div class="flex-shrink-0">
@@ -129,8 +127,53 @@
                     <li>Olvidar resolver primero las operaciones dentro de paréntesis.</li>
                     <li>Confundir el orden entre multiplicación/división y adición/sustracción.</li>
                     <li>No aplicar el principio de izquierda a derecha para operaciones del mismo nivel.</li>
+                    <li>Aplicar incorrectamente la regla de los signos en operaciones con números negativos.</li>
+                    <li>Olvidar que las raíces y logaritmos tienen la misma prioridad que los exponentes.</li>
                 </ul>
             </div>
+        </div>
+    </div>
+    
+    <!-- Ejercicio de práctica avanzado -->
+    <div class="bg-gradient-to-br from-blue-900/30 to-gray-900 rounded-xl p-6 border border-blue-800/30 mb-8">
+        <h4 class="text-xl font-bold text-white mb-4 flex items-center">
+            <svg class="w-6 h-6 mr-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
+            </svg>
+            Ejercicios de aplicación de PEMDAS
+        </h4>
+        
+        <p class="text-gray-300 mb-4">
+            Aplica correctamente la jerarquía de operaciones para resolver estas expresiones complejas:
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">1) 3^2 × (4 + 2) ÷ 2^3 - √(9 + 16)</span></p>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">2) 4 × [5 + 3 × (10 - 8)^2] - 7^2 ÷ 7</span></p>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">3) 20 ÷ (2 + 3) × [4 - (3 - 2)^2] + 5</span></p>
+            </div>
+            
+            <div class="bg-gray-800 bg-opacity-50 p-4 rounded-lg">
+                <p class="text-center text-gray-300"><span class="math-expression">4) 5 × (2^3 - 4) + 36 ÷ (3^2 - 6 × 1)</span></p>
+            </div>
+        </div>
+        
+        <div class="mt-6 bg-blue-900/20 p-4 rounded-lg">
+            <h5 class="text-lg font-bold text-white mb-2">Ejercicio avanzado: Fracciones complejas</h5>
+            <div class="text-center py-3">
+                <span class="math-expression text-lg">5) (4^2 - 2 × 5) ÷ [3 + (8 - 2 × 3)^2 ÷ 4]</span>
+            </div>
+            <p class="text-blue-300 text-sm mt-2">
+                Consejo: Resuelve primero las operaciones dentro de los paréntesis más internos y luego trabaja hacia afuera. 
+                Recuerda que la fracción entera actúa como un gran símbolo de agrupación.
+            </p>
         </div>
     </div>
 </section>

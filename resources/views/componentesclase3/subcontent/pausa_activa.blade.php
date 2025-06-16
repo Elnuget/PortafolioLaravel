@@ -29,18 +29,23 @@
                     Tomar pausas activas durante el estudio mejora la retención de información y previene la fatiga mental.
                     Aprovecha este momento para descansar y prepararte para la segunda parte de la clase.
                 </p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
                     <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-lg">
                         <h5 class="font-bold text-white mb-2 flex items-center">
                             <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                             </svg>
-                            Ejercicio mental
+                            Ejercicio mental avanzado
                         </h5>
                         <p class="text-gray-400 text-sm">
-                            Resuelve este acertijo: "Si 2 + 3 × 4 = 14, entonces 3 + 4 × 5 = ?"
+                            Resuelve este acertijo de nivel avanzado: <br>
+                            "Si 3² × (4 - 1) ÷ 3 + 5 = 14, entonces 4² × (6 - 2) ÷ 4 + 7 = ?"
                         </p>
+                        <div class="mt-3 bg-gray-900/60 p-2 rounded-lg">
+                            <p class="text-gray-500 text-xs italic">
+                                Pista: Identifica el patrón de la operación para encontrar la solución.
+                            </p>
+                        </div>
                     </div>
                     
                     <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-lg">
@@ -48,10 +53,36 @@
                             <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
-                            Estiramiento rápido
+                            Desafío de memoria activa
                         </h5>
                         <p class="text-gray-400 text-sm">
-                            Ponte de pie, estira los brazos hacia arriba, respira profundamente 3 veces y rota tus hombros.
+                            Memoriza esta secuencia de operaciones: <br>
+                            "3² ÷ (5 - 2) × 4 + 1 = ?" <br>
+                            Cierra los ojos, visualiza cada paso, y luego resuelve mentalmente.
+                        </p>
+                        <div class="mt-3 bg-gray-900/60 p-2 rounded-lg">
+                            <p class="text-gray-500 text-xs italic">
+                                Beneficio: Este ejercicio mejora tu memoria de trabajo y tu capacidad de visualización matemática.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ejercicio adicional de estiramiento cognitivo -->
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 p-4 rounded-lg mt-4">
+                    <h5 class="font-bold text-white mb-2 flex items-center">
+                        <svg class="w-5 h-5 text-purple-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        Estiramiento cerebral
+                    </h5>
+                    <p class="text-gray-400 text-sm">
+                        Intenta resolver esta expresión sin usar lápiz ni papel: <br>
+                        "{[(6 × 2) ÷ 3] + 5} × 2 - √9 = ?"
+                    </p>
+                    <div class="mt-3 bg-green-900/30 p-2 rounded-lg">
+                        <p class="text-green-400 text-xs italic">
+                            Después del descanso, compara tu respuesta con tus compañeros y discute las diferentes estrategias de resolución.
                         </p>
                     </div>
                 </div>
