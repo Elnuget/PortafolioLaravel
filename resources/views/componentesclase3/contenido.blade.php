@@ -20,7 +20,7 @@
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
-                        Fundamentos de Álgebra - Nivel Universitario (2 horas - 120 min)
+                        Fundamentos de Álgebra - Nivel Universitario (3 horas - 180 min)
                     </span>
                 </div>
             </h2>
@@ -35,7 +35,7 @@
                     <div class="w-3 h-3 bg-blue-400 rounded-full animate-pulse delay-150"></div>
                     <div class="w-3 h-3 bg-blue-300 rounded-full animate-pulse delay-300"></div>
                 </div>
-                <span class="text-base text-gray-300 font-medium">5 secciones interactivas</span>
+                <span class="text-base text-gray-300 font-medium">5 secciones interactivas + pausa activa</span>
             </div>
         </div>
         
@@ -44,10 +44,14 @@
             <!-- Overlay sutil para mejor legibilidad -->
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/10 to-transparent pointer-events-none rounded-xl"></div>
             
-            <!-- Contenido principal con espaciado mejorado y estructura modular -->
-            <div class="space-y-8 relative z-10">                @include('componentesclase3.subcontent.introduccion')
+            <!-- Contenido principal con espaciado mejorado y estructura modular -->            <div class="space-y-8 relative z-10">
+                @include('componentesclase3.subcontent.introduccion')
                 @include('componentesclase3.subcontent.reglas_jerarquia')
                 @include('componentesclase3.subcontent.operaciones_compuestas')
+                
+                <!-- Pausa Activa después de la tercera sección -->
+                @include('componentesclase3.subcontent.pausa_activa')
+                
                 @include('componentesclase3.subcontent.tecnicas_verificacion')
                 @include('componentesclase3.subcontent.aplicaciones_examen')
             </div>
