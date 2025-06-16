@@ -11,3 +11,4 @@ php artisan view:clear
 php artisan cache:clear
 
 principal a modificar por componentes: Contenido sidebar.
+comando unico laravel12: php artisan optimize:clear

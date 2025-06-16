@@ -52,6 +52,12 @@
                 <a href="{{ route('clase1.index') }}" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center">
                     Ir a Clase 1
                 </a>
+                <a href="{{ route('clase2.index') }}" class="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center">
+                    Ir a Clase 2
+                </a>
+                <a href="{{ route('clase3.index') }}" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center">
+                    Ir a Clase 3
+                </a>
             </div>
         </div>
     </div>
