@@ -7,6 +7,7 @@ use App\Http\Controllers\Clase3Controller;
 use App\Http\Controllers\ClaseFormatoController;
 use App\Http\Controllers\Clase4Controller;
 use App\Http\Controllers\Clase5Controller;
+use App\Http\Controllers\Clase6Controller;
 
 Route::get('/', function () {
     return view('welcome');
@@ -23,3 +24,5 @@ Route::get('/clase5', [Clase5Controller::class, 'index'])->name('clase5.index');
 Route::get('/clase5/modulo/{numero}', [Clase5Controller::class, 'modulo'])->name('clase5.modulo');
 Route::get('/clase5/descargar-material', [Clase5Controller::class, 'descargarMaterial'])->name('clase5.material');
 Route::get('/clase5/progreso', [Clase5Controller::class, 'progreso'])->name('clase5.progreso');
+
+Route::get('/clase6', [Clase6Controller::class, 'index'])->name('clase6.index');
