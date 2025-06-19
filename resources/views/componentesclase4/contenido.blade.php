@@ -22,48 +22,149 @@
     <div class="bg-slate-800 bg-opacity-50 p-5 rounded-xl shadow-lg">
         <!-- Módulo 1 -->
         <div id="module1" class="module-content">
-            <h3 class="text-2xl font-bold text-teal-300 mb-4">Fundamentos y Traducción Algebraica</h3>
+            <h3 class="text-2xl font-bold text-teal-300 mb-4">Fundamentos de Ecuaciones Lineales</h3>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Definición de Ecuaciones Lineales</h4>
-                    <p class="text-gray-200">Una ecuación lineal con una incógnita tiene la forma: <span class="bg-slate-600 px-2 py-1 rounded text-teal-300">ax + b = c</span>, donde x es la variable y a, b, c son constantes.</p>
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">¿Qué es una Ecuación Lineal?</h4>
+                    <p class="text-gray-200">Una ecuación lineal con una incógnita tiene la forma: <span class="bg-slate-600 px-2 py-1 rounded text-teal-300">ax + b = c</span></p>
                     <ul class="mt-3 space-y-1 list-disc pl-5 text-gray-300">
-                        <li>a: coeficiente de la variable</li>
-                        <li>b: término independiente del lado izquierdo</li>
-                        <li>c: término del lado derecho</li>
+                        <li><strong>a:</strong> coeficiente de la variable (≠ 0)</li>
+                        <li><strong>b:</strong> término independiente del lado izquierdo</li>
+                        <li><strong>c:</strong> término del lado derecho</li>
+                        <li><strong>x:</strong> la incógnita que queremos encontrar</li>
                     </ul>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Traducción de Lenguaje Natural</h4>
-                    <p class="text-gray-200">Para traducir del lenguaje natural al lenguaje algebraico, identificamos palabras clave:</p>
-                    <div class="mt-3 grid grid-cols-2 gap-2 text-sm">
-                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"suma" → x + y</div>
-                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"diferencia" → x - y</div>
-                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"producto" → x · y</div>
-                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"doble" → 2x</div>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-2 rounded text-sm">
+                        <p class="text-teal-300">Ejemplos:</p>
+                        <p class="text-gray-200">3x + 5 = 14</p>
+                        <p class="text-gray-200">2x - 7 = 15</p>
+                        <p class="text-gray-200">x + 8 = 20</p>
                     </div>
                 </div>
                 
                 <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Asignación de Variables</h4>
-                    <p class="text-gray-200">En problemas de edades:</p>
-                    <ul class="mt-2 space-y-1 text-gray-300">
-                        <li><span class="text-teal-300 font-medium">x</span>: Edad actual de la persona principal</li>
-                        <li><span class="text-teal-300 font-medium">x + a</span>: Edad dentro de 'a' años</li>
-                        <li><span class="text-teal-300 font-medium">x - b</span>: Edad hace 'b' años</li>
-                    </ul>
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Traducción del Lenguaje Natural</h4>
+                    <p class="text-gray-200">Palabras clave para traducir problemas:</p>
+                    <div class="mt-3 grid grid-cols-2 gap-2 text-sm">
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"suma de" → x + y</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"diferencia" → x - y</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"producto de" → x · y</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"doble de" → 2x</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"triple de" → 3x</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"mitad de" → x/2</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"excede en" → x + n</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded">"es igual a" → =</div>
+                    </div>
                 </div>
                 
                 <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Metodología Básica</h4>
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Ejemplo Práctico: Números</h4>
+                    <p class="text-gray-200">Problema: "Un número aumentado en 15 es igual a 47. ¿Cuál es el número?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Paso 1: Identificar la incógnita</p>
+                        <p class="text-gray-300">Sea x = el número desconocido</p>
+                        <p class="text-cyan-100 mt-2">Paso 2: Traducir a ecuación</p>
+                        <p class="text-gray-300">"Un número aumentado en 15" → x + 15</p>
+                        <p class="text-gray-300">"es igual a 47" → = 47</p>
+                        <p class="text-teal-300 mt-1">Ecuación: x + 15 = 47</p>
+                        <p class="text-cyan-100 mt-2">Paso 3: Resolver</p>
+                        <p class="text-teal-300">x = 47 - 15 = 32</p>
+                        <p class="text-cyan-100 mt-2">Verificación: 32 + 15 = 47 ✓</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Metodología General</h4>
                     <ol class="mt-2 space-y-2 list-decimal pl-5 text-gray-300">
-                        <li>Leer atentamente el problema</li>
-                        <li>Identificar incógnitas y asignar variables</li>
-                        <li>Establecer relaciones entre variables</li>
-                        <li>Plantear la ecuación</li>
-                        <li>Resolver y verificar</li>
+                        <li><strong>Leer:</strong> Comprende completamente el problema</li>
+                        <li><strong>Identificar:</strong> ¿Qué necesitas encontrar?</li>
+                        <li><strong>Asignar:</strong> Define variables para las incógnitas</li>
+                        <li><strong>Traducir:</strong> Convierte el texto en ecuación</li>
+                        <li><strong>Resolver:</strong> Aplica operaciones algebraicas</li>
+                        <li><strong>Verificar:</strong> Comprueba que la solución sea correcta</li>
+                    </ol>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Ejercicio Guiado</h4>
+                    <p class="text-gray-200">Problema: "El triple de un número menos 8 es igual a 25. Encuentra el número."</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-yellow-300">¡Hazlo tú mismo!</p>
+                        <p class="text-gray-300 mt-1">1. ¿Cuál es la incógnita?</p>
+                        <p class="text-gray-300">2. ¿Cómo se escribe "el triple de un número"?</p>
+                        <p class="text-gray-300">3. ¿Cómo se escribe "menos 8"?</p>
+                        <p class="text-gray-300">4. Forma la ecuación completa</p>
+                        <p class="text-gray-300">5. Resuelve y verifica</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Práctica Adicional</h4>
+                    <p class="text-gray-200">Traduce estas frases a expresiones algebraicas:</p>
+                    <div class="mt-3 space-y-2 text-sm">
+                        <div class="bg-slate-600 bg-opacity-30 p-2 rounded">
+                            <p class="text-yellow-300">1. "Cinco más que un número"</p>
+                            <p class="text-gray-400">Respuesta: x + 5</p>
+                        </div>
+                        <div class="bg-slate-600 bg-opacity-30 p-2 rounded">
+                            <p class="text-yellow-300">2. "La mitad de un número menos 3"</p>
+                            <p class="text-gray-400">Respuesta: x/2 - 3</p>
+                        </div>
+                        <div class="bg-slate-600 bg-opacity-30 p-2 rounded">
+                            <p class="text-yellow-300">3. "Cuatro veces un número aumentado en 7"</p>
+                            <p class="text-gray-400">Respuesta: 4x + 7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sección de Ejercicios Interactivos -->
+            <div class="mt-6 bg-slate-800 bg-opacity-60 p-5 rounded-xl">
+                <h4 class="text-xl font-semibold text-yellow-300 mb-3">🎯 Ejercicios para Practicar</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 1: Números Consecutivos</h5>
+                        <p class="text-gray-200">La suma de dos números consecutivos es 37. Encuentra los números.</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Si x es el primer número, ¿cuál es el segundo?</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 2: Geometría Básica</h5>
+                        <p class="text-gray-200">El perímetro de un rectángulo es 24 cm. Si el largo es el doble del ancho, ¿cuáles son las dimensiones?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Perímetro = 2(largo + ancho)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 3: Dinero</h5>
+                        <p class="text-gray-200">Ana tiene $50 más que Luis. Si juntos tienen $230, ¿cuánto dinero tiene cada uno?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Define una variable para el dinero de una persona</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 4: Velocidad y Distancia</h5>
+                        <p class="text-gray-200">Un auto viaja a velocidad constante. En 3 horas recorre 180 km. ¿Cuál es su velocidad?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Distancia = Velocidad × Tiempo</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4 bg-green-900 bg-opacity-30 p-3 rounded-lg border border-green-500">
+                    <h5 class="text-lg font-medium text-green-300 mb-2">💡 Estrategia de Resolución</h5>
+                    <p class="text-gray-200">Para cada ejercicio:</p>
+                    <ol class="mt-2 list-decimal pl-5 text-gray-300 text-sm">
+                        <li>Identifica qué quieres encontrar (la incógnita)</li>
+                        <li>Asigna una variable (generalmente x)</li>
+                        <li>Expresa otras cantidades en términos de x</li>
+                        <li>Escribe la ecuación usando la información dada</li>
+                        <li>Resuelve la ecuación</li>
+                        <li>Verifica tu respuesta</li>
                     </ol>
                 </div>
             </div>

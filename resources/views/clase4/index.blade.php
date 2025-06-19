@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Ecuaciones Lineales - Cálculo de Edades')
+@section('title', 'Ecuaciones Lineales - Fundamentos y Aplicaciones')
 
 @section('content')
     @include('componentesclase4.styles')
