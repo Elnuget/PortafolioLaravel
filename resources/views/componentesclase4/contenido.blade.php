@@ -14,7 +14,7 @@
             Módulo 4: Casos Avanzados
         </button>
         <button class="module-button px-4 py-2 rounded-lg text-white font-medium text-sm" data-module="module5">
-            Módulo 5: Estrategias
+            Módulo 5: Maestría
         </button>
     </div>
 
@@ -584,56 +584,19 @@
 
         <!-- Módulo 5 -->
         <div id="module5" class="module-content">
-            <h3 class="text-2xl font-bold text-teal-300 mb-4">Estrategias, Verificación y Aplicaciones</h3>
+            <h3 class="text-2xl font-bold text-teal-300 mb-4">Estrategias Maestras y Aplicaciones Prácticas</h3>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Técnicas de Comprobación</h4>
-                    <p class="text-gray-200">Siempre verifica tus soluciones:</p>
-                    <ol class="mt-2 space-y-1 list-decimal pl-5 text-gray-300">
-                        <li>Sustituye los valores encontrados en la ecuación original</li>
-                        <li>Verifica que todas las condiciones del problema se cumplan</li>
-                        <li>Comprueba que las edades sean lógicas (positivas, enteras)</li>
-                        <li>Asegúrate que las relaciones temporales sean coherentes</li>
-                    </ol>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Errores Comunes</h4>
-                    <ul class="mt-2 space-y-2 text-gray-300">
-                        <li><span class="text-red-300">✗</span> Confundir "el doble" (2x) con "el doble más" (2x + 2)</li>
-                        <li><span class="text-red-300">✗</span> Olvidar que todas las edades deben ser positivas</li>
-                        <li><span class="text-red-300">✗</span> No considerar que las edades usualmente son enteras</li>
-                        <li><span class="text-red-300">✗</span> Aplicar incorrectamente las condiciones temporales</li>
-                        <li><span class="text-red-300">✗</span> No verificar la solución en todas las condiciones</li>
-                    </ul>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Aplicaciones Prácticas</h4>
-                    <p class="text-gray-200">Los problemas de edades aparecen en:</p>
-                    <ul class="mt-2 space-y-1 text-gray-300">
-                        <li>Acertijos y juegos matemáticos</li>
-                        <li>Ejercicios de lógica</li>
-                        <li>Problemas de herencias y testamentos</li>
-                        <li>Cálculos de antigüedad y experiencia</li>
-                        <li>Problemas de jubilación y años de servicio</li>
-                    </ul>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Síntesis Final</h4>
-                    <p class="text-gray-200">Recuerda estos pasos clave:</p>
-                    <ol class="mt-2 space-y-2 list-decimal pl-5 text-gray-300">
-                        <li>Identifica claramente cuál es la incógnita principal</li>
-                        <li>Asigna variables de forma coherente y simple</li>
-                        <li>Traduce todas las condiciones en lenguaje algebraico</li>
-                        <li>Resuelve sistemáticamente la ecuación</li>
-                        <li>Verifica la coherencia de la solución</li>
-                    </ol>
-                    <p class="mt-3 text-teal-200 font-medium">La práctica constante es la clave del éxito en estos problemas.</p>
-                </div>
+                @include('componentesclase4.modulo5.tecnicas-verificacion')
+                @include('componentesclase4.modulo5.errores-comunes')
+                @include('componentesclase4.modulo5.aplicaciones-practicas')
+                @include('componentesclase4.modulo5.estrategias-resolucion')
+                @include('componentesclase4.modulo5.casos-especiales-verificacion')
+                @include('componentesclase4.modulo5.sintesis-metodologica')
             </div>
+            
+            <!-- Sección de Evaluación y Práctica Final -->
+            @include('componentesclase4.modulo5.evaluacion-final')
         </div>
     </div>
 </div>
