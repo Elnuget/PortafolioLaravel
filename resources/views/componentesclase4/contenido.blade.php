@@ -5,7 +5,7 @@
             Módulo 1: Fundamentos
         </button>
         <button class="module-button px-4 py-2 rounded-lg text-white font-medium text-sm" data-module="module2">
-            Módulo 2: Problemas Básicos
+            Módulo 2: Aplicaciones
         </button>
         <button class="module-button px-4 py-2 rounded-lg text-white font-medium text-sm" data-module="module3">
             Módulo 3: Proyección Temporal
@@ -172,54 +172,186 @@
 
         <!-- Módulo 2 -->
         <div id="module2" class="module-content">
-            <h3 class="text-2xl font-bold text-teal-300 mb-4">Problemas de Edades Básicos</h3>
+            <h3 class="text-2xl font-bold text-teal-300 mb-4">Aplicación de Ecuaciones Lineales</h3>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Edad Actual Simple</h4>
-                    <p class="text-gray-200">Ejemplo: "La edad de Juan es el triple de la edad que tenía hace 8 años. ¿Cuál es su edad actual?"</p>
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Problemas de Números</h4>
+                    <p class="text-gray-200">Ejemplo: "El doble de un número más 15 es igual a 47. ¿Cuál es el número?"</p>
                     <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Si x = edad actual:</p>
-                        <p class="text-teal-300 mt-1">x = 3(x - 8)</p>
-                        <p class="text-teal-300">x = 3x - 24</p>
-                        <p class="text-teal-300">-2x = -24</p>
-                        <p class="text-teal-300">x = 12 años</p>
+                        <p class="text-cyan-100">Paso 1: Definir variable</p>
+                        <p class="text-gray-300">Sea x = el número buscado</p>
+                        <p class="text-cyan-100 mt-2">Paso 2: Plantear ecuación</p>
+                        <p class="text-gray-300">"El doble de un número" → 2x</p>
+                        <p class="text-gray-300">"más 15" → + 15</p>
+                        <p class="text-gray-300">"es igual a 47" → = 47</p>
+                        <p class="text-teal-300 mt-1">2x + 15 = 47</p>
+                        <p class="text-cyan-100 mt-2">Paso 3: Resolver</p>
+                        <p class="text-teal-300">2x = 47 - 15</p>
+                        <p class="text-teal-300">2x = 32</p>
+                        <p class="text-teal-300">x = 16</p>
+                        <p class="text-cyan-100 mt-1">Verificación: 2(16) + 15 = 32 + 15 = 47 ✓</p>
                     </div>
                 </div>
                 
                 <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Relaciones entre Edades</h4>
-                    <p class="text-gray-200">Cuando relacionamos edades de dos personas:</p>
-                    <ul class="mt-2 space-y-1 text-gray-300">
-                        <li>x = edad de la primera persona</li>
-                        <li>y = edad de la segunda persona</li>
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Problemas de Dinero</h4>
+                    <p class="text-gray-200">Ejemplo: "Carlos tiene $20 más que María. Si juntos tienen $180, ¿cuánto tiene cada uno?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Definir variables:</p>
+                        <p class="text-gray-300">Sea x = dinero de María</p>
+                        <p class="text-gray-300">Entonces x + 20 = dinero de Carlos</p>
+                        <p class="text-cyan-100 mt-2">Ecuación:</p>
+                        <p class="text-teal-300">x + (x + 20) = 180</p>
+                        <p class="text-teal-300">2x + 20 = 180</p>
+                        <p class="text-teal-300">2x = 160</p>
+                        <p class="text-teal-300">x = 80</p>
+                        <p class="text-cyan-100 mt-1">Respuesta:</p>
+                        <p class="text-gray-300">María: $80, Carlos: $100</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Problemas Geométricos</h4>
+                    <p class="text-gray-200">Ejemplo: "Un rectángulo tiene un perímetro de 36 cm. Si el largo es 3 cm más que el ancho, ¿cuáles son sus dimensiones?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Variables:</p>
+                        <p class="text-gray-300">Sea x = ancho del rectángulo</p>
+                        <p class="text-gray-300">Entonces x + 3 = largo del rectángulo</p>
+                        <p class="text-cyan-100 mt-2">Fórmula del perímetro:</p>
+                        <p class="text-gray-300">P = 2(largo + ancho)</p>
+                        <p class="text-teal-300 mt-1">2(x + 3 + x) = 36</p>
+                        <p class="text-teal-300">2(2x + 3) = 36</p>
+                        <p class="text-teal-300">4x + 6 = 36</p>
+                        <p class="text-teal-300">4x = 30</p>
+                        <p class="text-teal-300">x = 7.5 cm</p>
+                        <p class="text-cyan-100 mt-1">Dimensiones:</p>
+                        <p class="text-gray-300">Ancho: 7.5 cm, Largo: 10.5 cm</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Problemas de Mezclas</h4>
+                    <p class="text-gray-200">Ejemplo: "En una tienda se venden chocolates a $3 cada uno y caramelos a $1 cada uno. Si se compraron 20 dulces por $44, ¿cuántos de cada tipo se compraron?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Variables:</p>
+                        <p class="text-gray-300">Sea x = número de chocolates</p>
+                        <p class="text-gray-300">Entonces 20 - x = número de caramelos</p>
+                        <p class="text-cyan-100 mt-2">Ecuación de costo:</p>
+                        <p class="text-teal-300">3x + 1(20 - x) = 44</p>
+                        <p class="text-teal-300">3x + 20 - x = 44</p>
+                        <p class="text-teal-300">2x + 20 = 44</p>
+                        <p class="text-teal-300">2x = 24</p>
+                        <p class="text-teal-300">x = 12</p>
+                        <p class="text-cyan-100 mt-1">Respuesta:</p>
+                        <p class="text-gray-300">12 chocolates y 8 caramelos</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Problemas de Movimiento</h4>
+                    <p class="text-gray-200">Ejemplo: "Un ciclista viaja a velocidad constante. Recorre 45 km en 2.5 horas. ¿Cuál es su velocidad?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Fórmula: Distancia = Velocidad × Tiempo</p>
+                        <p class="text-gray-300">Datos:</p>
+                        <p class="text-gray-300">Distancia = 45 km</p>
+                        <p class="text-gray-300">Tiempo = 2.5 horas</p>
+                        <p class="text-gray-300">Velocidad = x km/h</p>
+                        <p class="text-teal-300 mt-2">45 = x × 2.5</p>
+                        <p class="text-teal-300">x = 45 ÷ 2.5</p>
+                        <p class="text-teal-300">x = 18 km/h</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Técnicas de Resolución</h4>
+                    <p class="text-gray-200">Estrategias clave para problemas aplicados:</p>
+                    <ul class="mt-2 space-y-2 text-gray-300">
+                        <li><strong>Identificar:</strong> ¿Qué cantidad necesito encontrar?</li>
+                        <li><strong>Relacionar:</strong> ¿Cómo se relacionan las cantidades?</li>
+                        <li><strong>Expresar:</strong> Escribir todo en términos de una variable</li>
+                        <li><strong>Verificar:</strong> ¿La respuesta tiene sentido en el contexto?</li>
                     </ul>
-                    <p class="mt-2 text-gray-200">También podemos expresar todo en función de una variable:</p>
-                    <p class="mt-1 text-gray-300">Si y = x + 5, significa que la segunda persona es 5 años mayor</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-2 rounded">
+                        <p class="text-yellow-300 text-sm">💡 Tip: Siempre lee el problema dos veces antes de empezar</p>
+                    </div>
                 </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Diferencias de Edad Constantes</h4>
-                    <p class="text-gray-200">La diferencia de edad entre dos personas es siempre constante.</p>
-                    <div class="mt-2 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Si María es 5 años mayor que Carlos:</p>
-                        <p class="text-teal-300 mt-1">Ahora: E<sub>María</sub> = E<sub>Carlos</sub> + 5</p>
-                        <p class="text-teal-300">En 10 años: E<sub>María</sub> + 10 = E<sub>Carlos</sub> + 10 + 5</p>
-                        <p class="text-gray-300 mt-1">La diferencia sigue siendo 5 años</p>
+            </div>
+            
+            <!-- Sección de Ejercicios Prácticos -->
+            <div class="mt-6 bg-slate-800 bg-opacity-60 p-5 rounded-xl">
+                <h4 class="text-xl font-semibold text-yellow-300 mb-3">🎯 Ejercicios de Aplicación</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 1: Números Pares</h5>
+                        <p class="text-gray-200">La suma de tres números pares consecutivos es 84. Encuentra los números.</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Si x es el primer número par, los siguientes son x+2 y x+4</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 2: Reparto de Dinero</h5>
+                        <p class="text-gray-200">Ana y Luis se reparten $500. Ana recibe $80 más que Luis. ¿Cuánto recibe cada uno?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Define x como lo que recibe una persona</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 3: Triángulo</h5>
+                        <p class="text-gray-200">En un triángulo, el segundo lado mide 5 cm más que el primero, y el tercero mide el doble del primero. Si el perímetro es 37 cm, ¿cuánto mide cada lado?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Perímetro = suma de los tres lados</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 4: Entradas de Cine</h5>
+                        <p class="text-gray-200">Las entradas de adulto cuestan $12 y las de niño $8. Se vendieron 50 entradas por $520. ¿Cuántas entradas de cada tipo se vendieron?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Usa el número total de entradas y el costo total</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 5: Tiempo de Viaje</h5>
+                        <p class="text-gray-200">Un tren viaja 240 km en 3 horas. Si mantiene la misma velocidad, ¿cuánto tiempo tardará en recorrer 400 km?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Primero encuentra la velocidad, luego calcula el tiempo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 6: Ahorro Mensual</h5>
+                        <p class="text-gray-200">Pedro ahorra cada mes el triple de lo que gasta en entretenimiento. Si entre ahorro y entretenimiento destina $200 mensuales, ¿cuánto ahorra?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Si x es el gasto en entretenimiento, ¿cuánto es el ahorro?</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Resolución con Una Variable</h4>
-                    <p class="text-gray-200">Ejemplo: "La suma de las edades de un padre y su hijo es 56 años. El padre es 30 años mayor que el hijo. ¿Qué edad tienen?"</p>
-                    <div class="mt-2 text-gray-300">
-                        <p>Sea x = edad del hijo</p>
-                        <p>Entonces x + 30 = edad del padre</p>
-                        <p class="text-teal-300 mt-1">x + (x + 30) = 56</p>
-                        <p class="text-teal-300">2x + 30 = 56</p>
-                        <p class="text-teal-300">2x = 26</p>
-                        <p class="text-teal-300">x = 13 años (hijo)</p>
-                        <p class="text-teal-300">x + 30 = 43 años (padre)</p>
+                <div class="mt-4 bg-blue-900 bg-opacity-30 p-3 rounded-lg border border-blue-500">
+                    <h5 class="text-lg font-medium text-blue-300 mb-2">📋 Lista de Verificación</h5>
+                    <p class="text-gray-200">Antes de resolver cada ejercicio:</p>
+                    <ol class="mt-2 list-decimal pl-5 text-gray-300 text-sm">
+                        <li>¿Entiendo completamente qué me piden encontrar?</li>
+                        <li>¿He identificado todas las cantidades conocidas?</li>
+                        <li>¿Puedo expresar todas las cantidades en términos de una variable?</li>
+                        <li>¿La ecuación refleja correctamente la situación del problema?</li>
+                        <li>¿Mi respuesta tiene sentido en el contexto del problema?</li>
+                    </ol>
+                </div>
+                
+                <div class="mt-4 bg-green-900 bg-opacity-30 p-3 rounded-lg border border-green-500">
+                    <h5 class="text-lg font-medium text-green-300 mb-2">🎓 Tipos de Problemas Comunes</h5>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mt-2 text-sm">
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded text-center">Números</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded text-center">Dinero</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded text-center">Geometría</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded text-center">Mezclas</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded text-center">Movimiento</div>
+                        <div class="bg-slate-600 bg-opacity-50 p-2 rounded text-center">Porcentajes</div>
                     </div>
                 </div>
             </div>
