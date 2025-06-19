@@ -58,6 +58,9 @@
                 <a href="{{ route('clase3.index') }}" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center">
                     Ir a Clase 3
                 </a>
+                <a href="{{ route('claseformato.index') }}" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center">
+                    Ir a Formato de Clase
+                </a>
             </div>
         </div>
     </div>
