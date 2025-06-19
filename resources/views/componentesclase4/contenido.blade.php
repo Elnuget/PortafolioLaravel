@@ -11,7 +11,7 @@
             Módulo 3: Proyección Temporal
         </button>
         <button class="module-button px-4 py-2 rounded-lg text-white font-medium text-sm" data-module="module4">
-            Módulo 4: Problemas Complejos
+            Módulo 4: Casos Avanzados
         </button>
         <button class="module-button px-4 py-2 rounded-lg text-white font-medium text-sm" data-module="module5">
             Módulo 5: Estrategias
@@ -567,72 +567,19 @@
 
         <!-- Módulo 4 -->
         <div id="module4" class="module-content">
-            <h3 class="text-2xl font-bold text-teal-300 mb-4">Problemas de Edades Complejos</h3>
+            <h3 class="text-2xl font-bold text-teal-300 mb-4">Problemas de Edades Avanzados</h3>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Problemas con Múltiples Personas</h4>
-                    <p class="text-gray-200">Para problemas con más de dos personas:</p>
-                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "La suma de las edades de Ana, Bruno y Carlos es 50 años. Ana tiene el doble de edad que Bruno, y Carlos tiene 5 años más que Ana. ¿Qué edad tiene cada uno?"</p>
-                        <p class="text-gray-300 mt-2">Sea x = edad de Bruno</p>
-                        <p class="text-gray-300">Entonces 2x = edad de Ana</p>
-                        <p class="text-gray-300">Y 2x + 5 = edad de Carlos</p>
-                        <p class="text-teal-300 mt-1">x + 2x + (2x + 5) = 50</p>
-                        <p class="text-teal-300">5x + 5 = 50</p>
-                        <p class="text-teal-300">5x = 45</p>
-                        <p class="text-teal-300">x = 9 años (Bruno)</p>
-                        <p class="text-teal-300">2x = 18 años (Ana)</p>
-                        <p class="text-teal-300">2x + 5 = 23 años (Carlos)</p>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Proporciones y Razones</h4>
-                    <p class="text-gray-200">Cuando las edades se relacionan por proporciones:</p>
-                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "La edad de Luis es a la edad de María como 2 es a 3. Si la suma de sus edades es 35 años, ¿qué edad tiene cada uno?"</p>
-                        <p class="text-gray-300 mt-2">Si x = edad de Luis, entonces:</p>
-                        <p class="text-gray-300">x : y = 2 : 3</p>
-                        <p class="text-gray-300">y = (3/2)x</p>
-                        <p class="text-teal-300 mt-1">x + (3/2)x = 35</p>
-                        <p class="text-teal-300">(5/2)x = 35</p>
-                        <p class="text-teal-300">x = 14 años (Luis)</p>
-                        <p class="text-teal-300">(3/2)x = 21 años (María)</p>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Casos Especiales</h4>
-                    <p class="text-gray-200">Algunos problemas implican duplicar o triplicar edades:</p>
-                    <div class="mt-2 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "Dentro de 8 años, la edad de Roberto será el triple de la que tenía hace 4 años. ¿Cuál es su edad actual?"</p>
-                        <p class="text-gray-300 mt-2">Sea x = edad actual de Roberto</p>
-                        <p class="text-teal-300 mt-1">(x + 8) = 3(x - 4)</p>
-                        <p class="text-teal-300">x + 8 = 3x - 12</p>
-                        <p class="text-teal-300">20 = 2x</p>
-                        <p class="text-teal-300">x = 10 años</p>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Sistemas de Ecuaciones</h4>
-                    <p class="text-gray-200">Para problemas más complejos, podemos usar sistemas:</p>
-                    <div class="mt-2 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "La suma de las edades de una madre y su hija es 51 años. Dentro de 9 años, la edad de la madre será el doble de la edad de la hija. ¿Qué edad tiene cada una?"</p>
-                        <p class="text-gray-300 mt-2">Sea x = edad actual de la madre</p>
-                        <p class="text-gray-300">Sea y = edad actual de la hija</p>
-                        <p class="text-teal-300 mt-1">x + y = 51</p>
-                        <p class="text-teal-300">(x + 9) = 2(y + 9)</p>
-                        <p class="text-teal-300">x + 9 = 2y + 18</p>
-                        <p class="text-teal-300">x = 2y + 9</p>
-                        <p class="text-teal-300">2y + 9 + y = 51</p>
-                        <p class="text-teal-300">3y = 42</p>
-                        <p class="text-teal-300">y = 14 años (hija)</p>
-                        <p class="text-teal-300">x = 37 años (madre)</p>
-                    </div>
-                </div>
+                @include('componentesclase4.modulo4.multiple-personas')
+                @include('componentesclase4.modulo4.proporciones-razones')
+                @include('componentesclase4.modulo4.casos-especiales')
+                @include('componentesclase4.modulo4.sistemas-ecuaciones')
+                @include('componentesclase4.modulo4.problemas-complejos')
+                @include('componentesclase4.modulo4.estrategias-avanzadas')
             </div>
+            
+            <!-- Sección de Ejercicios Avanzados -->
+            @include('componentesclase4.modulo4.ejercicios-avanzados')
         </div>
 
         <!-- Módulo 5 -->
