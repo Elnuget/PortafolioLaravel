@@ -13,4 +13,4 @@ php artisan cache:clear
 principal a modificar por componentes: Contenido sidebar.
 comando unico laravel12: php artisan optimize:clear
 
-dividir cada modulo en componentes, conservar los estilos y hacerlo tipo presentacion peusto que servira para guiar la clase para mis estudiantes.
+Divide cada módulo en componentes, manteniendo los estilos. Hazlo tipo presentación, ya que servirá para guiar la clase de mis estudiantes.

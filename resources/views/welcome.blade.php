@@ -64,6 +64,10 @@
                 <a href="{{ route('clase4.index') }}" class="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center">
                     Ir a Clase 4: Ecuaciones
                 </a>
+                <a href="{{ route('clase5.index') }}" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg text-center flex items-center justify-center">
+                    <span class="mr-2">⚛️</span>
+                    Ir a Clase 5: Física
+                </a>
             </div>
         </div>
     </div>
