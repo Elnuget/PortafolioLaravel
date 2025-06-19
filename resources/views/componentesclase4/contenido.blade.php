@@ -363,57 +363,204 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Edades en el Futuro</h4>
-                    <p class="text-gray-200">Para calcular edades "dentro de X años", sumamos X a la edad actual.</p>
-                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "Dentro de 6 años, la edad de Ana será el doble de la edad de Beto. Si Ana tiene 5 años más que Beto, ¿qué edad tienen ahora?"</p>
-                        <p class="text-gray-300 mt-2">Sea x = edad actual de Beto</p>
-                        <p class="text-gray-300">Entonces x + 5 = edad actual de Ana</p>
-                        <p class="text-teal-300 mt-1">(x + 5 + 6) = 2(x + 6)</p>
-                        <p class="text-teal-300">x + 11 = 2x + 12</p>
-                        <p class="text-teal-300">-x = 1</p>
-                        <p class="text-teal-300">x = -1 (no tiene sentido)</p>
-                        <p class="text-gray-300 mt-1">Este problema no tiene solución lógica</p>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Edades en el Pasado</h4>
-                    <p class="text-gray-200">Para calcular edades "hace X años", restamos X a la edad actual.</p>
-                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "Hace 5 años, la edad de Pablo era la tercera parte de su edad actual. ¿Cuál es su edad actual?"</p>
-                        <p class="text-gray-300 mt-2">Sea x = edad actual de Pablo</p>
-                        <p class="text-teal-300 mt-1">x - 5 = x/3</p>
-                        <p class="text-teal-300">3(x - 5) = x</p>
-                        <p class="text-teal-300">3x - 15 = x</p>
-                        <p class="text-teal-300">2x = 15</p>
-                        <p class="text-teal-300">x = 7.5 años</p>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Cambios de Relaciones</h4>
-                    <p class="text-gray-200">Las relaciones entre edades pueden cambiar con el tiempo:</p>
-                    <div class="mt-2 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
-                        <p class="text-cyan-100">Ejemplo: "Hoy, Carmen tiene el doble de la edad de David. Dentro de 10 años, Carmen tendrá solo 5 años más que David. ¿Qué edades tienen ahora?"</p>
-                        <p class="text-gray-300 mt-2">Sea x = edad actual de David</p>
-                        <p class="text-gray-300">Entonces 2x = edad actual de Carmen</p>
-                        <p class="text-teal-300 mt-1">(2x + 10) = (x + 10) + 5</p>
-                        <p class="text-teal-300">2x + 10 = x + 15</p>
-                        <p class="text-teal-300">x = 5 años (David)</p>
-                        <p class="text-teal-300">2x = 10 años (Carmen)</p>
-                    </div>
-                </div>
-                
-                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
-                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Múltiples Condiciones Temporales</h4>
-                    <p class="text-gray-200">Algunos problemas combinan condiciones en diferentes momentos:</p>
-                    <ul class="mt-2 space-y-1 text-gray-300">
-                        <li>Relación actual entre edades</li>
-                        <li>Relación en el futuro</li>
-                        <li>Relación en el pasado</li>
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Conceptos Fundamentales</h4>
+                    <p class="text-gray-200">En problemas de edades con tiempo, recuerda:</p>
+                    <ul class="mt-3 space-y-2 list-disc pl-5 text-gray-300">
+                        <li><strong>La diferencia de edad es constante:</strong> Si Ana es 5 años mayor que Luis hoy, será 5 años mayor siempre</li>
+                        <li><strong>Todos envejecen igual:</strong> En 10 años, todos tendrán 10 años más</li>
+                        <li><strong>Las proporciones cambian:</strong> Si hoy A tiene el doble que B, en el futuro puede no ser así</li>
                     </ul>
-                    <p class="mt-2 text-gray-200">El secreto está en escribir todas las condiciones usando la misma variable base.</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-2 rounded text-sm">
+                        <p class="text-teal-300">Clave: Define bien el momento temporal de referencia</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Tabla de Referencia Temporal</h4>
+                    <p class="text-gray-200">Organiza la información en una tabla:</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <table class="w-full text-sm text-gray-300">
+                            <thead class="text-teal-300">
+                                <tr>
+                                    <th class="text-left p-1">Persona</th>
+                                    <th class="text-left p-1">Hace X años</th>
+                                    <th class="text-left p-1">Ahora</th>
+                                    <th class="text-left p-1">En X años</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="p-1">Persona A</td>
+                                    <td class="p-1 text-yellow-300">a - x</td>
+                                    <td class="p-1 text-teal-300">a</td>
+                                    <td class="p-1 text-cyan-300">a + x</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-1">Persona B</td>
+                                    <td class="p-1 text-yellow-300">b - x</td>
+                                    <td class="p-1 text-teal-300">b</td>
+                                    <td class="p-1 text-cyan-300">b + x</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Ejemplo: Edades Futuras</h4>
+                    <p class="text-gray-200">Problema: "Dentro de 8 años, María tendrá el triple de la edad de su hijo. Si ahora María tiene 32 años, ¿qué edad tiene su hijo actualmente?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Paso 1: Organizar datos</p>
+                        <p class="text-gray-300">• María ahora: 32 años</p>
+                        <p class="text-gray-300">• Hijo ahora: x años</p>
+                        <p class="text-cyan-100 mt-2">Paso 2: Proyección futura (dentro de 8 años)</p>
+                        <p class="text-gray-300">• María: 32 + 8 = 40 años</p>
+                        <p class="text-gray-300">• Hijo: x + 8 años</p>
+                        <p class="text-cyan-100 mt-2">Paso 3: Plantear ecuación</p>
+                        <p class="text-teal-300">40 = 3(x + 8)</p>
+                        <p class="text-teal-300">40 = 3x + 24</p>
+                        <p class="text-teal-300">16 = 3x</p>
+                        <p class="text-teal-300">x = 5.33 años ≈ 5 años y 4 meses</p>
+                        <p class="text-cyan-100 mt-2">Verificación: En 8 años: María 40, hijo 13.33 → 40 ≈ 3(13.33) ✓</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Ejemplo: Edades Pasadas</h4>
+                    <p class="text-gray-200">Problema: "Hace 5 años, Pedro tenía la mitad de la edad que tiene ahora Ana. Si Pedro tiene actualmente 25 años, ¿qué edad tiene Ana?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Paso 1: Identificar datos</p>
+                        <p class="text-gray-300">• Pedro ahora: 25 años</p>
+                        <p class="text-gray-300">• Ana ahora: x años</p>
+                        <p class="text-cyan-100 mt-2">Paso 2: Situación hace 5 años</p>
+                        <p class="text-gray-300">• Pedro hace 5 años: 25 - 5 = 20 años</p>
+                        <p class="text-gray-300">• Ana hace 5 años: x - 5 años</p>
+                        <p class="text-cyan-100 mt-2">Paso 3: Ecuación</p>
+                        <p class="text-gray-300">"Pedro tenía la mitad de la edad que tiene ahora Ana"</p>
+                        <p class="text-teal-300">20 = x/2</p>
+                        <p class="text-teal-300">x = 40 años</p>
+                        <p class="text-cyan-100 mt-2">Verificación: Hace 5 años Pedro 20, Ana 35 → 20 = 40/2 ✓</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Ejemplo: Cambio de Proporciones</h4>
+                    <p class="text-gray-200">Problema: "Actualmente, la edad de Carmen es el doble de la de Diego. Dentro de 12 años, Carmen tendrá solo 8 años más que Diego. ¿Qué edades tienen ahora?"</p>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-3 rounded-lg">
+                        <p class="text-cyan-100">Paso 1: Variables</p>
+                        <p class="text-gray-300">• Diego ahora: x años</p>
+                        <p class="text-gray-300">• Carmen ahora: 2x años (doble)</p>
+                        <p class="text-cyan-100 mt-2">Paso 2: Dentro de 12 años</p>
+                        <p class="text-gray-300">• Diego: x + 12 años</p>
+                        <p class="text-gray-300">• Carmen: 2x + 12 años</p>
+                        <p class="text-cyan-100 mt-2">Paso 3: Nueva condición</p>
+                        <p class="text-gray-300">"Carmen tendrá 8 años más que Diego"</p>
+                        <p class="text-teal-300">(2x + 12) = (x + 12) + 8</p>
+                        <p class="text-teal-300">2x + 12 = x + 20</p>
+                        <p class="text-teal-300">x = 8 años</p>
+                        <p class="text-cyan-100 mt-2">Respuesta:</p>
+                        <p class="text-gray-300">Diego: 8 años, Carmen: 16 años</p>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                    <h4 class="text-xl font-semibold text-cyan-200 mb-2">Estrategias de Resolución</h4>
+                    <p class="text-gray-200">Metodología para problemas temporales:</p>
+                    <ol class="mt-3 space-y-2 list-decimal pl-5 text-gray-300">
+                        <li><strong>Crea una tabla:</strong> Organiza personas vs tiempos</li>
+                        <li><strong>Define una variable:</strong> Generalmente la edad actual de una persona</li>
+                        <li><strong>Expresa otras edades:</strong> En términos de tu variable</li>
+                        <li><strong>Aplica las condiciones temporales:</strong> Suma/resta años según corresponda</li>
+                        <li><strong>Plantea la ecuación:</strong> Usando la condición dada</li>
+                        <li><strong>Verifica en ambos tiempos:</strong> Actual y proyectado</li>
+                    </ol>
+                    <div class="mt-3 bg-slate-600 bg-opacity-30 p-2 rounded text-sm">
+                        <p class="text-yellow-300">⚠️ Atención: Las edades deben ser números positivos y razonables</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sección de Ejercicios Especializados -->
+            <div class="mt-6 bg-slate-800 bg-opacity-60 p-5 rounded-xl">
+                <h4 class="text-xl font-semibold text-yellow-300 mb-3">🎯 Ejercicios de Edades Temporales</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 1: Proyección Simple</h5>
+                        <p class="text-gray-200">Dentro de 10 años, Laura tendrá 35 años. ¿Cuántos años tenía hace 5 años?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Calcula primero su edad actual</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 2: Relación Futura</h5>
+                        <p class="text-gray-200">Dentro de 6 años, Roberto tendrá el triple de la edad que tiene ahora su hermana Sofía. Si Roberto tiene actualmente 18 años, ¿qué edad tiene Sofía?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: ¿Cuántos años tendrá Roberto dentro de 6 años?</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 3: Suma de Edades</h5>
+                        <p class="text-gray-200">La suma de las edades de dos hermanos es 28 años. Dentro de 4 años, el mayor tendrá el doble de la edad del menor. ¿Qué edades tienen ahora?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Si x es la edad del menor, ¿cuál es la del mayor?</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 4: Pasado vs Presente</h5>
+                        <p class="text-gray-200">Hace 8 años, la edad de Julia era un tercio de la que tiene ahora. ¿Cuál es la edad actual de Julia?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Si ahora tiene x años, hace 8 años tenía (x-8) años</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 5: Cambio de Proporciones</h5>
+                        <p class="text-gray-200">Hoy, Andrés tiene 4 veces la edad de su hijo. Dentro de 20 años, tendrá solo el doble. ¿Qué edades tienen actualmente?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: La diferencia de edad siempre es la misma</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-700 bg-opacity-40 p-4 rounded-lg">
+                        <h5 class="text-lg font-medium text-cyan-200 mb-2">Ejercicio 6: Tres Momentos</h5>
+                        <p class="text-gray-200">Hace 5 años, Elena tenía 20 años. Dentro de 7 años, tendrá el doble de la edad actual de su primo. ¿Qué edad tiene actualmente su primo?</p>
+                        <div class="mt-2 text-sm text-gray-400">
+                            <p>Pista: Primero calcula la edad actual de Elena</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4 bg-purple-900 bg-opacity-30 p-3 rounded-lg border border-purple-500">
+                    <h5 class="text-lg font-medium text-purple-300 mb-2">📊 Plantilla de Organización</h5>
+                    <p class="text-gray-200">Para cada problema, completa esta tabla:</p>
+                    <div class="mt-2 bg-slate-700 bg-opacity-50 p-3 rounded text-sm">
+                        <div class="grid grid-cols-4 gap-2 text-center">
+                            <div class="font-bold text-teal-300">Persona</div>
+                            <div class="font-bold text-yellow-300">Hace __ años</div>
+                            <div class="font-bold text-green-300">AHORA</div>
+                            <div class="font-bold text-blue-300">En __ años</div>
+                        </div>
+                        <div class="grid grid-cols-4 gap-2 text-center mt-2 text-gray-300">
+                            <div>A:</div><div>a - n</div><div>a</div><div>a + m</div>
+                        </div>
+                        <div class="grid grid-cols-4 gap-2 text-center text-gray-300">
+                            <div>B:</div><div>b - n</div><div>b</div><div>b + m</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4 bg-red-900 bg-opacity-30 p-3 rounded-lg border border-red-500">
+                    <h5 class="text-lg font-medium text-red-300 mb-2">🚫 Errores Frecuentes</h5>
+                    <ul class="mt-2 space-y-1 text-gray-300 text-sm">
+                        <li>• Confundir "hace X años" con "dentro de X años"</li>
+                        <li>• No mantener consistencia en el punto de referencia temporal</li>
+                        <li>• Olvidar que la diferencia de edad es constante</li>
+                        <li>• No verificar que las edades sean lógicas en todos los tiempos</li>
+                        <li>• Mezclar las condiciones de diferentes momentos</li>
+                    </ul>
                 </div>
             </div>
         </div>
