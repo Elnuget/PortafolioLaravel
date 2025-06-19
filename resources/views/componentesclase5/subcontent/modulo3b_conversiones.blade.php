@@ -294,88 +294,299 @@
         </div>
     </div>
     
-    <!-- Sistemas de Unidades -->
-    <div class="bg-gradient-to-r from-green-900/30 to-teal-900/30 p-6 rounded-xl border border-green-500/30 mb-8">
+    <!-- Tabla Completa de Factores de Conversión -->
+    <div class="bg-gradient-to-r from-indigo-900/30 to-blue-900/30 p-6 rounded-xl border border-indigo-500/30 mb-8">
         <h4 class="text-2xl font-bold text-white mb-6 text-center flex items-center justify-center">
-            <svg class="w-7 h-7 mr-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            <svg class="w-7 h-7 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h2a2 2 0 002-2z"></path>
             </svg>
-            Sistemas de Unidades
+            📊 Tabla de Factores de Conversión
         </h4>
         
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <!-- Sistema SI -->
-            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700">
-                <h5 class="text-xl font-bold text-white mb-4 flex items-center">
-                    <span class="text-2xl mr-3">🌍</span>
-                    Sistema SI
-                </h5>
-                <p class="text-green-300 text-sm mb-3">Sistema Internacional (métrico)</p>
-                <div class="space-y-2 text-sm">
-                    <div class="physics-unit bg-green-700">Longitud: metro (m)</div>
-                    <div class="physics-unit bg-green-700">Masa: kilogramo (kg)</div>
-                    <div class="physics-unit bg-green-700">Tiempo: segundo (s)</div>
-                    <div class="physics-unit bg-green-700">Corriente: ampere (A)</div>
-                    <div class="physics-unit bg-green-700">Temperatura: kelvin (K)</div>
-                </div>
-            </div>
-            
-            <!-- Sistema Imperial -->
-            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700">
-                <h5 class="text-xl font-bold text-white mb-4 flex items-center">
-                    <span class="text-2xl mr-3">🇺🇸</span>
-                    Sistema Imperial
-                </h5>
-                <p class="text-blue-300 text-sm mb-3">Sistema Inglés (EE.UU.)</p>
-                <div class="space-y-2 text-sm">
-                    <div class="physics-unit bg-blue-700">Longitud: pie (ft)</div>
-                    <div class="physics-unit bg-blue-700">Masa: libra (lb)</div>
-                    <div class="physics-unit bg-blue-700">Tiempo: segundo (s)</div>
-                    <div class="physics-unit bg-blue-700">Temperatura: °F</div>
-                    <div class="physics-unit bg-blue-700">Volumen: galón (gal)</div>
-                </div>
-            </div>
-            
-            <!-- Sistema CGS -->
-            <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg p-6 border border-gray-700">
-                <h5 class="text-xl font-bold text-white mb-4 flex items-center">
-                    <span class="text-2xl mr-3">🔬</span>
-                    Sistema CGS
-                </h5>
-                <p class="text-purple-300 text-sm mb-3">Centímetro-Gramo-Segundo</p>
-                <div class="space-y-2 text-sm">
-                    <div class="physics-unit bg-purple-700">Longitud: centímetro (cm)</div>
-                    <div class="physics-unit bg-purple-700">Masa: gramo (g)</div>
-                    <div class="physics-unit bg-purple-700">Tiempo: segundo (s)</div>
-                    <div class="physics-unit bg-purple-700">Fuerza: dina</div>
-                    <div class="physics-unit bg-purple-700">Energía: ergio</div>
+        <div class="bg-indigo-900/20 p-4 rounded-lg border-l-4 border-indigo-500 mb-6">
+            <p class="text-indigo-200 font-bold mb-2">💡 Uso de la tabla:</p>
+            <p class="text-gray-300 text-sm">
+                Esta tabla contiene todos los factores de conversión necesarios para resolver los ejercicios. 
+                Utiliza estos valores exactos para obtener resultados precisos.
+            </p>
+        </div>
+        
+        <!-- Conversiones de Longitud -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">📏</span>
+                Longitud
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg overflow-hidden">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-0">
+                    <div class="bg-blue-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-blue-300 font-bold text-sm">Sistema Métrico</p>
+                    </div>
+                    <div class="bg-blue-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-blue-300 font-bold text-sm">Sistema Imperial</p>
+                    </div>
+                    <div class="bg-blue-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-blue-300 font-bold text-sm">Conversiones Especiales</p>
+                    </div>
+                    <div class="bg-blue-700/30 p-3 border-b border-gray-600">
+                        <p class="text-blue-300 font-bold text-sm">Equivalencias</p>
+                    </div>
+                    
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 km = 1000 m</p>
+                        <p class="text-white text-sm">1 m = 100 cm</p>
+                        <p class="text-white text-sm">1 cm = 10 mm</p>
+                        <p class="text-white text-sm">1 m = 10⁶ μm</p>
+                    </div>
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 mi = 1609 m</p>
+                        <p class="text-white text-sm">1 ft = 0.3048 m</p>
+                        <p class="text-white text-sm">1 in = 2.54 cm</p>
+                        <p class="text-white text-sm">1 yd = 3 ft</p>
+                    </div>
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 Å = 10⁻¹⁰ m</p>
+                        <p class="text-white text-sm">1 ly = 9.46×10¹⁵ m</p>
+                        <p class="text-white text-sm">1 pc = 3.26 ly</p>
+                    </div>
+                    <div class="p-3 border-b border-gray-600">
+                        <p class="text-white text-sm">1 m = 3.281 ft</p>
+                        <p class="text-white text-sm">1 km = 0.621 mi</p>
+                        <p class="text-white text-sm">1 in = 25.4 mm</p>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <!-- Tabla de conversiones entre sistemas -->
-        <div class="mt-6 bg-gray-800/30 p-5 rounded-lg border border-green-500/30">
-            <h5 class="text-lg font-bold text-white mb-4 text-center">📊 Conversiones Entre Sistemas</h5>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                <div class="bg-gray-700/50 p-3 rounded">
-                    <h6 class="text-green-300 font-bold mb-2">SI ↔ Imperial</h6>
-                    <ul class="space-y-1 text-gray-300">
-                        <li>1 m = 3.281 ft</li>
-                        <li>1 kg = 2.205 lb</li>
-                        <li>1 L = 0.264 gal</li>
-                        <li>1 N = 0.225 lbf</li>
-                    </ul>
-                </div>
-                <div class="bg-gray-700/50 p-3 rounded">
-                    <h6 class="text-purple-300 font-bold mb-2">SI ↔ CGS</h6>
-                    <ul class="space-y-1 text-gray-300">
-                        <li>1 m = 100 cm</li>
-                        <li>1 kg = 1000 g</li>
-                        <li>1 N = 10⁵ dina</li>
-                        <li>1 J = 10⁷ ergio</li>
-                    </ul>
+        <!-- Conversiones de Tiempo -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">⏰</span>
+                Tiempo
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg overflow-hidden">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-0">
+                    <div class="bg-green-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-green-300 font-bold text-sm">Básicas</p>
+                    </div>
+                    <div class="bg-green-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-green-300 font-bold text-sm">Largas</p>
+                    </div>
+                    <div class="bg-green-700/30 p-3 border-b border-gray-600">
+                        <p class="text-green-300 font-bold text-sm">Cortas</p>
+                    </div>
+                    
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 min = 60 s</p>
+                        <p class="text-white text-sm">1 h = 60 min</p>
+                        <p class="text-white text-sm">1 h = 3600 s</p>
+                    </div>
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 día = 24 h</p>
+                        <p class="text-white text-sm">1 sem = 7 días</p>
+                        <p class="text-white text-sm">1 año = 365.25 días</p>
+                        <p class="text-white text-sm">1 año = 8760 h</p>
+                    </div>
+                    <div class="p-3 border-b border-gray-600">
+                        <p class="text-white text-sm">1 ms = 10⁻³ s</p>
+                        <p class="text-white text-sm">1 μs = 10⁻⁶ s</p>
+                        <p class="text-white text-sm">1 ns = 10⁻⁹ s</p>
+                    </div>
                 </div>
             </div>
+        </div>
+        
+        <!-- Conversiones de Masa -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">⚖️</span>
+                Masa
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg overflow-hidden">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-0">
+                    <div class="bg-red-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-red-300 font-bold text-sm">Sistema Métrico</p>
+                    </div>
+                    <div class="bg-red-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-red-300 font-bold text-sm">Sistema Imperial</p>
+                    </div>
+                    <div class="bg-red-700/30 p-3 border-b border-gray-600">
+                        <p class="text-red-300 font-bold text-sm">Especiales</p>
+                    </div>
+                    
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 kg = 1000 g</p>
+                        <p class="text-white text-sm">1 g = 1000 mg</p>
+                        <p class="text-white text-sm">1 ton = 1000 kg</p>
+                    </div>
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 lb = 453.6 g</p>
+                        <p class="text-white text-sm">1 oz = 28.35 g</p>
+                        <p class="text-white text-sm">1 ton(US) = 907.2 kg</p>
+                        <p class="text-white text-sm">1 slug = 14.59 kg</p>
+                    </div>
+                    <div class="p-3 border-b border-gray-600">
+                        <p class="text-white text-sm">1 kg = 2.205 lb</p>
+                        <p class="text-white text-sm">1 u = 1.66×10⁻²⁷ kg</p>
+                        <p class="text-white text-sm">1 ct = 0.2 g</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Conversiones de Volumen -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">📦</span>
+                Volumen
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg overflow-hidden">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-0">
+                    <div class="bg-purple-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-purple-300 font-bold text-sm">Sistema Métrico</p>
+                    </div>
+                    <div class="bg-purple-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-purple-300 font-bold text-sm">Sistema Imperial</p>
+                    </div>
+                    <div class="bg-purple-700/30 p-3 border-b border-gray-600">
+                        <p class="text-purple-300 font-bold text-sm">Equivalencias</p>
+                    </div>
+                    
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 m³ = 1000 L</p>
+                        <p class="text-white text-sm">1 L = 1000 mL</p>
+                        <p class="text-white text-sm">1 L = 1000 cm³</p>
+                        <p class="text-white text-sm">1 m³ = 10⁶ cm³</p>
+                    </div>
+                    <div class="p-3 border-r border-b border-gray-600">
+                        <p class="text-white text-sm">1 gal(US) = 3.785 L</p>
+                        <p class="text-white text-sm">1 qt = 0.946 L</p>
+                        <p class="text-white text-sm">1 pt = 0.473 L</p>
+                        <p class="text-white text-sm">1 fl oz = 29.57 mL</p>
+                    </div>
+                    <div class="p-3 border-b border-gray-600">
+                        <p class="text-white text-sm">1 L = 0.264 gal</p>
+                        <p class="text-white text-sm">1 m³ = 264.2 gal</p>
+                        <p class="text-white text-sm">1 L = 1.057 qt</p>
+                        <p class="text-white text-sm">1 bbl = 159 L</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Conversiones de Presión -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">🌡️</span>
+                Presión
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                    <div class="bg-orange-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-orange-300 font-bold text-sm">Unidades Comunes</p>
+                    </div>
+                    <div class="bg-orange-700/30 p-3 border-b border-gray-600">
+                        <p class="text-orange-300 font-bold text-sm">Equivalencias</p>
+                    </div>
+                    
+                    <div class="p-3 border-r border-gray-600">
+                        <p class="text-white text-sm">1 atm = 101,325 Pa</p>
+                        <p class="text-white text-sm">1 bar = 100,000 Pa</p>
+                        <p class="text-white text-sm">1 psi = 6895 Pa</p>
+                        <p class="text-white text-sm">1 mmHg = 133.3 Pa</p>
+                        <p class="text-white text-sm">1 torr = 1 mmHg</p>
+                    </div>
+                    <div class="p-3">
+                        <p class="text-white text-sm">1 atm = 14.7 psi</p>
+                        <p class="text-white text-sm">1 atm = 760 mmHg</p>
+                        <p class="text-white text-sm">1 bar = 14.5 psi</p>
+                        <p class="text-white text-sm">1 Pa = 1 N/m²</p>
+                        <p class="text-white text-sm">1 kPa = 1000 Pa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Conversiones de Energía y Potencia -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">⚡</span>
+                Energía y Potencia
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg overflow-hidden">
+                <div class="grid grid-cols-2 gap-0">
+                    <div class="bg-yellow-700/30 p-3 border-r border-b border-gray-600">
+                        <p class="text-yellow-300 font-bold text-sm">Energía</p>
+                    </div>
+                    <div class="bg-yellow-700/30 p-3 border-b border-gray-600">
+                        <p class="text-yellow-300 font-bold text-sm">Potencia</p>
+                    </div>
+                    
+                    <div class="p-3 border-r border-gray-600">
+                        <p class="text-white text-sm">1 kJ = 1000 J</p>
+                        <p class="text-white text-sm">1 MJ = 10⁶ J</p>
+                        <p class="text-white text-sm">1 cal = 4.184 J</p>
+                        <p class="text-white text-sm">1 kcal = 4184 J</p>
+                        <p class="text-white text-sm">1 BTU = 1055 J</p>
+                        <p class="text-white text-sm">1 kWh = 3.6 MJ</p>
+                        <p class="text-white text-sm">1 eV = 1.6×10⁻¹⁹ J</p>
+                    </div>
+                    <div class="p-3">
+                        <p class="text-white text-sm">1 kW = 1000 W</p>
+                        <p class="text-white text-sm">1 MW = 10⁶ W</p>
+                        <p class="text-white text-sm">1 hp = 746 W</p>
+                        <p class="text-white text-sm">1 BTU/h = 0.293 W</p>
+                        <p class="text-white text-sm">1 cal/s = 4.184 W</p>
+                        <p class="text-white text-sm">1 W = 1 J/s</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Conversiones de Temperatura -->
+        <div class="mb-6">
+            <h5 class="text-xl font-bold text-white mb-4 flex items-center">
+                <span class="text-2xl mr-3">🌡️</span>
+                Temperatura
+            </h5>
+            <div class="bg-gray-800/30 rounded-lg p-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-cyan-900/30 p-4 rounded border border-cyan-600/30">
+                        <h6 class="text-cyan-300 font-bold mb-2">Fórmulas de Conversión</h6>
+                        <div class="space-y-2 text-sm font-mono">
+                            <p class="text-white">°C = (°F - 32) × 5/9</p>
+                            <p class="text-white">°F = °C × 9/5 + 32</p>
+                            <p class="text-white">K = °C + 273.15</p>
+                            <p class="text-white">°R = °F + 459.67</p>
+                        </div>
+                    </div>
+                    <div class="bg-cyan-900/30 p-4 rounded border border-cyan-600/30">
+                        <h6 class="text-cyan-300 font-bold mb-2">Puntos de Referencia</h6>
+                        <div class="space-y-2 text-sm">
+                            <p class="text-white">Agua congela: 0°C = 32°F = 273K</p>
+                            <p class="text-white">Agua hierve: 100°C = 212°F = 373K</p>
+                            <p class="text-white">Cero absoluto: -273.15°C = 0K</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Notas importantes -->
+        <div class="bg-yellow-900/20 p-4 rounded-lg border border-yellow-500/30">
+            <h6 class="text-yellow-300 font-bold mb-3 flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.99-.833-2.76 0L3.054 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+                </svg>
+                📝 Notas Importantes
+            </h6>
+            <ul class="text-gray-300 text-sm space-y-1 list-disc pl-6">
+                <li>Los valores mostrados son exactos o con suficiente precisión para los ejercicios</li>
+                <li>Para conversiones de temperatura, usa las fórmulas específicas (no son factores multiplicativos)</li>
+                <li>1 atm = presión atmosférica estándar al nivel del mar</li>
+                <li>1 hp (caballo de fuerza) = 746 W exactamente</li>
+                <li>1 cal = caloría termoquímica (4.184 J exactamente)</li>
+            </ul>
         </div>
     </div>
     
