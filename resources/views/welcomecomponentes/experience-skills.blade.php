@@ -8,7 +8,7 @@
     <div class="max-w-6xl mx-auto relative z-10">
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-2xl animate-fade-in">
-                <span class="bg-gradient-to-r from-red-400 to-red-600 bg-clip-text text-transparent">💼</span>
+                <span class="">💼</span>
                 Experiencia Profesional
             </h2>
             <div class="w-24 h-1 bg-gradient-to-r from-red-500 to-red-700 mx-auto rounded-full mb-4"></div>
@@ -168,11 +168,11 @@
                             <div class="text-gray-400 text-sm">Tecnologías</div>
                         </div>
                         <div class="group/stat">
-                            <div class="text-2xl font-bold text-white mb-1 group-hover/stat:text-blue-400 transition-colors">3</div>
+                            <div class="text-2xl font-bold text-white mb-1 group-hover/stat:text-blue-400 transition-colors">6+</div>
                             <div class="text-gray-400 text-sm">Proyectos Activos</div>
                         </div>
                         <div class="group/stat">
-                            <div class="text-2xl font-bold text-white mb-1 group-hover/stat:text-green-400 transition-colors">5+</div>
+                            <div class="text-2xl font-bold text-white mb-1 group-hover/stat:text-green-400 transition-colors">2+</div>
                             <div class="text-gray-400 text-sm">Años Exp.</div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                         </div>
                         <div class="flex items-center justify-center space-x-2">
                             <span class="w-2 h-2 bg-red-500 rounded-full"></span>
-                            <span class="text-gray-400 text-xs">2018 - 2021</span>
+                            <span class="text-gray-400 text-xs">2022 - 2025</span>
                             <span class="w-2 h-2 bg-red-500 rounded-full"></span>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                         </div>
                         <div class="flex items-center justify-center space-x-2">
                             <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
-                            <span class="text-gray-400 text-xs">2015 - 2020</span>
+                            <span class="text-gray-400 text-xs">2018 - 2023</span>
                             <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                         </div>
                         <div class="flex items-center justify-center space-x-2">
                             <span class="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></span>
-                            <span class="text-gray-400 text-xs">2023 - Presente</span>
+                            <span class="text-gray-400 text-xs">2024 - Presente</span>
                             <span class="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></span>
                         </div>
                     </div>
