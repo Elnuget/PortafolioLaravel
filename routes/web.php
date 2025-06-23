@@ -8,10 +8,13 @@ use App\Http\Controllers\ClaseFormatoController;
 use App\Http\Controllers\Clase4Controller;
 use App\Http\Controllers\Clase5Controller;
 use App\Http\Controllers\Clase6Controller;
+use App\Http\Controllers\ClasesController;
 
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
+
+Route::get('/clases', [ClasesController::class, 'index'])->name('clases.index');
 
 Route::get('/clase1', [Clase1Controller::class, 'index'])->name('clase1.index');
 Route::get('/clase2', [Clase2Controller::class, 'index'])->name('clase2.index');
