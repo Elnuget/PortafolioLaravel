@@ -10,8 +10,8 @@
     <div class="mb-8 relative z-10">
         <!-- Improved Profile Image with Animation -->
         <div class="relative inline-block mb-6">
-            <div class="w-40 h-40 bg-gradient-to-br from-red-500 via-red-600 to-red-800 rounded-full mx-auto flex items-center justify-center text-6xl shadow-2xl border-4 border-red-500/30 hover:scale-105 transition-all duration-300 animate-pulse">
-                👨‍💻
+            <div class="w-40 h-40 rounded-full mx-auto shadow-2xl border-4 border-red-500/30 hover:scale-105 transition-all duration-300 overflow-hidden">
+                <img src="{{ asset('perfil.jpg') }}" alt="Carlos Angulo Pizarro" class="w-full h-full object-cover">
             </div>
             <!-- Decorative Ring -->
             <div class="absolute inset-0 w-40 h-40 rounded-full border-2 border-red-400/20 animate-spin-slow mx-auto"></div>
