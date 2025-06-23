@@ -8,13 +8,133 @@
     <div class="container mx-auto px-6 py-20">
         <!-- Header -->
         <div class="text-center mb-16">
-            <h1 class="text-6xl font-bold mb-6 animate-fade-in">
-                🎓 Mi Portafolio de Matemáticas y Física
-            </h1>
-            <p class="text-xl text-red-100 max-w-3xl mx-auto leading-relaxed">
-                Bienvenido a mi portafolio académico especializado en Matemáticas y Física, construido con Laravel y Tailwind CSS. 
-                Aquí encontrarás una colección completa de mis trabajos en razonamiento numérico, ecuaciones, y física fundamental.
+            <div class="mb-8">
+                <div class="w-32 h-32 bg-gradient-to-r from-red-500 to-red-700 rounded-full mx-auto mb-6 flex items-center justify-center text-5xl">
+                    👨‍💻
+                </div>
+                <h1 class="text-6xl font-bold mb-2 animate-fade-in">
+                    Carlos Angulo Pizarro
+                </h1>
+                <h2 class="text-3xl font-semibold text-red-300 mb-6">
+                    🎓 Desarrollador de Software & Docente de Matemáticas y Física
+                </h2>
+            </div>
+            <p class="text-xl text-red-100 max-w-4xl mx-auto leading-relaxed mb-8">
+                Desarrollador web versátil con experiencia en <strong>PHP (Laravel y MySQL)</strong> y sólidos fundamentos en frontend y backend con <strong>Angular</strong>. 
+                Licenciado en Pedagogía mención Matemática y Física con Maestría en Pedagogía en Entornos Digitales.
             </p>
+            
+            <!-- Contact Info -->
+            <div class="flex flex-wrap justify-center gap-6 text-red-100">
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">📧</span>
+                    <a href="mailto:cangulo009@outlook.es" class="hover:text-white transition-colors">cangulo009@outlook.es</a>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">📱</span>
+                    <span>0983468115</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">📍</span>
+                    <span>Quito, Ecuador</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">💼</span>
+                    <a href="#" class="hover:text-white transition-colors">LinkedIn: Carlos Angulo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience & Skills Section -->
+        <div class="mb-20">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12 text-white">💼 Experiencia Profesional</h2>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+                    <!-- Current Projects -->
+                    <div class="bg-black/20 backdrop-blur-lg rounded-2xl p-8 border border-red-500/30">
+                        <h3 class="text-2xl font-bold mb-6 text-red-300">🚀 Proyectos Actuales (2024 - Presente)</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-red-500 pl-4">
+                                <h4 class="font-bold text-white">Eteria - Portafolio Personal</h4>
+                                <p class="text-red-100 text-sm">Marca personal con chatbots integrados</p>
+                            </div>
+                            <div class="border-l-4 border-red-500 pl-4">
+                                <h4 class="font-bold text-white">FEUE - Plataforma Educativa</h4>
+                                <p class="text-red-100 text-sm">Moodle en AWS Linux • <a href="https://capu.site/" class="text-red-300 hover:text-white">capu.site</a></p>
+                            </div>
+                            <div class="border-l-4 border-red-500 pl-4">
+                                <h4 class="font-bold text-white">Escleróptica - Sistema de Inventarios</h4>
+                                <p class="text-red-100 text-sm">3 sucursales en AWS • <a href="https://escleroptica.com/" class="text-red-300 hover:text-white">escleroptica.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Skills -->
+                    <div class="bg-black/20 backdrop-blur-lg rounded-2xl p-8 border border-red-500/30">
+                        <h3 class="text-2xl font-bold mb-6 text-red-300">⚡ Habilidades Técnicas</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-bold text-white mb-2">Backend</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">PHP Avanzado</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">Laravel</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">Python Avanzado</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">MySQL</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white mb-2">Frontend</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">HTML5 Avanzado</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">CSS3 Avanzado</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">Angular Intermedio</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white mb-2">Otros</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">AWS</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">Linux</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">Moodle</span>
+                                    <span class="bg-red-600/30 text-red-100 px-3 py-1 rounded-full text-sm">Excel Avanzado</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="bg-black/20 backdrop-blur-lg rounded-2xl p-8 border border-red-500/30 mb-16">
+                    <h3 class="text-2xl font-bold mb-6 text-red-300 text-center">🎓 Formación Académica</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-red-700 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <span class="text-2xl">💻</span>
+                            </div>
+                            <h4 class="font-bold text-white mb-2">Tecnología Superior</h4>
+                            <p class="text-red-100 text-sm">Desarrollo de Software</p>
+                            <p class="text-red-300 text-xs">ITS "VIDA NUEVA"</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-red-700 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <span class="text-2xl">📚</span>
+                            </div>
+                            <h4 class="font-bold text-white mb-2">Licenciatura</h4>
+                            <p class="text-red-100 text-sm">Pedagogía - Matemática y Física</p>
+                            <p class="text-red-300 text-xs">Universidad Central Del Ecuador</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-red-700 rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <span class="text-2xl">🎯</span>
+                            </div>
+                            <h4 class="font-bold text-white mb-2">Maestría</h4>
+                            <p class="text-red-100 text-sm">Pedagogía en Entornos Digitales</p>
+                            <p class="text-red-300 text-xs">UBE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Classes Grid -->
@@ -152,40 +272,66 @@
 
         <!-- Stats Section -->
         <div class="mt-20 text-center">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8 max-w-5xl mx-auto">
                 <div class="bg-black/20 backdrop-blur-lg rounded-xl p-6 border border-red-500/30">
-                    <div class="text-3xl font-bold text-white mb-2">5</div>
-                    <div class="text-red-100">Temas Matemáticos</div>
+                    <div class="text-3xl font-bold text-white mb-2">6+</div>
+                    <div class="text-red-100">Proyectos Activos</div>
                 </div>
                 <div class="bg-black/20 backdrop-blur-lg rounded-xl p-6 border border-red-500/30">
-                    <div class="text-3xl font-bold text-white mb-2">1</div>
-                    <div class="text-red-100">Tema de Física</div>
+                    <div class="text-3xl font-bold text-white mb-2">3</div>
+                    <div class="text-red-100">Títulos Académicos</div>
                 </div>
                 <div class="bg-black/20 backdrop-blur-lg rounded-xl p-6 border border-red-500/30">
-                    <div class="text-3xl font-bold text-white mb-2">100%</div>
-                    <div class="text-red-100">Preparación EPN</div>
+                    <div class="text-3xl font-bold text-white mb-2">2+</div>
+                    <div class="text-red-100">Años de Experiencia</div>
+                </div>
+                <div class="bg-black/20 backdrop-blur-lg rounded-xl p-6 border border-red-500/30">
+                    <div class="text-3xl font-bold text-white mb-2">AWS</div>
+                    <div class="text-red-100">Cloud Specialist</div>
                 </div>
                 <div class="bg-black/20 backdrop-blur-lg rounded-xl p-6 border border-red-500/30">
                     <div class="text-3xl font-bold text-white mb-2">Laravel</div>
-                    <div class="text-red-100">Framework Web</div>
+                    <div class="text-red-100">PHP Framework</div>
                 </div>
             </div>
         </div>
 
         <!-- Call to Action -->
         <div class="text-center mt-16">
-            <div class="bg-black/20 backdrop-blur-lg rounded-2xl p-8 border border-red-500/30 max-w-2xl mx-auto">
-                <h3 class="text-2xl font-bold mb-4">¿Listo para estudiar?</h3>
+            <div class="bg-black/20 backdrop-blur-lg rounded-2xl p-8 border border-red-500/30 max-w-3xl mx-auto">
+                <h3 class="text-2xl font-bold mb-4">¿Interesado en colaborar o aprender?</h3>
                 <p class="text-red-100 mb-6">
-                    Cada clase contiene conceptos fundamentales de matemáticas y física con ejemplos prácticos y ejercicios resueltos. ¡Comienza tu preparación académica!
+                    Como desarrollador de software con experiencia en educación, combino la tecnología con la pedagogía para crear soluciones innovadoras. 
+                    Cada clase contiene conceptos fundamentales respaldados por mi experiencia docente y técnica.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:cangulo009@outlook.es" class="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl">
+                        📧 Contactar por Email
+                    </a>
                     <a href="{{ route('clase1.index') }}" class="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl">
                         🧮 Comenzar con MCD y MCM
                     </a>
                     <button onclick="scrollToClasses()" class="bg-black/30 hover:bg-black/50 text-white font-semibold py-3 px-8 rounded-xl transition-all duration-200 border border-red-500/30">
                         📚 Ver todas las clases
                     </button>
+                </div>
+                
+                <!-- Additional Info -->
+                <div class="mt-8 pt-6 border-t border-red-500/30">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-red-200">
+                        <div class="flex items-center justify-center gap-2">
+                            <span>🌍</span>
+                            <span>Disponibilidad para viajar</span>
+                        </div>
+                        <div class="flex items-center justify-center gap-2">
+                            <span>🚗</span>
+                            <span>Vehículo propio • Licencia A y B</span>
+                        </div>
+                        <div class="flex items-center justify-center gap-2">
+                            <span>🇺🇸</span>
+                            <span>Inglés Intermedio B1</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
