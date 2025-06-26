@@ -8,6 +8,7 @@ use App\Http\Controllers\ClaseFormatoController;
 use App\Http\Controllers\Clase4Controller;
 use App\Http\Controllers\Clase5Controller;
 use App\Http\Controllers\Clase6Controller;
+use App\Http\Controllers\Clase7Controller;
 use App\Http\Controllers\ClasesController;
 
 Route::get('/', function () {
@@ -29,3 +30,4 @@ Route::get('/clase5/descargar-material', [Clase5Controller::class, 'descargarMat
 Route::get('/clase5/progreso', [Clase5Controller::class, 'progreso'])->name('clase5.progreso');
 
 Route::get('/clase6', [Clase6Controller::class, 'index'])->name('clase6.index');
+Route::get('/clase7', [Clase7Controller::class, 'index'])->name('clase7.index');

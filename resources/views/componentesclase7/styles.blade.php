@@ -1,4 +1,20 @@
-<!-- Estilos para Clase 7 - Modo Claro -->
+<!-- Estilos para Clase 7 - Modo Claro + MathJax -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+};
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
     
@@ -139,6 +155,80 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
     
+    /* Estilos específicos para MathJax */
+    .MathJax {
+        font-size: 1.1em !important;
+    }
+    
+    .MathJax_Display {
+        margin: 1em 0 !important;
+    }
+    
+    /* Mejoras para fórmulas */
+    .formula-container {
+        background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        border: 2px solid #3b82f6;
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        text-align: center;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+    
+    .formula-container .MathJax {
+        color: #1e40af !important;
+        font-weight: 600 !important;
+    }
+    
+    /* Ejercicios interactivos */
+    details {
+        transition: all 0.3s ease;
+    }
+    
+    details[open] {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        padding: 0.5rem;
+    }
+    
+    summary {
+        font-weight: 600;
+        padding: 0.5rem;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+    }
+    
+    summary:hover {
+        background: rgba(147, 51, 234, 0.1);
+        transform: translateX(4px);
+    }
+    
+    /* Ejemplos destacados */
+    .example-highlight {
+        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        border-left: 4px solid #f59e0b;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+        position: relative;
+    }
+    
+    .example-highlight::before {
+        content: "💡";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        background: #f59e0b;
+        color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+    
     /* Sombras suaves para modo claro */
     .shadow-soft {
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
@@ -154,6 +244,40 @@
         box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.15);
     }
     
+    /* Tarjetas de progresión */
+    .progression-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .progression-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #3b82f6, #06b6d4);
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+    
+    .progression-card:hover::before {
+        transform: scaleX(1);
+    }
+    
+    .progression-card:hover {
+        transform: translateY(-2px);
+        border-color: #3b82f6;
+        box-shadow: 0 8px 25px -5px rgba(59, 130, 246, 0.2);
+    }
+    
     /* Responsive */
     @media (max-width: 768px) {
         .main-content-wrapper {
@@ -164,31 +288,54 @@
         .presentation-grid {
             gap: 1rem;
         }
+        
+        .MathJax {
+            font-size: 0.9em !important;
+        }
     }
     
-    /* Mejoras de legibilidad */
-    .font-mono {
-        font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+    /* Mejoras de legibilidad para fórmulas */
+    .math-inline {
         background: rgba(59, 130, 246, 0.1);
-        padding: 0.25rem 0.5rem;
-        border-radius: 0.375rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.25rem;
         border: 1px solid rgba(59, 130, 246, 0.2);
+        font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
     }
     
-    /* Indicadores visuales */
-    .formula-box {
-        background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-        border-left: 4px solid #3b82f6;
+    /* Indicadores de progreso */
+    .progress-indicator {
+        background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+        height: 4px;
+        border-radius: 2px;
+        margin: 0.5rem 0;
+        animation: progressBar 2s ease-in-out infinite;
+    }
+    
+    @keyframes progressBar {
+        0% { width: 0%; }
+        50% { width: 100%; }
+        100% { width: 0%; }
+    }
+    
+    /* Alertas y notas especiales */
+    .math-note {
+        background: linear-gradient(135deg, #e0f2fe 0%, #b3e5fc 100%);
+        border-left: 4px solid #0288d1;
         padding: 1rem;
         border-radius: 0.5rem;
         margin: 1rem 0;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
     
-    .example-box {
-        background: linear-gradient(135deg, #fefce8 0%, #fef3c7 100%);
-        border-left: 4px solid #f59e0b;
+    .math-warning {
+        background: linear-gradient(135deg, #fff3e0 0%, #ffcc02 20%, #fff3e0 100%);
+        border-left: 4px solid #ff9800;
         padding: 1rem;
         border-radius: 0.5rem;
         margin: 1rem 0;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 </style>

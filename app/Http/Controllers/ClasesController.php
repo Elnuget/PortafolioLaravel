@@ -64,6 +64,15 @@ class ClasesController extends Controller
                 'ruta' => 'clase6.index'
             ],
             [
+                'id' => 7,
+                'titulo' => 'Clase 7',
+                'tema' => 'Progresiones Aritméticas y Geométricas',
+                'descripcion' => 'Secuencias numéricas con patrones: diferencias constantes y razones fijas.',
+                'icono' => '📊',
+                'icono_boton' => '📈',
+                'ruta' => 'clase7.index'
+            ],
+            [
                 'id' => 'formato',
                 'titulo' => 'Formato',
                 'tema' => 'Plantilla de Clase',

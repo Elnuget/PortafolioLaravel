@@ -59,6 +59,15 @@
             'materia' => 'Matemáticas'
         ],
         [
+            'id' => 7,
+            'titulo' => 'Clase 7',
+            'tema' => 'Progresiones',
+            'descripcion' => 'Progresiones aritméticas y geométricas',
+            'icono' => '📊',
+            'ruta' => 'clase7.index',
+            'materia' => 'Matemáticas'
+        ],
+        [
             'id' => 'formato',
             'titulo' => 'Formato',
             'tema' => 'Plantilla de Clase',

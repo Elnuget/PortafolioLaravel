@@ -15,4 +15,6 @@ comando unico laravel12: php artisan optimize:clear
 
 Divide cada módulo en componentes, manteniendo los estilos. Hazlo tipo presentación, ya que servirá para guiar la clase de mis estudiantes.
 
-basandote en clase formato has una clase(numero) (tema) recuerda hacerlo lo mas corto posible Divide cada módulo en componentes, manteniendo los estilos. Hazlo tipo presentación, ya que servirá para guiar la clase de mis estudiantes. trata de usar el modo claro por favor para que las letras sean mas visibles
+1. basandote en clase formato has una clase(numero) (tema) recuerda hacerlo lo mas corto posible Divide cada módulo en componentes, manteniendo los estilos. Hazlo tipo presentación, ya que servirá para guiar la clase de mis estudiantes. trata de usar el modo claro por favor para que las letras sean mas visibles
+2. agrega la ruta a la clase (numero) en #file:web.php ademas en #file:index.blade.php y en #file:welcome.blade.php
+3. Usa librerias para formulas para que las formulas se vean matematicas hablo de los exponentes y signos se vean bien y mejora y aumenta los ejemplos para que sean mas detallado y agrega ejercicios para los estudiantes 
