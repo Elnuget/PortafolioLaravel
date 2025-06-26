@@ -32,11 +32,16 @@
                     </div>
                 </div>
 
-                <div class="elegant-divider"></div>
-
-                <!-- Action Buttons Component -->
+                <div class="elegant-divider"></div>                <!-- Action Buttons Component -->
                 <div class="animate-slide-in" style="animation-delay: 1s;">
                     @include('componentesclase7.action-buttons')
+                </div>
+
+                <div class="elegant-divider"></div>
+
+                <!-- Miscelánea de Ejercicios Component -->
+                <div class="animate-slide-in" style="animation-delay: 1.2s;">
+                    @include('componentesclase7.ejercicios-miscelanea')
                 </div>
             </div>
         </div>
