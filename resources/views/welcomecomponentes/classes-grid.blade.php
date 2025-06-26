@@ -68,6 +68,15 @@
             'materia' => 'Matemáticas'
         ],
         [
+            'id' => 8,
+            'titulo' => 'Clase 8',
+            'tema' => 'Caída Libre',
+            'descripcion' => 'Movimiento bajo la acción de la gravedad',
+            'icono' => '🪐',
+            'ruta' => 'clase8.index',
+            'materia' => 'Física'
+        ],
+        [
             'id' => 'formato',
             'titulo' => 'Formato',
             'tema' => 'Plantilla de Clase',
@@ -141,7 +150,7 @@
             </div>
             <div class="flex items-center">
                 <span class="w-3 h-3 bg-green-600 rounded-full mr-2"></span>
-                <span>1 Clase de Física</span>
+                <span>2 Clases de Física</span>
             </div>
             <div class="flex items-center">
                 <span class="w-3 h-3 bg-gray-600 rounded-full mr-2"></span>

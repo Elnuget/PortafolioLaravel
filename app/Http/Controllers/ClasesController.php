@@ -73,6 +73,15 @@ class ClasesController extends Controller
                 'ruta' => 'clase7.index'
             ],
             [
+                'id' => 8,
+                'titulo' => 'Clase 8',
+                'tema' => 'Física: Caída Libre',
+                'descripcion' => 'Movimiento de objetos bajo la acción exclusiva de la gravedad - Cinemática aplicada.',
+                'icono' => '🪐',
+                'icono_boton' => '⬇️',
+                'ruta' => 'clase8.index'
+            ],
+            [
                 'id' => 'formato',
                 'titulo' => 'Formato',
                 'tema' => 'Plantilla de Clase',

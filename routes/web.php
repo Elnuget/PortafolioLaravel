@@ -9,6 +9,7 @@ use App\Http\Controllers\Clase4Controller;
 use App\Http\Controllers\Clase5Controller;
 use App\Http\Controllers\Clase6Controller;
 use App\Http\Controllers\Clase7Controller;
+use App\Http\Controllers\Clase8Controller;
 use App\Http\Controllers\ClasesController;
 
 Route::get('/', function () {
@@ -31,3 +32,4 @@ Route::get('/clase5/progreso', [Clase5Controller::class, 'progreso'])->name('cla
 
 Route::get('/clase6', [Clase6Controller::class, 'index'])->name('clase6.index');
 Route::get('/clase7', [Clase7Controller::class, 'index'])->name('clase7.index');
+Route::get('/clase8', [Clase8Controller::class, 'index'])->name('clase8.index');
