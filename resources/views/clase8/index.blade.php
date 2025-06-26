@@ -30,13 +30,18 @@
                     <div class="content-area hover-lift interactive-element">
                         @include('componentesclase8.contenido')
                     </div>
-                </div>
-
-                <div class="elegant-divider"></div>
+                </div>                <div class="elegant-divider"></div>
 
                 <!-- Action Buttons Component -->
                 <div class="animate-slide-in" style="animation-delay: 1s;">
                     @include('componentesclase8.action-buttons')
+                </div>
+
+                <div class="elegant-divider"></div>
+
+                <!-- Ejercicios Miscelánea Component -->
+                <div class="animate-slide-in" style="animation-delay: 1.2s;">
+                    @include('componentesclase8.ejercicios-miselanea')
                 </div>
             </div>
         </div>
