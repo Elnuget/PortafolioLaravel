@@ -14,3 +14,5 @@ principal a modificar por componentes: Contenido sidebar.
 comando unico laravel12: php artisan optimize:clear
 
 Divide cada módulo en componentes, manteniendo los estilos. Hazlo tipo presentación, ya que servirá para guiar la clase de mis estudiantes.
+
+basandote en clase formato has una clase(numero) (tema) recuerda hacerlo lo mas corto posible Divide cada módulo en componentes, manteniendo los estilos. Hazlo tipo presentación, ya que servirá para guiar la clase de mis estudiantes. trata de usar el modo claro por favor para que las letras sean mas visibles
