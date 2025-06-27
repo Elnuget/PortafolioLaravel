@@ -82,6 +82,15 @@ class ClasesController extends Controller
                 'ruta' => 'clase8.index'
             ],
             [
+                'id' => 9,
+                'titulo' => 'Clase 9',
+                'tema' => 'FRACCIONES',
+                'descripcion' => 'Fundamentos de fracciones, clasificación y conversión de decimales a fracciones.',
+                'icono' => '🔢',
+                'icono_boton' => '➗',
+                'ruta' => 'clase9.index'
+            ],
+            [
                 'id' => 'formato',
                 'titulo' => 'Formato',
                 'tema' => 'Plantilla de Clase',

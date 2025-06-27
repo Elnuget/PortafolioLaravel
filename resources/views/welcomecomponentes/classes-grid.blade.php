@@ -77,6 +77,15 @@
             'materia' => 'Física'
         ],
         [
+            'id' => 9,
+            'titulo' => 'Clase 9',
+            'tema' => 'FRACCIONES',
+            'descripcion' => 'Fundamentos y conversión de fracciones',
+            'icono' => '🔢',
+            'ruta' => 'clase9.index',
+            'materia' => 'Matemáticas'
+        ],
+        [
             'id' => 'formato',
             'titulo' => 'Formato',
             'tema' => 'Plantilla de Clase',
