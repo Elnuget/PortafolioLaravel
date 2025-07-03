@@ -86,6 +86,15 @@
             'materia' => 'Matemáticas'
         ],
         [
+            'id' => 10,
+            'titulo' => 'Clase 10',
+            'tema' => 'PORCENTAJE',
+            'descripcion' => 'Aplicación de porcentajes en cálculos',
+            'icono' => '📊',
+            'ruta' => 'clase10.index',
+            'materia' => 'Matemáticas'
+        ],
+        [
             'id' => 'formato',
             'titulo' => 'Formato',
             'tema' => 'Plantilla de Clase',

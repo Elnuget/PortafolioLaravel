@@ -91,6 +91,15 @@ class ClasesController extends Controller
                 'ruta' => 'clase9.index'
             ],
             [
+                'id' => 10,
+                'titulo' => 'Clase 10',
+                'tema' => 'PORCENTAJE',
+                'descripcion' => 'Comprensión y aplicación de porcentajes en cálculos matemáticos y situaciones reales.',
+                'icono' => '📊',
+                'icono_boton' => '%',
+                'ruta' => 'clase10.index'
+            ],
+            [
                 'id' => 'formato',
                 'titulo' => 'Formato',
                 'tema' => 'Plantilla de Clase',
