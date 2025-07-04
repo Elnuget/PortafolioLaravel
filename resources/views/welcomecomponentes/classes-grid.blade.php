@@ -95,6 +95,15 @@
             'materia' => 'Matemáticas'
         ],
         [
+            'id' => 11,
+            'titulo' => 'Clase 11',
+            'tema' => 'Probabilidad y Estadística',
+            'descripcion' => 'Conceptos fundamentales y análisis de datos',
+            'icono' => '📈',
+            'ruta' => 'clase11.index',
+            'materia' => 'Matemáticas'
+        ],
+        [
             'id' => 'formato',
             'titulo' => 'Formato',
             'tema' => 'Plantilla de Clase',
@@ -164,7 +173,7 @@
         <div class="flex space-x-6 text-sm text-gray-300">
             <div class="flex items-center">
                 <span class="w-3 h-3 bg-blue-600 rounded-full mr-2"></span>
-                <span>5 Clases de Matemáticas</span>
+                <span>6 Clases de Matemáticas</span>
             </div>
             <div class="flex items-center">
                 <span class="w-3 h-3 bg-green-600 rounded-full mr-2"></span>

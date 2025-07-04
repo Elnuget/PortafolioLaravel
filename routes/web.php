@@ -12,6 +12,7 @@ use App\Http\Controllers\Clase7Controller;
 use App\Http\Controllers\Clase8Controller;
 use App\Http\Controllers\Clase9Controller;
 use App\Http\Controllers\Clase10Controller;
+use App\Http\Controllers\Clase11Controller;
 use App\Http\Controllers\ClasesController;
 
 Route::get('/', function () {
@@ -37,4 +38,4 @@ Route::get('/clase7', [Clase7Controller::class, 'index'])->name('clase7.index');
 Route::get('/clase8', [Clase8Controller::class, 'index'])->name('clase8.index');
 Route::get('/clase9', [Clase9Controller::class, 'index'])->name('clase9.index');
 Route::get('/clase10', [Clase10Controller::class, 'index'])->name('clase10.index');
-Route::get('/clase10', [Clase10Controller::class, 'index'])->name('clase10.index');
+Route::get('/clase11', [Clase11Controller::class, 'index'])->name('clase11.index');

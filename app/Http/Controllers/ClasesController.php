@@ -100,6 +100,15 @@ class ClasesController extends Controller
                 'ruta' => 'clase10.index'
             ],
             [
+                'id' => 11,
+                'titulo' => 'Clase 11',
+                'tema' => 'Probabilidad y Estadística',
+                'descripcion' => 'Conceptos fundamentales de probabilidad y estadística descriptiva - Análisis de datos.',
+                'icono' => '📈',
+                'icono_boton' => '🎲',
+                'ruta' => 'clase11.index'
+            ],
+            [
                 'id' => 'formato',
                 'titulo' => 'Formato',
                 'tema' => 'Plantilla de Clase',
