@@ -1,6 +1,32 @@
 <!-- Classes Table -->
 <div class="max-w-6xl mx-auto">
-    <h2 class="text-3xl font-bold text-center mb-8 text-white drop-shadow-lg">📚 Mis Clases de Matemáticas y Física</h2>
+    <h2 class="text-3xl font-bold text-ce        [
+            'id' => 11,
+            'titulo' => 'Clase 11',
+            'tema' => 'Probabilidad y Estadística',
+            'descripcion' => 'Conceptos fundamentales y análisis de datos',
+            'icono' => '📈',
+            'ruta' => 'clase11.index',
+            'materia' => 'Matemáticas'
+        ],
+        [
+            'id' => 12,
+            'titulo' => 'Clase 12',
+            'tema' => 'Exámenes Virtuales',
+            'descripcion' => 'Seminario sobre Proctorizer UCE',
+            'icono' => '🖥️',
+            'ruta' => 'clase12.index',
+            'materia' => 'Tecnología'
+        ],
+        [
+            'id' => 'formato',
+            'titulo' => 'Formato',
+            'tema' => 'Plantilla de Clase',
+            'descripcion' => 'Estructura base para clases',
+            'icono' => '📝',
+            'ruta' => 'claseformato.index',
+            'materia' => 'Formato'
+        ]te drop-shadow-lg">📚 Mis Clases de Matemáticas y Física</h2>
     
     @php
     $clases = [

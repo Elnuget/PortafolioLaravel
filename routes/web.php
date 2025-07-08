@@ -13,6 +13,7 @@ use App\Http\Controllers\Clase8Controller;
 use App\Http\Controllers\Clase9Controller;
 use App\Http\Controllers\Clase10Controller;
 use App\Http\Controllers\Clase11Controller;
+use App\Http\Controllers\Clase12Controller;
 use App\Http\Controllers\ClasesController;
 
 Route::get('/', function () {
@@ -39,3 +40,9 @@ Route::get('/clase8', [Clase8Controller::class, 'index'])->name('clase8.index');
 Route::get('/clase9', [Clase9Controller::class, 'index'])->name('clase9.index');
 Route::get('/clase10', [Clase10Controller::class, 'index'])->name('clase10.index');
 Route::get('/clase11', [Clase11Controller::class, 'index'])->name('clase11.index');
+
+// Rutas para Clase 12: Exámenes Virtuales - Proctorizer UCE
+Route::get('/clase12', [Clase12Controller::class, 'index'])->name('clase12.index');
+Route::get('/clase12/modulo/{numero}', [Clase12Controller::class, 'modulo'])->name('clase12.modulo');
+Route::get('/clase12/descargar-material', [Clase12Controller::class, 'descargarMaterial'])->name('clase12.material');
+Route::get('/clase12/progreso', [Clase12Controller::class, 'progreso'])->name('clase12.progreso');

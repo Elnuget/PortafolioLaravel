@@ -1,0 +1,96 @@
+Principales Objetivos
+✓ Dominar Proctorizer UCE desde la instalación hasta la configuración avanzada.
+✓ Evitar calificaciones de 0 por problemas técnicos con el sistema de proctoring.
+✓ Aprender procedimientos de reclamo para solicitar nueva oportunidad de examen.
+✓ Solucionar problemas técnicos comunes de Proctorizer en tiempo real.
+✓ Complementar con IA usando ChatGPT, Gemini y Claude de manera estratégica.
+✓ Configurar VPN y virtualización como herramientas de apoyo y seguridad.
+✓ Identificar y evitar errores fatales que resultan en anulación de exámenes.
+________________________________________
+Cronograma de Contenidos
+El siguiente cronograma detalla los temas a desarrollar en la sesión intensiva. La sesión incluirá demostraciones prácticas en vivo y consejos específicos para maximizar el uso de IA, VPN y virtualización en entornos de evaluación:
+Miércoles 9 de Julio - 2pm a 6pm
+BLOQUE 1: DOMINIO TOTAL DE PROCTORIZER UCE (2:00pm - 3:15pm)
+➤ Instalación correcta de Proctorizer: • Descarga oficial desde el portal UCE.
+• Instalación paso a paso sin errores.
+• Configuración de permisos de cámara, micrófono y pantalla.
+• Resolución de problemas de compatibilidad con Windows/Mac.
+➤ Configuración avanzada: • Ajustes de calidad de video y audio.
+• Configuración de red y firewall.
+• Preparación del entorno físico para el examen.
+• Verificación previa del sistema antes del examen.
+➤ Prevención de calificaciones de 0: • Errores fatales más comunes y cómo evitarlos.
+• Comportamientos que activan las alertas del sistema.
+• Cómo manejar interrupciones técnicas durante el examen.
+➤ Procedimientos de reclamo: • Cuándo y cómo presentar un reclamo por problemas técnicos.
+• Documentación necesaria para solicitar nueva oportunidad.
+• Contactos y canales oficiales en la UCE para reclamos.
+• Tiempos de respuesta y seguimiento del proceso.
+DESCANSO: 3:15pm - 3:30pm
+
+
+BLOQUE 2: IA COMO HERRAMIENTA DE APOYO (3:30pm - 4:45pm)
+➤ Integración de IA con Proctorizer: • Uso estratégico de ChatGPT, Gemini y Claude durante exámenes.
+• Técnicas para no ser detectado por el sistema de proctoring.
+• Envío de imágenes de preguntas para resolución rápida.
+• Optimización de prompts para respuestas precisas.
+➤ Configuración de VPN: • Mejores servicios VPN compatibles con Proctorizer.
+• Configuración que no interfiera con el sistema de proctoring.
+• Cambio de ubicación sin afectar la conexión del examen.
+• Protección de privacidad durante evaluaciones.
+➤ Planes gratuitos vs. pagos: • Análisis de límites y beneficios de cada versión de IA.
+• Cuota de imágenes diarias y cómo maximizar su uso.
+• Mejores servicios VPN para estudiantes.
+DESCANSO: 4:45pm - 5:00pm
+BLOQUE 3: VIRTUALIZACIÓN Y SOLUCIONES AVANZADAS (5:00pm - 6:00pm)
+➤ Virtualización compatible con Proctorizer: • Configuración de máquinas virtuales que no sean detectadas.
+• Creación de entornos aislados para exámenes seguros.
+• Uso de VirtualBox/VMware con Proctorizer.
+• Ventajas de mantener sistemas separados.
+➤ Solución de problemas en tiempo real: • Qué hacer cuando Proctorizer no inicia correctamente.
+• Soluciones para problemas de conectividad durante el examen.
+• Cómo recuperarse de errores técnicos sin perder el examen.
+• Contacto de emergencia con soporte técnico UCE.
+➤ Extensiones y herramientas complementarias: • TestBro y otras extensiones compatibles con Proctorizer.
+• Herramientas para captura de pantalla y resolución de problemas.
+• Configuración de navegadores para máximo rendimiento.
+➤ Mejores prácticas y consideraciones éticas: • Uso responsable de todas las herramientas.
+• Límites éticos y académicos.
+• Cómo verificar la precisión de respuestas obtenidas.
+• Preparación integral para exámenes exitosos.
+________________________________________
+¡NUNCA MÁS UN 0 POR PROBLEMAS TÉCNICOS EN PROCTORIZER!
+¡DOMINA EL SISTEMA Y COMPLEMENTA CON IA!
+Aprende todo sobre Proctorizer UCE y las mejores técnicas complementarias con nuestros ingenieros expertos, quienes te enseñarán desde la instalación hasta los procedimientos de reclamo en tan solo 4 horas intensivas.
+________________________________________
+Ventajas del Curso
+✓ Enfoque 100% práctico con instalación en vivo de Proctorizer y configuraciones reales.
+✓ Instructores expertos en sistemas de proctoring, IA y virtualización.
+✓ Material didáctico específico para UCE y procedimientos oficiales.
+✓ Orientación completa sobre reclamos y contactos oficiales UCE.
+✓ Acceso a grupo de soporte por 1 mes para resolver dudas sobre Proctorizer.
+✓ Instalación guiada de todos los sistemas durante la sesión.
+✓ Casos reales de estudiantes UCE que han tenido problemas y sus soluciones.
+Requerimientos Técnicos
+Obligatorios:
+• Computadora con mínimo 8GB de RAM y 50GB de espacio libre.
+• Conexión estable a internet (mínimo 10 Mbps).
+• Navegador Chrome o Edge actualizado.
+• Permisos de administrador en la computadora.
+Preparación previa:
+• Descarga previa de Proctorizer desde el portal UCE.
+• Creación de cuentas gratuitas en ChatGPT, Gemini y Claude.
+• Descarga de VirtualBox (se enviarán instrucciones al inscribirse).
+• Conocimientos básicos de navegación en internet.
+• Tener a mano credenciales de acceso al portal UCE.
+
+
+
+________________________________________
+¡CUPOS LIMITADOS - SOLO 80 PARTICIPANTES!
+Para reservar tu cupo, realiza tu pago de $25 a:
+Banco Pichincha - Cuenta de Ahorros 2212352198
+Envía tu comprobante al WhatsApp oficial del CAP Universitario.
+________________________________________
+Curso especializado para estudiantes UCE - Domina Proctorizer y complementa con IA - Julio 2025
+

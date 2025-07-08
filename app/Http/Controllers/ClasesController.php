@@ -109,6 +109,15 @@ class ClasesController extends Controller
                 'ruta' => 'clase11.index'
             ],
             [
+                'id' => 12,
+                'titulo' => 'Clase 12',
+                'tema' => 'Exámenes Virtuales',
+                'descripcion' => 'Seminario completo sobre Proctorizer UCE - Instalación, configuración y solución de problemas técnicos.',
+                'icono' => '🖥️',
+                'icono_boton' => '🎯',
+                'ruta' => 'clase12.index'
+            ],
+            [
                 'id' => 'formato',
                 'titulo' => 'Formato',
                 'tema' => 'Plantilla de Clase',
