@@ -136,6 +136,36 @@
                     <div class="slide content-area hover-lift interactive-element">
                         @include('componentesclase12.cierre-final')
                     </div>
+
+                    <!-- Slide 13: Introducción Bloque 3 -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque3-introduccion')
+                    </div>
+                    
+                    <!-- Slide 14: Virtualización compatible con Proctorizer -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque3-virtualizacion')
+                    </div>
+                    
+                    <!-- Slide 15: Solución de problemas en tiempo real -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque3-solucion-problemas')
+                    </div>
+                    
+                    <!-- Slide 16: Herramientas complementarias -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque3-herramientas')
+                    </div>
+                    
+                    <!-- Slide 17: Mejores prácticas y ética -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque3-etica')
+                    </div>
+                    
+                    <!-- Slide 18: Cierre final actualizado -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.cierre-final')
+                    </div>
                 </div>
 
                 <!-- PowerPoint Navigation Controls -->
