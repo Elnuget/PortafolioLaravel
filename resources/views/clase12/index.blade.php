@@ -62,19 +62,19 @@
                         </div>
                     </div>
                     
-                    <!-- Slide 2: Instalación correcta de Proctorizer -->
+                    <!-- Slide 2: Información general y requisitos de Proctorizer -->
                     <div class="slide content-area hover-lift interactive-element">
-                        @include('componentesclase12.bloque1-instalacion')
+                        @include('componentesclase12.bloque1-proctorizer-parte1')
                     </div>
                     
-                    <!-- Slide 3: Configuración avanzada -->
+                    <!-- Slide 3: Funcionalidades y restricciones de Proctorizer -->
                     <div class="slide content-area hover-lift interactive-element">
-                        @include('componentesclase12.bloque1-configuracion')
+                        @include('componentesclase12.bloque1-proctorizer-parte2')
                     </div>
                     
-                    <!-- Slide 4: Prevención de calificaciones de 0 -->
+                    <!-- Slide 4: Solución de problemas de Proctorizer -->
                     <div class="slide content-area hover-lift interactive-element">
-                        @include('componentesclase12.bloque1-prevencion')
+                        @include('componentesclase12.bloque1-proctorizer-parte3')
                     </div>
                     
                     <!-- Slide 5: Procedimientos de reclamo -->
