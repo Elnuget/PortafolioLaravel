@@ -130,6 +130,15 @@
             'materia' => 'Matemáticas'
         ],
         [
+            'id' => 12,
+            'titulo' => 'Clase 12',
+            'tema' => 'Exámenes Virtuales',
+            'descripcion' => 'Seminario completo sobre Proctorizer UCE',
+            'icono' => '🖥️',
+            'ruta' => 'clase12.index',
+            'materia' => 'Tecnología'
+        ],
+        [
             'id' => 'formato',
             'titulo' => 'Formato',
             'tema' => 'Plantilla de Clase',
