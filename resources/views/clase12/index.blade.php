@@ -106,6 +106,36 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Slide 7: Título del Bloque 2 -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque2-introduccion')
+                    </div>
+                    
+                    <!-- Slide 8: Integración de IA con Proctorizer -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque2-ia-integracion')
+                    </div>
+                    
+                    <!-- Slide 9: Configuración de VPN -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque2-vpn-configuracion')
+                    </div>
+                    
+                    <!-- Slide 10: Planes gratuitos vs. pagos -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque2-planes-comparacion')
+                    </div>
+                    
+                    <!-- Slide 11: Segundo descanso -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.bloque2-descanso')
+                    </div>
+
+                    <!-- Slide 12: Cierre final -->
+                    <div class="slide content-area hover-lift interactive-element">
+                        @include('componentesclase12.cierre-final')
+                    </div>
                 </div>
 
                 <!-- PowerPoint Navigation Controls -->
