@@ -1,9 +1,12 @@
-<!-- Solución de problemas comunes con Proctorizer - Parte 3 -->
+<!-- Solución de problemas y privacidad de Proctorizer - Parte 3 -->
 <div class="content-section">
-    <h2 class="section-title">
-        <span class="section-icon">🛠️</span>
-        Solución de Problemas con Proctorizer
-    </h2>
+    <div class="proctorizer-header mb-6">
+        <h2 class="section-title">
+            <span class="section-icon">�</span>
+            Solución de Problemas y Soporte UCE
+        </h2>
+        <p class="text-gray-600 mt-2">Resuelve problemas comunes de Proctorizer y conoce los canales de ayuda oficiales de la UCE</p>
+    </div>
     
     <div class="p-5 bg-white rounded-lg shadow-md">
         <h3 class="text-xl font-semibold text-gray-800 mb-4">Pasos para resolver problemas comunes</h3>
@@ -102,19 +105,52 @@
         </div>
     </div>
     
-    <div class="mt-6 p-4 bg-green-50 border border-green-200 rounded-lg">
+    <div class="mt-6 bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100">
         <div class="flex items-start">
-            <svg class="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            <svg class="w-8 h-8 text-blue-500 mr-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
             </svg>
-            <div>
-                <h4 class="font-semibold text-green-800">Canales de ayuda</h4>
-                <p class="mt-2 text-green-700">Si tienes problemas técnicos persistentes con Proctorizer durante un examen, puedes contactar al soporte técnico de la UCE:</p>
-                <ul class="mt-2 text-green-700 space-y-1">
-                    <li><strong>Email:</strong> soporte.examenesuce@uce.edu.ec</li>
-                    <li><strong>Teléfono:</strong> (02) 252-XXXX ext. 1500</li>
-                    <li><strong>Chat en línea:</strong> A través del portal de estudiantes de la UCE</li>
-                </ul>
+            <div class="min-w-0 flex-1">
+                <h4 class="text-lg font-semibold text-blue-800 mb-3">📞 Canales Oficiales de Soporte UCE</h4>
+                <p class="text-blue-700 mb-4">La Universidad Central del Ecuador cuenta con varios canales para brindar soporte técnico durante los exámenes virtuales:</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-white p-4 rounded-lg border border-blue-200">
+                        <h5 class="font-semibold text-gray-800 mb-2 flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                            </svg>
+                            DTIC - Soporte Técnico
+                        </h5>
+                        <p class="text-sm text-gray-600 mb-2">Dirección de Tecnologías de la Información y Comunicaciones</p>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li><strong>Portal:</strong> <span class="text-blue-600 font-mono text-xs">soporte.uce.edu.ec</span></li>
+                            <li><strong>Horario:</strong> Lunes a Viernes 8:00 - 16:30</li>
+                            <li><strong>Especialidad:</strong> Plataformas digitales y sistemas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-4 rounded-lg border border-green-200">
+                        <h5 class="font-semibold text-gray-800 mb-2 flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                            </svg>
+                            Contacto UCE
+                        </h5>
+                        <p class="text-sm text-gray-600 mb-2">Información general y derivación de consultas</p>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li><strong>Teléfono:</strong> <span class="font-mono">(02) 2904-826</span></li>
+                            <li><strong>Ubicación:</strong> Quito - Ciudadela Universitaria</li>
+                            <li><strong>Redes:</strong> @lacentralec (Twitter/Instagram)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-4 p-3 bg-yellow-50 rounded-lg border border-yellow-200">
+                    <p class="text-yellow-800 text-sm">
+                        <strong>💡 Recomendación:</strong> Durante un examen, si experimentas problemas técnicos con Proctorizer, contacta inmediatamente a DTIC a través del portal de soporte. No cierres la ventana del examen y documenta el problema con capturas de pantalla.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
